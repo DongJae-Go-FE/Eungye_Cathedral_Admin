@@ -1,3 +1,64 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "next"
+  ],
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    // boolean prop에는 is나 has로 시작하도록 네이밍 한다.
+    "react/boolean-prop-naming": [
+      "error",
+      {
+        "rule": "^(is|has)[A-Z]([A-Za-z0-9]?)+"
+      }
+    ],
+
+    // useState는 value + setter 쌍의 destructuring으로 [thing, setThing] 패턴으로 네이밍 한다.
+    "react/hook-use-state": ["error"],
+
+    // boolean props는 shorthand로 작성한다.
+    "react/jsx-boolean-value": ["error"],
+
+    // 닫는 태그 위치를 같은 라인에 두거나 여는 태그와 같은 여백으로 작성한다.
+    "react/jsx-closing-tag-location": ["error"],
+
+    // 중괄호를 생략 가능할 때는 사용하지 않는다.
+    "react/jsx-curly-brace-presence": ["error", "never"],
+
+    // 비어있는 태그를 사용하지 않는다.(React.Fragment 사용)
+    "react/jsx-fragments": ["error", "element"],
+
+    // handler는 propName에 on, 할당 메소드에 handle로 시작하도록 작성한다.
+    // inline으로 handlerProp을 정의하지 않는다.
+    "react/jsx-handler-names": "off",
+
+    // 불필요한 fragment를 사용하지 않는다.
+    "react/jsx-no-useless-fragment": ["error"],
+
+    // 컴포넌트 네이밍은 pascal-case를 따른다.
+    "react/jsx-pascal-case": ["error"],
+
+    // props 순서 컨벤션
+    "react/jsx-sort-props": [
+      "error",
+      {
+        "callbacksLast": true,
+        "shorthandLast": true,
+        "multiline": "ignore",
+        "noSortAlphabetically": true,
+        "reservedFirst": ["key"],
+        "locale": "auto"
+      }
+    ],
+
+    // 컴포넌트 안에서 컴포넌트를 선언한 후 감싸지 않는다.(코드 분리 필요)
+    "react/no-unstable-nested-components": ["error"],
+
+    "@typescript-eslint/no-empty-interface": "off"
+  }
 }
