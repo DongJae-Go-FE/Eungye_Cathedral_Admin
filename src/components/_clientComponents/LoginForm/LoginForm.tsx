@@ -26,6 +26,7 @@ export default function LoginForm() {
       console.error(e);
     }
   };
+  // console.log("test")
 
   return (
     <form onSubmit={handleSubmit}>
