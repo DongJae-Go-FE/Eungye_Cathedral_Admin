@@ -1,18 +1,30 @@
-import type { Config } from "tailwindcss";
+/** @type {import('tailwindcss').Config} */
 
-export default {
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+import { colors, tokens, typography } from "./src/foundations";
+// eslint-disable-next-line
+const fontSize: any = {};
+
+Object.entries(typography).forEach(([key, { fontSize: size, ...values }]) => {
+  fontSize[key] = [size, values];
+});
+
+module.exports = {
+  "tailwindcss/nesting": "postcss-nesting",
+  "postcss-preset-env": {
+    features: { "nesting-rules": false },
+  },
+  ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}),
+
+  content: ["./src/**/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: ["Pretendard"],
+    },
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      colors,
+      fontSize,
+      tokens,
     },
   },
   plugins: [],
-} satisfies Config;
+};

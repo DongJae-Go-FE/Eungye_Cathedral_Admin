@@ -1,10 +1,5 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { PrismaAdapter } from "@auth/prisma-adapter";
-import { PrismaClient } from "@prisma/client";
-import bcrypt from "bcryptjs";
-
-const prisma = new PrismaClient();
 
 export const {
   handlers: { GET, POST },
@@ -12,34 +7,34 @@ export const {
   signIn,
   signOut,
 } = NextAuth({
-  adapter: PrismaAdapter(prisma),
   providers: [
     CredentialsProvider({
       name: "Credentials",
       credentials: {
-        email: {
-          label: "Email",
-          type: "text",
-          placeholder: "email@example.com",
-        },
-        password: { label: "Password", type: "password" },
+        email: { label: "email", type: "text", placeholder: "you@example.com" },
+        password: { label: "password", type: "password" },
       },
       async authorize(credentials) {
-        const user = await prisma.user.findUnique({
-          where: { email: credentials?.email as string },
-        });
+        const res = await fetch(
+          `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/auth/login`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              email: credentials.email,
+              password: credentials.password,
+            }),
+          },
+        );
 
-        if (
-          user &&
-          (await bcrypt.compare(
-            (credentials?.password as string) || "",
-            user.password,
-          ))
-        ) {
+        const user = await res.json();
+
+        if (res.ok && user) {
           return user;
-        } else {
-          throw new Error("Invalid email or password");
         }
+        return null;
       },
     }),
   ],

@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 main {
   @apply min-h-[100dvh] w-[100dvw] bg-gray-100 pt-16;
 }
@@ -26,10 +14,6 @@ h2 {
   .position-center {
     @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform;
   }
-  .accessibility-hidden {
-    @apply absolute -m-[1px] h-[1px] w-[1px] overflow-hidden;
-  }
-
   .skeleton-basic {
     @apply rounded-md bg-gray-200;
   }
