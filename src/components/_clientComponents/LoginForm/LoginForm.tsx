@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 import Input from "@/components/Input";
 
@@ -8,6 +9,9 @@ import { doCredentialLogin } from "@/actions/loginActions";
 
 export default function LoginForm() {
   const { push } = useRouter();
+
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string | number>("");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -48,7 +52,10 @@ export default function LoginForm() {
               placeholder="이메일을 입력하세요."
               id="email"
               name="email"
+              value={email}
               autoComplete="email"
+              required
+              onChange={(e) => setEmail(e.target.value)}
             />
           </li>
           <li className={liStyle}>
@@ -61,7 +68,10 @@ export default function LoginForm() {
               className={inputStyle}
               placeholder="비밀번호를 입력하세요."
               name="password"
+              value={password}
               autoComplete="current-password"
+              required
+              onChange={(e) => setPassword(e.target.value)}
             />
           </li>
         </ul>
