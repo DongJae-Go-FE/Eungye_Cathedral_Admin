@@ -16,19 +16,19 @@ const Input: FC<Props> = ({ size = "md", ref, ...props }) => {
 
   switch (size) {
     case "md": {
-      sizeStyle = "h-10 w-full rounded-md border px-2 ";
+      sizeStyle = "h-10 w-full rounded-md border px-2";
       break;
     }
     case "sm": {
-      sizeStyle = "h-10 w-full rounded-md border px-2 ";
+      sizeStyle = "h-8 w-full rounded-md border px-1";
       break;
     }
     case "lg": {
-      sizeStyle = "h-10 w-full rounded-md border px-2 ";
+      sizeStyle = "h-12 w-full rounded-md border px-3";
       break;
     }
     case "xLg": {
-      sizeStyle = "h-10 w-full rounded-md border px-2 ";
+      sizeStyle = "h-14 w-full rounded-md border px-4";
       break;
     }
   }

@@ -5,6 +5,8 @@ import Image from "next/image";
 
 import { usePathname } from "next/navigation";
 
+import Button from "@/components/Button";
+
 import { doLogout } from "@/actions/loginActions";
 
 export default function Header() {
@@ -28,12 +30,9 @@ export default function Header() {
       </h1>
       <div className="flex items-center gap-x-2">
         <p className="text-body02m">admin@naver.com</p>
-        <button
-          className="h-10 rounded-md border border-gray-200 px-4 text-body02m"
-          onClick={doLogout}
-        >
+        <Button onClick={doLogout} color="white">
           로그아웃
-        </button>
+        </Button>
       </div>
     </header>
   );
