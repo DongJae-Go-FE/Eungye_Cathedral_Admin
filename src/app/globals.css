@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-100;
+  @apply h-full min-h-[100dvh] w-full min-w-[100dvw] bg-gray-100;
 }
 main {
-  @apply h-full min-h-[100dvh] w-full min-w-[100dvw] pt-20;
+  @apply pt-20;
 }
 
 h2 {

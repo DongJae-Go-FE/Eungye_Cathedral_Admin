@@ -24,8 +24,10 @@ export default function RootLayout({
     <html lang="ko">
       <body className={pretendard.className}>
         <Header />
-        <Sidebar/>
-        {children}
+        <div className="flex">
+          <Sidebar />
+          {children}
+        </div>
       </body>
     </html>
   );
