@@ -6,7 +6,7 @@ body {
   @apply h-full min-h-[100dvh] w-full min-w-[100dvw] bg-gray-100;
 }
 main {
-  @apply pt-20;
+  @apply w-[calc(100%-240px)] pt-20;
 }
 
 h2 {
@@ -14,6 +14,10 @@ h2 {
 }
 
 @layer components {
+  .common-layout {
+    @apply h-[calc(100dvh-80px)] bg-white p-10;
+  }
+
   .position-center {
     @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform;
   }

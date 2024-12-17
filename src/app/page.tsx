@@ -1,18 +1,17 @@
-import SectionTitle from "@/components/_serverComponents/SectionTitle";
-import FormSearch from "@/components/_clientComponents/FormSearch";
+import ServerNoticeList from "@/components/_serverComponents/ServerNoticeList/ServerNoticeList";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main>
-      <div className="h-[calc(100dvh-80px)] bg-white p-10">
-        <SectionTitle
-          title="출입 정보"
-          items={[
-            { id: 0, title: "테스트", path: "/" },
-            { id: 1, title: "테스트1", path: "/" },
-          ]}
-        />
-        <FormSearch />
+      <div className="common-layout">
+        <ul className="grid grid-cols-2 grid-rows-2 gap-6">
+          <li>
+            <ServerNoticeList />
+          </li>
+          <li>
+            <ServerNoticeList />
+          </li>
+        </ul>
       </div>
     </main>
   );

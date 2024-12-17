@@ -29,6 +29,8 @@ export default function FormSearch() {
 
   const [state, formAction, isPending] = useActionState(handleSubmit, null);
 
+  console.log(state);
+
   return (
     <div className="rounded-md bg-gray-100 px-10 py-6">
       <form action={formAction}>
@@ -62,8 +64,8 @@ export default function FormSearch() {
             value={search}
             placeholder="검색어를 입력하세요."
             className="h-full w-full text-body01m outline-none"
-            onChange={(e) => setSearch(e.target.value)}
             disabled={isPending}
+            onChange={(e) => setSearch(e.target.value)}
             onFocus={() => {
               setIsFocus(true);
             }}
@@ -82,8 +84,8 @@ export default function FormSearch() {
           <Button
             color="blue"
             type="reset"
-            onClick={handleReset}
             disabled={isPending}
+            onClick={handleReset}
           >
             초기화
           </Button>

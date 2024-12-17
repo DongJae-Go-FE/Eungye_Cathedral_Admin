@@ -12,7 +12,7 @@ export type BreadcrumbType = {
 
 //TODO. SVG 처리 고민 - DongJae
 
-export default function Breadcrumb({ items }: BreadcrumbType) {
+export default async function Breadcrumb({ items }: BreadcrumbType) {
   const commonStyle = "flex items-center gap-x-1";
   const liStyle = `${commonStyle} text-body02m text-gray-500`;
 

@@ -30,7 +30,7 @@ export default function Header() {
       </h1>
       <div className="flex items-center gap-x-2">
         <p className="text-body02m">admin@naver.com</p>
-        <Button onClick={doLogout} color="white">
+        <Button color="white" onClick={doLogout}>
           로그아웃
         </Button>
       </div>
