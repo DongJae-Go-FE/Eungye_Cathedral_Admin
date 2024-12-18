@@ -1,0 +1,17 @@
+const ADMIN_ADD_STRING = "내용을 등록하시겠습니까?";
+const ADMIN_ADD_STRING_COMPLETE = "내용을 등록하였습니다.";
+
+const ADMIN_EDIT_STRING = "내용을 수정하시겠습니까?";
+const ADMIN_EDIT_STRING_COMPLETE = "내용을 수정하였습니다.";
+
+const ADMIN_DELETE_STRING = "내용을 삭제하시겠습니까?";
+const ADMIN_DELETE_STRING_COMPLETE = "내용을 삭제하였습니다.";
+
+export {
+  ADMIN_ADD_STRING,
+  ADMIN_ADD_STRING_COMPLETE,
+  ADMIN_EDIT_STRING,
+  ADMIN_EDIT_STRING_COMPLETE,
+  ADMIN_DELETE_STRING,
+  ADMIN_DELETE_STRING_COMPLETE,
+};

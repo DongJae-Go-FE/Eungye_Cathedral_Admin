@@ -2,27 +2,32 @@ import Link from "next/link";
 import { FC, ButtonHTMLAttributes } from "react";
 
 import type { UrlObject } from "url";
+
 type Url = string | UrlObject;
+type BtnSize = "xs" | "sm" | "md" | "lg" | "xlg";
 
 interface ButtonProps
   extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, "color"> {
   color?: "black" | "white" | "blue";
-  link?: Url;
+  href?: Url | string;
+  size?: BtnSize;
 }
 
 const Button: FC<ButtonProps> = ({
   children,
-  link,
+  href,
   className,
   color = "black",
+  size = "md",
   ...props
 }) => {
   const btnStyle =
-    "inline-flex h-12 px-4 items-center rounded whitespace-nowrap font-medium border disabled:bg-gray-300";
+    "inline-flex items-center rounded whitespace-nowrap border disabled:bg-gray-300";
 
   const classList = [btnStyle];
 
   let colorStyle;
+  let sizeStyle;
 
   switch (color) {
     case "black": {
@@ -39,6 +44,29 @@ const Button: FC<ButtonProps> = ({
     }
   }
 
+  switch (size) {
+    case "xs": {
+      sizeStyle = "h-6 px-2 text-body03r";
+      break;
+    }
+    case "sm": {
+      sizeStyle = "h-8 px-4 text-body02m";
+      break;
+    }
+    case "md": {
+      sizeStyle = "h-10 px-6 text-body02m";
+      break;
+    }
+    case "lg": {
+      sizeStyle = "h-12 px-8 text-body01m";
+      break;
+    }
+    case "xlg": {
+      sizeStyle = "h-14 px-10 text-body01b";
+      break;
+    }
+  }
+
   if (className) {
     classList.push(className);
   }
@@ -47,9 +75,13 @@ const Button: FC<ButtonProps> = ({
     classList.push(colorStyle);
   }
 
-  if (link) {
+  if (size) {
+    classList.push(sizeStyle);
+  }
+
+  if (href) {
     return (
-      <Link className={classList.join(" ")} href={link}>
+      <Link className={classList.join(" ")} href={href}>
         {children}
       </Link>
     );
