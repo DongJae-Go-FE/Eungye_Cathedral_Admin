@@ -65,6 +65,7 @@ export default function FormSearch() {
             placeholder="검색어를 입력하세요."
             className="h-full w-full text-body01m outline-none"
             disabled={isPending}
+            maxLength={50}
             onChange={(e) => setSearch(e.target.value)}
             onFocus={() => {
               setIsFocus(true);

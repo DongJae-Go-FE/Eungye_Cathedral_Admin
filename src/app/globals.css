@@ -17,12 +17,43 @@ h2 {
   .common-layout {
     @apply h-[calc(100dvh-80px)] bg-white p-10;
   }
-
   .position-center {
     @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform;
   }
   .skeleton-basic {
     @apply rounded-md bg-gray-200;
   }
+
+  .description-table {
+    @apply w-full table-fixed border-spacing-0;
+
+    caption {
+      @apply sr-only;
+    }
+
+    tbody {
+      tr {
+        th {
+          @apply w-60 bg-gray-100 px-4 py-3.5 text-left align-top text-body02m;
+
+          &.required {
+            @apply text-red-500 after:content-['_*'];
+          }
+        }
+
+        td {
+          @apply px-4 py-1 text-body02r;
+        }
+
+        th,
+        td {
+          @apply whitespace-pre-wrap border border-gray-200;
+        }
+
+        &:first-of-type {
+          @apply border-t border-gray-200;
+        }
+      }
+    }
+  }
 }
-/*..*/
