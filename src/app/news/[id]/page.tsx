@@ -12,7 +12,7 @@ export default async function Page({
   return (
     <section className="common-layout">
       <SectionTitle
-        title="본당소식 상새"
+        title="본당소식 상세"
         items={[
           { id: 0, title: "본당소식", path: "/news" },
           { id: 1, title: "본당소식 상세", path: `/news/${id}` },
