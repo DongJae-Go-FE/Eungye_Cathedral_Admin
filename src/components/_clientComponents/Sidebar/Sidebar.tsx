@@ -37,8 +37,7 @@ export default function Sidebar() {
             return (
               <li key={id} className="h-12 text-body01b text-gray-400">
                 <Link
-                  // className={`${pathname === href ? "text-black" : "text-gray-400"}`} as-is
-                  className={`${pathname.includes(href) ? "text-black" : "text-gray-400"}`} // to-be
+                  className={`${pathname.includes(href) ? "text-black" : "text-gray-400"}`}
                   href={href}
                 >
                   {title}
