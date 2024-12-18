@@ -2,6 +2,7 @@
 
 import Button from "@/components/Button";
 import { Url } from "url";
+import { ADMIN_ADD_STRING } from "@/const/const";
 
 type AddType = {
   href?: Url | string;
@@ -9,7 +10,9 @@ type AddType = {
 
 export default function AddButton({ href }: AddType) {
   const handleAdd = () => {
-    console.log(href);
+    if (confirm(ADMIN_ADD_STRING)) {
+      console.log(href);
+    }
   };
 
   return (

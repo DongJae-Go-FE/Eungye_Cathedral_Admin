@@ -2,6 +2,7 @@
 
 import Button from "@/components/Button";
 import { Url } from "url";
+import { ADMIN_EDIT_STRING } from "@/const/const";
 
 type EditType = {
   href?: Url | string;
@@ -10,7 +11,9 @@ type EditType = {
 
 export default function EditButton({ id, href }: EditType) {
   const handleEdit = () => {
-    console.log(id, href);
+    if (confirm(ADMIN_EDIT_STRING)) {
+      console.log(id, href);
+    }
   };
 
   return (

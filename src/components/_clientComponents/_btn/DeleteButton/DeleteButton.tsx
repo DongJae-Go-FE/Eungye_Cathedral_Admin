@@ -2,6 +2,7 @@
 
 import Button from "@/components/Button";
 import { Url } from "url";
+import { ADMIN_DELETE_STRING } from "@/const/const";
 
 type DeleteType = {
   href?: Url | string;
@@ -10,7 +11,9 @@ type DeleteType = {
 
 export default function DeleteButton({ id, href }: DeleteType) {
   const handleDelete = () => {
-    console.log(id, href);
+    if (confirm(ADMIN_DELETE_STRING)) {
+      console.log(id, href);
+    }
   };
 
   return (

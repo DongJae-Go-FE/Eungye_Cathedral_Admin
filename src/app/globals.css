@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply h-full min-h-[100dvh] w-full min-w-[100dvw] bg-gray-100;
+  @apply h-full min-h-[100dvh] w-[100dvw] min-w-[1680px] bg-gray-100;
 }
 main {
   @apply w-[calc(100%-240px)] pt-20;
