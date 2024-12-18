@@ -1,5 +1,5 @@
 import ServerNoticeList from "@/components/_serverComponents/ServerNoticeList/ServerNoticeList";
-
+import WeeklysList from "@/components/_serverComponents/weeklysList";
 export default async function Home() {
   return (
     <main>
@@ -9,7 +9,7 @@ export default async function Home() {
             <ServerNoticeList />
           </li>
           <li>
-            <ServerNoticeList />
+            <WeeklysList />
           </li>
         </ul>
       </div>
