@@ -1,11 +1,11 @@
 import List from "@/components/List";
 
-export default async function WeeklysList() {
+export default async function ServerNewsList() {
   return (
     <section>
-      <h3 className="mb-9 text-heading03b text-black">주보</h3>
+      <h3 className="mb-9 text-heading03b text-black">분당소식</h3>
       <List
-        href="/weeklys"
+        href="/news"
         items={[
           {
             id: 0,

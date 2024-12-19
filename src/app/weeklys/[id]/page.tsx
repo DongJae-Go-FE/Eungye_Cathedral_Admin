@@ -1,4 +1,4 @@
-import SectionTitle from "@/components/_serverComponents/SectionTitle";
+import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
 import Button from "@/components/Button";
 import DeleteButton from "@/components/_clientComponents/_btn/DeleteButton";
 

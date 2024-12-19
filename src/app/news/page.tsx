@@ -1,4 +1,4 @@
-import SectionTitle from "@/components/_serverComponents/SectionTitle";
+import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
 import FormSearch from "@/components/_clientComponents/FormSearch";
 import Button from "@/components/Button";
 
