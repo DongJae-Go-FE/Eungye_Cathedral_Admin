@@ -26,7 +26,7 @@ export default function Error({
       <Empty size="md" description={`${errorText} 오류`} />
 
       <Button
-        className="relative top-20"
+        className="position-center top-[60%]"
         type="button"
         onClick={() => {
           startTransition(() => {

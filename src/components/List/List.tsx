@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Url } from "url";
 
 import Empty from "@/components/Empty";
-import Spinner from "@/components/Spinner";
 
 type ItemType = {
   id: number | string;
@@ -28,8 +27,15 @@ export default function List({ items, href, isLoading }: ListType) {
 
   if (isLoading) {
     return (
-      <div className={ulStyle}>
-        <Spinner />;
+      <div className={`flex flex-col gap-y-3 ${ulStyle} animate-pulse`}>
+        {[...new Array(5)].map((_, index) => {
+          return (
+            <div key={index} className="flex h-6 justify-between">
+              <p className="h-full w-[500px] rounded-md bg-gray-300" />
+              <span className="block h-full w-20 rounded-md bg-gray-300" />
+            </div>
+          );
+        })}
       </div>
     );
   }
