@@ -9,22 +9,26 @@ export default async function Page() {
   const columns: TableColumn[] = [
     {
       key: "testa",
-      title: "testa",
+      title: "No",
+      width: "10%",
     },
     {
       key: "testb",
-      title: "testb",
+      title: "제목",
+      width: "30%",
+      
     },
     {
       key: "testc",
-      title: "testc",
+      title: "메시지",
+      width: "60%",
     },
   ];
 
   const data = [
-    { testa: "asd", testb: "Asd", testc: "asdasdads" },
-    { testa: "asd", testb: "Asd", testc: "asdasdads" },
-    { testa: "asd", testb: "Asd", testc: "asdasdads" },
+    { testa: "1", testb: "hi", testc: "안녕하세요." },
+    { testa: "2", testb: "nice", testc: "반갑습니다." },
+    { testa: "3", testb: "good", testc: "안녕" },
   ];
 
   return (
@@ -37,7 +41,7 @@ export default async function Page() {
       <div className="mt-4 flex justify-end">
         <Button href="/news/add">등록하기</Button>
       </div>
-      <Table caption="테스트" columns={columns} initialData={data} />
+      <Table caption="테스트" columns={columns} initialData={data}/>
     </div>
   );
 }
