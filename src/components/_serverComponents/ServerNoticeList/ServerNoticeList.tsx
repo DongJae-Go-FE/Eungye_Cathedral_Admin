@@ -3,7 +3,7 @@ import List from "@/components/List";
 export default async function ServerNoticeList() {
   return (
     <section>
-      <h3 className="mb-9 text-heading03b text-black">공지사항</h3>
+      <h3 className="mb-7 text-heading03b text-black">공지사항</h3>
       <List
         href="/notices"
         items={[

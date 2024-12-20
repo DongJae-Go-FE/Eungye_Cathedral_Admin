@@ -15,7 +15,7 @@ h2 {
 
 @layer components {
   .common-layout {
-    @apply h-[calc(100dvh-80px)] bg-white p-10;
+    @apply h-full bg-white p-10;
   }
   .position-center {
     @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform;
