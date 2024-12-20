@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 import ServerNoticeList from "@/components/_serverComponents/ServerNoticeList/ServerNoticeList";
-import NewsList from "@/components/_serverComponents/newsList";
-import WeeklysList from "@/components/_serverComponents/weeklysList";
+import ServerNewsList from "@/components/_serverComponents/ServerNewsList";
+import ServerWeeklysList from "@/components/_serverComponents/ServerWeeklysList";
 
 // import wait from "@/utils/wait";
 
@@ -38,10 +38,10 @@ export default async function Home() {
           <ServerNoticeList />
         </li>
         <li>
-          <NewsList />
+          <ServerNewsList />
         </li>
         <li>
-          <WeeklysList />
+          <ServerWeeklysList />
         </li>
       </ul>
     </div>
