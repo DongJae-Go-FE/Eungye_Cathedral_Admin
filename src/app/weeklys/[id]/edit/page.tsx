@@ -3,6 +3,8 @@ import Button from "@/components/Button";
 import EditButton from "@/components/_clientComponents/_btn/EditButton";
 import Input from "@/components/Input";
 
+import TextEditor from "@/components/_clientComponents/TextEditor";
+
 export default async function Page({
   params,
 }: {
@@ -27,7 +29,7 @@ export default async function Page({
               <th>
                 <label htmlFor="title">제목</label>
               </th>
-              <td>
+              <td colSpan={3}>
                 <Input
                   type="text"
                   id="title"
@@ -35,12 +37,12 @@ export default async function Page({
                   maxLength={50}
                 />
               </td>
-              <th>생성일</th>
-              <td></td>
             </tr>
             <tr>
               <th>내용</th>
-              <td colSpan={3}></td>
+              <td colSpan={3}>
+                <TextEditor />
+              </td>
             </tr>
             <tr>
               <th>사진 파일</th>
