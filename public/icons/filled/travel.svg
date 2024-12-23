@@ -1,0 +1,518 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="Filled/Travel/acceleration" viewBox="0 0 48 48" fill="none">
+    <path d="M42 35H34" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M31 42H27" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M14 22L8 17H4C4 17 9.486 27 11.9999 27H44L38 22H14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 22L18.6606 14L16 14L19 22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 27L17.2 39L14 39L18.2667 27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 11C32 12 29 13 29 13L39 13C39 13 41.8855 13 42.7446 10.7143C43.6299 8.35854 42.0442 5 39.0221 5C36 5 36 8 36 8C36 8 34.1454 7.42857 33 8C31.8546 8.57143 32 10 32 11Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/round-trip" viewBox="0 0 48 48" fill="none">
+    <path d="M9.00056 23.9997L5.00023 19.9997C5.00023 19.9997 3.60071 24.7275 3.92442 27.5779C4.24812 30.4284 7.27333 32.574 10 30.9998C12.7267 29.4255 44.0006 9.99975 44.0006 9.99975L35.0006 7.99975L9.00056 23.9997Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 12.9998L10.7979 11.3844L8 12.9998L14.9999 19.9998" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29 44L25 39H42V35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 28L36 33H19V37" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/railway" viewBox="0 0 48 48" fill="none">
+    <path d="M12 6C12 4.89543 12.8954 4 14 4H34C35.1046 4 36 4.89543 36 6V30C36 31.1046 35.1046 32 34 32H14C12.8954 32 12 31.1046 12 30V6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <circle cx="18" cy="26" r="2" fill="currentColor"></circle>
+    <circle cx="30" cy="26" r="2" fill="currentColor"></circle>
+    <path d="M12 20L36 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 38H27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 44H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 32L11 44" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M31 32L37 44" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M36 15V25" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 15V25" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/airplane-window" viewBox="0 0 48 48" fill="none">
+    <path d="M10 18C10 10.268 16.268 4 24 4C31.732 4 38 10.268 38 18V30C38 37.732 31.732 44 24 44C16.268 44 10 37.732 10 30V18Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 17L38 17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 11L26 11" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 25.9999C10 25.9999 15.4 25.3998 17 26.9998C18.6 28.5998 18 30.3685 18 30.3685C21 30.3685 24 30.5268 24 33.9999C24 36.4998 20 37.9999 17.5 36.3685C17.5 38.4999 17 39.9999 14 39.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 23.0002C38 23.0002 34.5 21.0002 33 22.0002C31.5 23.0002 32 25.0002 32 25.0002C30.5 24.0002 28 25.0002 28 27.5002C28 30.0002 30.5 31.0002 33 30.0002C34 33.0002 36.5 33.0002 38 32.0002" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M25 44V44C32.1797 44 38 38.1797 38 31V18C38 10.268 31.732 4 24 4V4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23 44V44C15.8203 44 10 38.1797 10 31V18C10 10.268 16.268 4 24 4V4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/diving" viewBox="0 0 48 48" fill="none">
+    <path d="M31.8 6H10.2C7.8804 6 6 7.79086 6 10V18H17C17 16 18.5 14 21 14C23.5 14 25 16 25 18H36V10C36 7.79086 34.1196 6 31.8 6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 24C16 25.4912 17.25 30 21 30C24.75 30 26 25.4912 26 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42 6V38C42 42 39 44 36 44C33 44 30 42 30 38V36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/gate-machine" viewBox="0 0 48 48" fill="none">
+    <rect x="6" y="42" width="8" height="6" transform="rotate(-90 6 42)" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <rect x="36" y="42" width="8" height="6" transform="rotate(-90 36 42)" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M24 14V17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 6V8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 26V30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 6V34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39 6V34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 38V42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 21H9V30L20 21Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 21H39V30L28 21Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 15L9 15" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M30 15L39 15" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/selfie" viewBox="0 0 48 48" fill="none">
+    <g clip-path="url(#clip0_6213_38303)">
+      <path d="M29.2336 6.979C32.9477 5.41202 40.5099 4.51009 43.0279 12.8713C45.5458 21.2325 34.7205 27.4825 35.0016 20.9694C35.2827 14.4562 42.9968 19.8175 42.8317 24.5316C42.6666 29.2457 37.7695 29.7636 37.7695 29.7636" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <rect x="4.24121" y="15.7773" width="26" height="12" rx="2" transform="rotate(-30 4.24121 15.7773)" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+      <path d="M21.5 19.6699L29 32.6603" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <rect x="26.4014" y="34.1602" width="6" height="10" rx="3" transform="rotate(-30 26.4014 34.1602)" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+      <path d="M11.4014 8.17969L16.5975 5.17969" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M21.9014 26.3662L27.0975 23.3662" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_6213_38303">
+        <rect width="48" height="48" fill="currentColor"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+
+  <symbol id="Filled/Travel/descend" viewBox="0 0 48 48" fill="none">
+    <g clip-path="url(#clip0_6213_38304)">
+      <path d="M11.549 16.6253L13.0129 11.1609C13.0129 11.1609 8.21885 12.3127 5.91213 14.0183C3.6054 15.7239 3.25986 19.4166 5.98653 20.9908C8.7132 22.5651 44.1733 39.9362 44.1733 39.9362L41.4054 31.1419L11.549 16.6253Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M20 35L26 38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M29 25L26 9L22 7L19 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_6213_38304">
+        <rect width="48" height="48" fill="currentColor"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+
+  <symbol id="Filled/Travel/resting" viewBox="0 0 48 48" fill="none">
+    <path d="M24 26V38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 6V26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 4V6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8 40H34L40 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 40V44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 40V44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 6C14.0589 6 6 14.034 6 23.9444V26C6 23.5224 8.01472 21 10.5 21C12.9853 21 15 23.5224 15 26C15 23.5224 17.0147 21 19.5 21C21.9853 21 24 23.5224 24 26C24 23.5224 26.0147 21 28.5 21C30.9853 21 33 23.5224 33 26C33 23.5224 35.0147 21 37.5 21C39.9853 21 42 23.5224 42 26V23.9444C42 14.034 33.9411 6 24 6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15.0003 26C15.0003 26 13.4999 20.5001 16.0005 15.0001C18.5011 9.50004 24.0002 6.00005 24.0002 6.00005" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33.0002 26C33.0002 26 33.5006 21.5 31.0003 15.0001C28.5 8.50006 24.0002 6.00005 24.0002 6.00005" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 25V6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.5 21C30.9853 21 33 23.5224 33 26C33 23.5224 35.0147 21 37.5 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.5 21C26.0147 21 24 23.5224 24 26C24 23.5224 21.9853 21 19.5 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10.5 21C12.9853 21 15 23.5224 15 26C15 23.5224 17.0147 21 19.5 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15.7334 8C18.2088 6.72196 21.0197 6 23.9998 6C26.9798 6 29.7908 6.72196 32.2661 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/sunrise" viewBox="0 0 48 48" fill="none">
+    <path d="M4 24H7" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 10L12 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 4V7" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 24C14 18.4776 18.4776 14 24 14C29.5224 14 34 18.4776 34 24C34 27.3674 32.3357 30.3458 29.785 32.1578" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 10L36 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 24L41 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37.9814 37.9818L36.3614 36.3618" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23.4999 28C20.4999 28 14 28.2 14 31C14 33.8 18.6058 33.7908 20.9998 34C23 34.1747 26.4624 35.6879 25.9999 38C24.9998 43 8.99982 42 4.99994 42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/landscape" viewBox="0 0 48 48" fill="none">
+    <path d="M14 28C17 28 26.5 29.5 26.5 33C26.5 36.5 21.394 35.7386 19 36C16.9274 36 12 36 12 39C12 43 32.5447 44 36.5 44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 15C31 10.7333 26.7297 4 20.805 4C14.8804 4 10.333 12 8.54511 19.4667C6.7572 26.9333 7.01261 36 7.01261 36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 24C26 21.5 27.4 17 32 17C36 17 38.2 21.0424 39 24.5C39.8 27.9576 40 33 40 33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/tickets-two" viewBox="0 0 48 48" fill="none">
+    <path d="M30 30C33 30 35 31.8809 35 34L41 34L41 4L35 4C35 6 33 8 30 8C27 8 25 6 25 4L19 4L19 18" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 44L24 44C24 41.8809 22 40 19 40C16 40 14 41.8809 14 44L8 44L8 14L14 14C14 16 16 18 19 18C22 18 24 16 24 14L30 14L30 44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="14" cy="24" r="2" fill="currentColor"></circle>
+    <circle cx="19" cy="24" r="2" fill="currentColor"></circle>
+    <circle cx="24" cy="24" r="2" fill="currentColor"></circle>
+  </symbol>
+
+  <symbol id="Filled/Travel/sunbath" viewBox="0 0 48 48" fill="none">
+    <path d="M11 36V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M6 36L40 36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8 30H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37 11L34 16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M35 36V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M44 10L29 36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39 19L44 28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/hot-air-balloon" viewBox="0 0 48 48" fill="none">
+    <path d="M39 18.3515C39 27.8545 31 36 24 36C17 36 9 27.8545 9 18.3515C9 10.6537 14.8929 4 24 4C33.1071 4 39 10.6537 39 18.3515Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M25 4C28.7 7.81854 32 14.1197 32 20C32 25.8067 28.62 32.192 25 36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23 4C18.6833 8.08726 16 13.7058 16 20C16 26.2153 18.7767 31.924 23 36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21.9994 16.0177C21.9994 16.0177 27.0654 17.0354 31 16.0177C34.9346 15 37.9995 13 37.9995 13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9.00047 20C9.00047 20 14.0004 22.4999 18 23.5C21.9996 24.5 25.9996 24 25.9996 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 35L19.4 42.0952C19.4 42.0952 22.125 44 24 44C25.875 44 28.6 42.0952 28.6 42.0952L29.9941 35.0297L24 36L18 35Z" fill="currentColor"></path>
+    <path d="M30 35L29.9941 35.0297M29.9941 35.0297L28.6 42.0952C28.6 42.0952 25.875 44 24 44C22.125 44 19.4 42.0952 19.4 42.0952L18 35L24 36L29.9941 35.0297Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/flight-safety" viewBox="0 0 48 48" fill="none">
+    <path d="M38.986 23C38.6727 33.709 33.1203 39.5222 25.002 43C20.6093 41.1187 16.9675 38.5534 14.5 34.899" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M39 19V10.2556L25.0067 5L11 10.2556V22.0285C11 24.6162 11.2942 26.9289 11.8477 29" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M9.26785 30.632C7.89464 29.3755 6.27838 26.7552 5.68058 26.6051C5.68058 26.6051 3.88327 31.0394 4.00049 34C4.11771 36.9606 6.89668 38.6351 9.82462 37.2204C12.7526 35.8057 44 20 44 20L35 18L9.26785 30.632Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27.9998 20.9999L18.9991 17.9999L16.9992 19L19.9992 25" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/tickets-checked" viewBox="0 0 48 48" fill="none">
+    <path d="M34 30V28.989C34 27.3382 35.3382 26 36.989 26V26C38.6381 26 39.9756 27.3356 39.978 28.9847L39.99 37.1853C39.9955 40.9473 36.9473 44 33.1853 44H25.6472C21.2342 44 17.0822 41.9088 14.4552 38.363L10.19 32.6062C9.46968 31.6339 9.40592 30.3235 10.0285 29.2858V29.2858C11.0299 27.6168 13.3332 27.3332 14.7096 28.7096L16 30V16C16 14.3431 17.3431 13 19 13V13C20.6569 13 22 14.3431 22 16V27.875V21.0263C22 19.3549 23.3549 18 25.0263 18V18C26.6977 18 28.0526 19.3549 28.0526 21.0263V29V27.8987C28.0526 26.2564 29.384 24.925 31.0263 24.925V24.925C32.6686 24.925 34 26.2564 34 27.8987V30Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 4V12" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M16 20H6V16C8 16 10 14.5 9.97403 12C9.94805 9.5 8 8 6 8V4H42V8C40 8 38.0519 9.5 38.026 12C38 14.5 40 16 42 16V20H28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/sailing" viewBox="0 0 48 48" fill="none">
+    <path d="M19 30H11L19 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39 30C39 17.0082 28.9937 4 19 4V30H39Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32.6512 41.5765L42 36L6 36L8 42L31.1144 42C31.6555 42 32.1865 41.8537 32.6512 41.5765Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19 30V36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29 21L41 21" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/fishing" viewBox="0 0 48 48" fill="none">
+    <path d="M20.9871 34.5522L12 29L39 29C40.6569 29 42 30.3431 42 32C42 33.6569 40.6569 35 39 35L22.5639 35C22.0069 35 21.461 34.845 20.9871 34.5522Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 11C31.1046 11 32 10.1046 32 9C32 7.89543 31.1046 7 30 7C28.8954 7 28 7.89543 28 9C28 10.1046 28.8954 11 30 11Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M34.0001 32C38 29 36.5001 22.4336 35.5001 20.5C34.5001 18.5664 32.5494 16 32.5494 16C32.5494 16 31.5001 16 30.5001 17C27.8215 19.6786 26.0001 23 23.5001 23C21.0001 23 17.5001 21 17.5001 21" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20.0005 14.9999C16.4037 10.504 13.6152 8.43369 8.0005 8.06192C6.89835 7.98894 6.0001 8.89533 6.0001 9.9999L6.0001 27.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 43C11 43 9.9375 41 13 41C16.0625 41 15 43 18.5 43C22 43 21 41 24.5 41C28 41 27.4375 43 30.5 43C33.5625 43 32 41 35.5 41C39 41 38.0625 43 42 43" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/photograph" viewBox="0 0 48 48" fill="none">
+    <g clip-path="url(#clip0_6213_38315)">
+      <path d="M34 13L34 6C34 4.89543 33.1046 4 32 4L8 4C6.89543 4 6 4.89543 6 6L6 34C6 35.1046 6.89543 36 8 36L23 36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"></path>
+      <path d="M28.0005 41.9998C21 37.9998 24.3318 32.2256 22.9772 30.9999C21.3247 29.5045 20.3874 28.112 19.9996 25.9998C19.6118 23.8877 21.0701 21.4736 22.9774 22.9999C24.8847 24.5261 28 30.9999 28 30.9999L30 28.9999L31 17.9999C31 17.9999 30 13.9999 30 11.9999C30 9.99986 34 12.9999 36 15.9999C36 26.4417 37.4995 35.9999 41.9992 43.9998" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M25 17.4L21 11L13 27H20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M6 22L12 11L17 18" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_6213_38315">
+        <rect width="48" height="48" fill="currentColor"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+
+  <symbol id="Filled/Travel/coconut-tree" viewBox="0 0 48 48" fill="none">
+    <path d="M22 13.9996C22 13.9996 19.2998 19.2929 18 25.9996C16.7001 32.7063 17 41.9996 17 41.9996" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33.953 23.2722C34.2986 23.5017 34.8456 23.6634 35.3814 23.7751C36.3128 23.9692 37.1735 23.329 37.1492 22.3779C37.1041 20.6042 36.4122 17.7028 32.8908 15.3644C29.5662 13.1566 26.2646 13.1264 24.1832 13.4437C22.996 13.6247 22.5233 14.9219 23.2046 15.9109C23.8127 16.7937 24.5211 17.6853 25 17.8556C26 18.2111 27.2034 17.2737 28.0797 17.8556C28.956 18.4375 28.6953 19.7807 29.5716 20.3626C30.4479 20.9445 31.5848 20.1832 32.4611 20.7651C33.3373 21.3471 33.0767 22.6903 33.953 23.2722Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20.0002 16.9997C20.858 16.7138 21.3888 15.7737 21.686 15.0212C21.9317 14.3993 21.7122 13.7127 21.1366 13.3725C19.8409 12.6066 17.0755 11.5586 12.7616 12.8114C8.49748 14.0498 7.37106 16.8672 7.08518 18.5265C6.95141 19.3029 7.48001 20.0052 8.263 20.0922C8.8239 20.1546 9.43921 20.1269 9.8069 19.8148C10.6138 19.1299 10.8323 18.2323 11.7338 17.9908C12.6353 17.7492 13.413 18.8485 14.3146 18.607C15.2161 18.3654 15.3399 17.0245 16.2414 16.783C17.143 16.5414 18.5002 17.4997 20.0002 16.9997Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 5.99963C24.4995 6.99964 21.9993 11.9996 22.0001 13.9996L35.0009 7.99965C33.6202 5.60819 29.5005 4.99963 27 5.99963Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 4.99963C24 6.42126 23.3809 11.6082 22.0002 13.9997L10.0005 5.92128C11.0005 3.99965 16 3.57801 20 4.99963Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 35C34.2843 35 39 36.7909 39 39C39 41.2091 32.2843 43 24 43C15.7157 43 9 41.2091 9 39C9 38.4608 9.40006 37.9465 10.1253 37.4771" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/in-flight" viewBox="0 0 48 48" fill="none">
+    <path d="M12 40C12 32.8203 17.3726 27 24 27C30.6274 27 36 32.8203 36 40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M13 37C13 38 15.5 39 17 38C18.5 37 18.9597 34.495 20.4997 34.9262C22.0396 35.3574 22 38.5 24 40C26 41.5 29.5 41 31 38.5C32.5 36 30.9207 35.325 32.0612 33.7031C32.8215 32.6219 33.7919 32.8871 34 33" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M23 21H25" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32.1514 22.4702L33.8475 23.5301" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14.1514 23.5298L15.8475 22.4699" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39.0586 28.1338L40.0586 29.8658" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8.05859 29.8662L9.05859 28.1342" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M41.8945 37.0054L42.1036 38.9944" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4.89453 38.9946L5.10359 37.0056" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42.0003 10.0002L9 18.0002" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M16 7L29 13L17 16L12 9L16 7Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 18L6 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/pyramid-one" viewBox="0 0 48 48" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 14L33 42H5L19 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M24 25L15 42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33 42H43.5L35 28L30.5 36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M25.9836 26.396C32.2118 24.8138 35.9781 18.4821 34.3959 12.2539C32.8136 6.02569 26.482 2.25938 20.2538 3.84163C14.0255 5.42388 10.2592 11.7555 11.8415 17.9837C12.2277 19.5039 12.8968 20.8773 13.7782 22.0622" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M20 42H10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22.5 21L27.5 31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/take-off-line" viewBox="0 0 48 48" fill="none">
+    <path d="M22 29L13.7763 33.1118C12.6994 33.6503 11.4049 33.4927 10.4886 32.7117L4 27.1808L7.56226 25.8157C8.19869 25.5718 8.8992 25.5519 9.54846 25.7592L12.8273 26.8063C13.5787 27.0463 14.3944 26.9807 15.0977 26.6237L37.36 15.3248C37.7807 15.1113 38.2459 15 38.7177 15H44L42.4472 18.1056C42.1569 18.6862 41.6862 19.1569 41.1056 19.4472L32 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22.0007 29L18.0003 31L23.0003 41L32.0003 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 25L12 16L28 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/transport " viewBox="0 0 48 48" fill="none">
+    <rect x="16" y="12" width="28" height="18" rx="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M24 18V24" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M36 18V24" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M36 12V6H24V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 36H12C10.8954 36 10 35.1046 10 34V11C10 9.89543 9.10457 9 8 9H4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19 42C17.3431 42 16 40.6569 16 39V36H22V39C22 40.6569 20.6569 42 19 42Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37 42C35.3431 42 34 40.6569 34 39V36H40V39C40 40.6569 38.6569 42 37 42Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/homestay" viewBox="0 0 48 48" fill="none">
+    <path d="M8.00042 25.9998C10.3186 26.1967 18.0008 27.9998 18.0004 30.9998C18 33.9998 13.8646 32.9888 12.0004 32.9998C10.3989 32.8638 5.9996 32.9999 5.99994 35.9998C6.00027 38.9998 13 40.9998 20 41.9998C27 42.9998 38.0001 42.9998 38.0001 42.9998" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8 20L14 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 6L38 6L42 10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 14L36 20H20L14 14H30Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42 22V16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 30V26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 34V26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/shade" viewBox="0 0 48 48" fill="none">
+    <path d="M24 6C14.0589 6 6 14.034 6 23.9444V26C6 23.5224 8.01472 21 10.5 21C12.9853 21 15 23.5224 15 26C15 23.5224 17.0147 21 19.5 21C21.9853 21 24 23.5224 24 26C24 23.5224 26.0147 21 28.5 21C30.9853 21 33 23.5224 33 26C33 23.5224 35.0147 21 37.5 21C39.9853 21 42 23.5224 42 26V23.9444C42 14.034 33.9411 6 24 6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15.0003 26C15.0003 26 13.4999 20.5001 16.0005 15.0001C18.5011 9.50004 24.0002 6.00005 24.0002 6.00005" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33.0002 26C33.0002 26 33.5006 21.5 31.0003 15.0001C28.5 8.50006 24.0002 6.00005 24.0002 6.00005" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 25V39.5C24 41.9853 21.9853 44 19.5 44V44C17.0147 44 15 41.9853 15 39.5V38.1818" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 25V6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 6V4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.5 21C30.9853 21 33 23.5224 33 26C33 23.5224 35.0147 21 37.5 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.5 21C26.0147 21 24 23.5224 24 26C24 23.5224 21.9853 21 19.5 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10.5 21C12.9853 21 15 23.5224 15 26C15 23.5224 17.0147 21 19.5 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15.7334 8C18.2088 6.72196 21.0197 6 23.9998 6C26.9798 6 29.7908 6.72196 32.2661 8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/aviation" viewBox="0 0 48 48" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00002 21C8.8655 20.3509 9.91817 20 11 20H44C44.8089 20 45.5382 20.4873 45.8478 21.2346C46.1573 21.982 45.9862 22.8422 45.4142 23.4142L37.4142 31.4142C37.0392 31.7893 36.5305 32 36 32H32.5C31.3954 32 30.5 31.1046 30.5 30C30.5 28.8954 31.3954 28 32.5 28H35.1716L39.1716 24H11C10.7836 24 10.5731 24.0702 10.4 24.2L7.77481 26.1689L11.1799 27.8922C11.3199 27.9631 11.4745 28 11.6314 28H13C14.1046 28 15 28.8954 15 30C15 31.1046 14.1046 32 13 32H11.6314C10.847 32 10.0735 31.8154 9.37359 31.4612L3.09688 28.2845C2.47997 27.9722 2.06808 27.3635 2.00767 26.6748C1.94725 25.986 2.24688 25.3149 2.80002 24.9L8.00002 21Z" fill="currentColor"></path>
+    <path d="M27 31C27 32.6569 23.4183 34 19 34L19 28C23.4183 28 27 29.3431 27 31Z" fill="currentColor"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 26C17.8954 26 17 26.8954 17 28L17 34C17 35.1046 17.8954 36 19 36C21.3855 36 23.6342 35.6408 25.3591 34.994C26.2142 34.6733 27.0451 34.2433 27.6981 33.6643C28.3489 33.0873 29 32.1916 29 31C29 29.8084 28.3489 28.9127 27.6981 28.3357C27.0451 27.7567 26.2142 27.3267 25.3591 27.006C23.6342 26.3592 21.3855 26 19 26ZM21 30.1049C22.1771 30.2318 23.1898 30.4645 23.9546 30.7513C24.1815 30.8364 24.3715 30.9207 24.5283 31C24.3715 31.0793 24.1815 31.1636 23.9546 31.2487C23.1898 31.5355 22.1771 31.7682 21 31.8951L21 30.1049ZM25.1052 30.6113C25.1051 30.6113 25.104 30.6125 25.1022 30.615C25.1043 30.6125 25.1053 30.6113 25.1052 30.6113ZM25.1022 31.385C25.104 31.3875 25.1051 31.3887 25.1052 31.3887C25.1053 31.3887 25.1043 31.3875 25.1022 31.385Z" fill="currentColor"></path>
+    <path d="M31 18L22 22H37L40 12H37L31 18Z" fill="currentColor"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.586 10.5858C35.9611 10.2107 36.4698 10 37.0002 10H40.0002C40.6324 10 41.2274 10.2989 41.6048 10.8061C41.9822 11.3134 42.0975 11.9691 41.9159 12.5747L38.9159 22.5747C38.6621 23.4207 37.8834 24 37.0002 24H22.0002C21.0556 24 20.2399 23.3392 20.0438 22.4152C19.8477 21.4912 20.3248 20.556 21.1879 20.1724L29.8486 16.3232L35.586 10.5858ZM37.0908 14.7378L32.4144 19.4142C32.2408 19.5878 32.0368 19.7279 31.8125 19.8276L31.4246 20H35.5121L37.0908 14.7378Z" fill="currentColor"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/check-in" viewBox="0 0 48 48" fill="none">
+    <path d="M15.9999 21.0001L22.1302 6.98819C22.5987 5.91738 23.8816 5.47476 24.9107 6.0289L35.9996 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 31L26 12L42 12L42 41L26 41L26 37" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 44C13 44 13.7691 38.6834 16.3302 38.3125C19.3527 37.8748 22.4317 37.6497 25.1033 37C28.497 36.1747 31.2335 35.1121 32.3623 34.6448C32.7291 34.4929 33.0343 34.2285 33.2178 33.8764C33.7811 32.795 34.7903 30.4101 32.9209 30.1094C30.493 29.7188 22.9806 32.5833 19.1276 32.0625C15.2746 31.5417 16.6293 28.9375 17.8433 28.1563C21.1401 26.0345 25 27 25 27V18C25 18 10.3335 21.75 5 28.1563" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 21L42 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/passport-one" viewBox="0 0 48 48" fill="none">
+    <path d="M13 40L9 40C7.89543 40 7 39.1046 7 38L7 6C7 4.89543 7.89543 4 9 4L29 4C30.1046 4 31 4.89543 31 6L31 10" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <rect x="13" y="44" width="34" height="28" rx="2" transform="rotate(-90 13 44)" fill="currentColor" stroke="currentColor" stroke-width="4"></rect>
+    <circle cx="27" cy="27" r="8" stroke="currentColor" stroke-width="4"></circle>
+    <path d="M34.9998 27.9999C34.9998 27.9999 32 27.4999 29.9995 28.9999C27.999 30.4999 27.401 34.1025 27.9999 34.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M24 27C24 29 22 31 20 31" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M31 20C31 20 31 24 28 24" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/transfer" viewBox="0 0 48 48" fill="none">
+    <path d="M37 28.3923V35.4066C37 39.048 34.0885 42 30.497 42C26.9054 42 23.9939 39.048 23.9939 35.4066L24.0061 13.1429C24.0061 9.19797 21.0946 6 17.503 6C13.9115 6 11 9.19797 11 13.1429V28.3923" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43 31L37 25L31 31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43 10.7273C43 15.1818 37 19 37 19C37 19 31 15.1818 31 10.7273C31 9.20831 31.6321 7.75155 32.7574 6.67748C33.8826 5.60341 35.4087 5 37 5C38.5913 5 40.1174 5.60341 41.2426 6.67748C42.3679 7.75155 43 9.20831 43 10.7273Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 34.7273C17 39.1818 11 43 11 43C11 43 5 39.1818 5 34.7273C5 33.2083 5.63214 31.7516 6.75736 30.6775C7.88258 29.6034 9.4087 29 11 29C12.5913 29 14.1174 29.6034 15.2426 30.6775C16.3679 31.7516 17 33.2083 17 34.7273Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="37" cy="11" r="2" fill="currentColor"></circle>
+    <circle cx="11" cy="35" r="2" fill="currentColor"></circle>
+  </symbol>
+
+  <symbol id="Filled/Travel/tour-bus" viewBox="0 0 48 48" fill="none">
+    <path d="M9 23H39V34C39 35.1046 38.1046 36 37 36H11C9.89543 36 9 35.1046 9 34V23Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M9 8C9 6.89543 9.89543 6 11 6H37C38.1046 6 39 6.89543 39 8V23H9V8Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M15 42C13.3431 42 12 40.6569 12 39V36H18V39C18 40.6569 16.6569 42 15 42Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33 42C31.3431 42 30 40.6569 30 39V36H36V39C36 40.6569 34.6569 42 33 42Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 12V16" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M42 12V16" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <circle cx="15" cy="30" r="2" fill="currentColor"></circle>
+    <circle cx="33" cy="30" r="2" fill="currentColor"></circle>
+  </symbol>
+
+  <symbol id="Filled/Travel/luggage" viewBox="0 0 48 48" fill="none">
+    <rect x="8" y="14" width="32" height="26" rx="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M20 23L20 31" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M15 40V44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33 40V44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 23V31" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M19 4H29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 4L24 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/sandals" viewBox="0 0 48 48" fill="none">
+    <path d="M11.2007 6.85463L10.4923 7.07897C7.00458 8.18344 4.95601 11.7892 5.59445 15.3915C6.3237 19.5061 6.88545 23.4308 7.68923 27.0524C8.47424 30.5895 8.13598 33.7409 7.93924 37.0838C7.74702 40.3498 10.3475 42.9271 13.6113 43.1539C18.2343 43.4753 21.7932 39.0727 20.9079 34.524C20.2236 31.0084 19.7056 27.2067 19.9391 24.5003C20.1897 21.5957 20.2164 17.2111 20.1692 13.249C20.1142 8.63332 15.6014 5.46108 11.2007 6.85463Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"></path>
+    <path d="M34.8097 5.72334L34.0407 5.86752C30.585 6.51548 28.1475 9.62846 28.114 13.1443C28.0707 17.7016 27.831 22.1494 28 26.0002C28.156 29.5532 27.563 32.1527 26.9827 35.0533C26.3565 38.183 28.4256 41.0972 31.5229 41.8681C36.0077 42.9843 40.2353 39.1699 40.1002 34.5502C40.0073 31.3749 40.1309 28.0382 40.7812 25.5998C41.5705 22.6397 42.3283 17.697 42.91 13.2862C43.5209 8.6546 39.4014 4.86239 34.8097 5.72334Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"></path>
+    <path d="M8 29C9 20 14 15 14 15C15.6364 17 18.0001 23 20.0001 29" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40.0001 30C40.5001 22 35 14 35 14C33.3636 16 28.0006 19.2778 28.0006 25.5" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/enquire" viewBox="0 0 48 48" fill="none">
+    <path d="M37 16C34.2386 16 32 13.7614 32 11C32 8.23858 34.2386 6 37 6C39.7614 6 42 8.23858 42 11C42 13.7614 39.7614 16 37 16Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M12 12C9.79086 12 8 10.2091 8 8C8 5.79086 9.79086 4 12 4C14.2091 4 16 5.79086 16 8C16 10.2091 14.2091 12 12 12Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M26 39L32 34V28C32 24.5339 34 22 37 22C40 22 42 24.5339 42 28V32.8372V42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 33L18 28V24C18 20.5339 16 18 13 18C10 18 8 20.5339 8 24V26.8372V42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/compass-one" viewBox="0 0 48 48" fill="none">
+    <path d="M24 44C33.3888 44 41 36.3888 41 27C41 17.6112 33.3888 10 24 10C14.6112 10 7 17.6112 7 27C7 36.3888 14.6112 44 24 44Z" fill="currentColor" stroke="currentColor" stroke-width="4"></path>
+    <path d="M19 4H29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 27L24 20L28 27L24 34L20 27Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 27H11" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37 27H41" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 10L24 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 40L24 44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17.5 42.7129C19.5024 43.5422 21.6978 43.9998 24 43.9998C26.3022 43.9998 28.4976 43.5422 30.5 42.7129" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8.28691 20.5C7.45764 22.5024 7 24.6978 7 27C7 29.3022 7.45764 31.4976 8.28691 33.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39.7129 20.5C40.5422 22.5024 40.9998 24.6978 40.9998 27C40.9998 29.3022 40.5422 31.4976 39.7129 33.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17.0078 11.5C19.1405 10.5364 21.5077 10 24.0001 10C26.4925 10 28.8597 10.5364 30.9924 11.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/consignment" viewBox="0 0 48 48" fill="none">
+    <path d="M8 14C8 12.8954 8.89543 12 10 12H38C39.1046 12 40 12.8954 40 14V30C40 31.1046 39.1046 32 38 32H10C8.89543 32 8 31.1046 8 30V14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M16 12V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 12V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 12L36 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 12L20 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 32L20 32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 32L36 32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 38L44 38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 38V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M12 38V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M6 38V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M24 38V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M30 38V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M36 38V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M42 38V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M30 12V6H18V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/set-off" viewBox="0 0 48 48" fill="none">
+    <path d="M29 14C31.7614 14 34 11.7614 34 9C34 6.23858 31.7614 4 29 4C26.2386 4 24 6.23858 24 9C24 11.7614 26.2386 14 29 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M24 19L19.71 27L27.31 33.02C27.62 33.26 27.84 33.59 27.97 33.96L31.31 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19.71 27L14.51 34.64C12.9732 36.8883 10.5 39.5 9.5 41" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42 23.9998L35.06 24.0998C34.7 24.0998 34.34 24.0098 34.02 23.8298L30.75 21.9198C26.74 19.5698 22.35 17.9598 17.78 17.1398L14.56 16.5698L12 20.9998" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <rect x="8.65234" y="19.103" width="7.35873" height="9" transform="rotate(30 8.65234 19.103)" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+  </symbol>
+
+  <symbol id="Filled/Travel/cruise" viewBox="0 0 48 48" fill="none">
+    <path d="M38 42L41.3908 32.6752C41.738 31.7205 41.3143 30.6572 40.4057 30.2028L24.8944 22.4472C24.3314 22.1657 23.6686 22.1657 23.1056 22.4472L7.59432 30.2028C6.68569 30.6572 6.26199 31.7205 6.60916 32.6752L10 42" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M35 14H13C11.8954 14 11 14.8954 11 16V28L23.1619 22.3868C23.6937 22.1414 24.3063 22.1414 24.8381 22.3868L37 28V16C37 14.8954 36.1046 14 35 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29 14V6C29 4.89543 28.1046 4 27 4H21C19.8954 4 19 4.89543 19 6V14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 32V40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M4 44C8 44 8 42 11 42C14 42 14 44 17 44C20 44 20.5 42 24 42C27.5 42 28 44 31 44C34 44 34 42 37 42C40 42 40 44 44 44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/tickets-one" viewBox="0 0 48 48" fill="none">
+    <rect x="5" y="42" width="26" height="38" rx="2" transform="rotate(-90 5 42)" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="bevel"></rect>
+    <path d="M9.00002 15.9999L32 4.99986L37 15.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="13" cy="23" r="2" fill="currentColor"></circle>
+    <circle cx="13" cy="29" r="2" fill="currentColor"></circle>
+    <circle cx="13" cy="35" r="2" fill="currentColor"></circle>
+    <path d="M21 35H25L36 23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 29H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/camp" viewBox="0 0 48 48" fill="none">
+    <path d="M44 35H40L24 6.5L8 35H4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 31C21.2386 31 19 34.5817 19 39V41H29V39C29 34.5817 26.7614 31 24 31Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 41L44 41" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 23C15 23 20 19 24 19C28 19 33 23 33 23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40 6L38 9L40 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40 6L42 9L40 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 17L6 19L7 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 17L8 19L7 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/cocktail-one" viewBox="0 0 48 48" fill="none">
+    <g clip-path="url(#clip0_6213_38337)">
+      <path d="M35.8 13H32L21 32L9.8 13H6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M25.7509 25.596C31.3517 28.7465 38.446 26.7601 41.5964 21.1593C44.7469 15.5585 42.7605 8.46421 37.1597 5.31377C31.5589 2.16332 24.4646 4.14972 21.3142 9.75051" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+      <path d="M26 44H16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M21 44L21 32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M12 16C12 16 14 14 17 14C20 14 22 17 25 17C28 17 30 16 30 16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_6213_38337">
+        <rect width="48" height="48" fill="currentColor"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+
+  <symbol id="Filled/Travel/riding-one" viewBox="0 0 48 48" fill="none">
+    <path d="M12.5804 27.5139L4 28.3194V22.6806L16.2578 17.4444V10C16.2578 10 21.9781 11.4028 22.7953 12.6111C23.6124 13.8194 22.7953 16.6389 22.7953 16.6389C26.8812 18.1157 30.7843 22.6806 30.7843 26.3056C30.7843 29.9306 29 34.5 29 34.5C27.0194 34.5 26.2898 38.7917 27.5156 40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 26C22 28.7614 20.2091 30 18 30C15.7909 30 14 28.7614 14 26" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M17.3805 30C17.8186 30 18.2566 33.2 17.8186 34.8C17.3805 36.4 16.9425 37.2 13 40" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M37 16C38.1046 16 39 15.1046 39 14C39 12.8954 38.1046 12 37 12C35.8954 12 35 12.8954 35 14C35 15.1046 35.8954 16 37 16Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M26.9997 30C29.4347 30.0837 33.11 28.2269 34.9997 26.9336C37.272 25.3732 35.1346 22.923 37.7243 22.3785L39.549 21C39.549 21 40.9996 23.0664 41.9996 25C42.9997 26.9336 43.5997 32.9 41.9997 36.5H33.9997L36.9997 39.5" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/flight-airflow" viewBox="0 0 48 48" fill="none">
+    <path d="M6 25C6 15.0589 14.2827 7 24.5 7C34.7173 7 43 15.0589 43 25" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M10.0002 35L8.93573 30C8.93573 30 5.501 33.1087 4.35611 35.7391C3.21121 38.3696 4.85151 41 8 41H44.0002L36.0002 35.0217L10.0002 35Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29 35L18 25L15 25L17 35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/baggage-delay" viewBox="0 0 48 48" fill="none">
+    <path d="M36 26V14C36 12.8954 35.1046 12 34 12H10C8.89543 12 8 12.8954 8 14V38C8 39.1046 8.89543 40 10 40H27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 12V40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 12V29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 12V6C28 4.89543 27.1046 4 26 4H18C16.8954 4 16 4.89543 16 6V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M35 44C39.9706 44 44 39.9706 44 35C44 30.0294 39.9706 26 35 26C30.0294 26 26 30.0294 26 35C26 39.9706 30.0294 44 35 44Z" fill="currentColor" stroke="currentColor" stroke-width="4"></path>
+    <path d="M34 32V36H38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13 40V44" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/repositioning" viewBox="0 0 48 48" fill="none">
+    <path d="M33 22C33 29 24 35 24 35C24 35 15 29 15 22C15 19.6131 15.9482 17.3239 17.636 15.636C19.3239 13.9482 21.6131 13 24 13C26.3869 13 28.6761 13.9482 30.364 15.636C32.0518 17.3239 33 19.6131 33 22Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 25C25.6569 25 27 23.6569 27 22C27 20.3431 25.6569 19 24 19C22.3431 19 21 20.3431 21 22C21 23.6569 22.3431 25 24 25Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 13.9999C9 13.9999 16.5 2.49984 29.5 6.99986C42.5 11.4999 42 24.4999 42 24.4999" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42 8V24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39 34C39 34 33 45 19.5 41.5C6 38 6 24 6 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 24L6 40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/sunshade" viewBox="0 0 48 48" fill="none">
+    <path d="M40.1032 25.8173C39.2068 28.1001 30.4308 28.8257 21.3618 26.3957C12.2929 23.9657 6.5828 19.5526 7.2617 17.0175C8.79543 11.2935 16.9744 2.4625 28.6712 6.68893C40.368 10.9154 41.6369 20.0934 40.1032 25.8173Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27.9995 7.00001C27.9995 7.00001 23.9993 13.5 20.9995 24C17.9997 34.5 17.9997 42 17.9997 42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.0003 6.99998C28.0003 6.99998 17.7941 8.84351 15 17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.0003 7.00001C28.0003 7.00001 34 13 30.9998 22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 43C10 43 19 41.5 26 41.5C33 41.5 39 42 39 42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27.9999 7.00012C29 7.00012 31 6.00012 31.8145 4.4199" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 41C34 39.3431 33 37 30 37C27 37 26 39.3431 26 41" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/cable-car" viewBox="0 0 48 48" fill="none">
+    <path d="M13.2797 42C12.4996 42 11.7907 41.5464 11.4637 40.8381L6.38682 29.8381C6.14138 29.3063 6.14138 28.6937 6.38682 28.1619L11.4637 17.1619C11.7907 16.4536 12.4996 16 13.2797 16L34.7203 16C35.5004 16 36.2093 16.4536 36.5363 17.1619L41.6132 28.1619C41.8586 28.6937 41.8586 29.3063 41.6132 29.8381L36.5363 40.8381C36.2093 41.5464 35.5004 42 34.7203 42L13.2797 42Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="bevel"></path>
+    <path d="M9 23L18 23L18 33L8 33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39 23L25 23L25 32L40 32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37.9993 3.99994C37.9993 3.99994 28.5 7.49994 20.5641 8.39386C12.6282 9.28778 7.99988 8.99994 7.99988 8.99994" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 8V16L17 9" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10.6154 19L6.38682 28.1619C6.14138 28.6937 6.14138 29.3063 6.38682 29.8381L9 35.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37.3848 19L41.6133 28.1619C41.8588 28.6937 41.8588 29.3063 41.6133 29.8381L39.0002 35.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/airplane-window-one" viewBox="0 0 48 48" fill="none">
+    <path d="M30.3489 32L36.8554 7.7176C37.2842 6.1172 38.9292 5.16746 40.5296 5.59628V5.59628C42.13 6.02511 43.0798 7.67012 42.6509 9.27052L36.5606 32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 32L36 38L13 38C11.3431 38 10 36.6569 10 35C10 33.3431 11.3431 32 13 32L36 32Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 44H29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <rect x="6" y="4" width="10" height="20" rx="5" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M6 14L16 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 9L6 19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 9V19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/universal" viewBox="0 0 48 48" fill="none">
+    <path d="M24 38C31.732 38 38 31.732 38 24C38 16.268 31.732 10 24 10C16.268 10 10 16.268 10 24C10 31.732 16.268 38 24 38Z" fill="currentColor" stroke="currentColor" stroke-width="4"></path>
+    <path d="M11 29C12.5089 29.6244 15 30 16.2586 28.5317C17.5171 27.0633 16.395 24.7522 17.7889 23.9682C19.317 23.1086 20.4203 26.0319 23.2912 25.516C26.162 25 28 21 28 19C28 17 26.2854 17 26.162 15.0542C26 12.5 28 11 28 11" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M27.9995 36.9999C26.9137 36.0909 25.9995 35.4999 26.0001 33.9999C26.0006 32.4999 26.9995 32.9999 27.9995 31.9999C28.9996 30.9999 28.4995 28.9999 29.4999 28.4999C30.5004 27.9999 33.6075 29.0558 35.9998 30.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <circle cx="24" cy="4" r="2" fill="currentColor"></circle>
+    <circle cx="24" cy="44" r="2" fill="currentColor"></circle>
+    <circle cx="44" cy="24" r="2" fill="currentColor"></circle>
+    <circle cx="38" cy="10" r="2" fill="currentColor"></circle>
+    <circle cx="10" cy="38" r="2" fill="currentColor"></circle>
+    <circle cx="4" cy="24" r="2" fill="currentColor"></circle>
+    <circle cx="10" cy="10" r="2" fill="currentColor"></circle>
+    <circle cx="38" cy="38" r="2" fill="currentColor"></circle>
+    <path d="M10 24C10 27.8146 11.5256 31.2729 14 33.798" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 38C31.732 38 38 31.732 38 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 10C27.8146 10 31.2729 11.5256 33.798 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Travel/journey" viewBox="0 0 48 48" fill="none">
+    <g clip-path="url(#clip0_6213_38346)">
+      <path d="M24 40C32.2843 40 39 33.2843 39 25C39 16.7157 32.2843 10 24 10C15.7157 10 9 16.7157 9 25C9 33.2843 15.7157 40 24 40Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M20.0002 11.0003C21.8049 12.0085 23.5002 13.5003 23.3581 15.4457C23.2445 17.0003 21.915 17.3471 21.6369 18.4713C21.359 19.5956 22.9674 20.822 20.2464 22.6362C18.4324 23.8458 12.971 26.1449 9 24.0003" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+      <path d="M9.50011 24.5002C6.50011 26.3885 2.06824 31.5212 4.00056 35.0002C6.5 39.5002 16.0004 35.6908 27.0001 27.0002C37.9999 18.3096 42.2291 5.6066 42.2291 5.6066L37.0005 7.00019" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M26.0006 40C26.0006 40 26.5003 35 30 32C33.4997 29 38.0007 29 38.0007 29" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_6213_38346">
+        <rect width="48" height="48" fill="currentColor"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+
+  <symbol id="Filled/Travel/airplane" viewBox="0 0 48 48" fill="none">
+    <path d="M20.5 10.5372C20.5 6.5143 22.8333 4.50286 24 4C25.1667 4.50286 27.5 6.5143 27.5 10.5372V18.0801L43 31V35L27 27V36L32 44L24 41L16 44L21 36V27L5 35V31L20.5 18.0801V10.5372Z" fill="currentColor" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</svg>

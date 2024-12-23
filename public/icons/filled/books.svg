@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="Filled/Books/folder-download" viewBox="0 0 48 48" fill="none">
+    <path d="M4 9C4 7.89543 4.89543 7 6 7H19L24 13H42C43.1046 13 44 13.8954 44 15V39C44 40.1046 43.1046 41 42 41H6C4.89543 41 4 40.1046 4 39V9Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M31 27L23.9922 34L17 27.0156" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 20V34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/folder-upload" viewBox="0 0 48 48" fill="none">
+    <path d="M4 7H19L24 13H44V41H4V7Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M31 27L24 20L17 27.0156" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 20V34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/mail-download" viewBox="0 0 48 48" fill="none">
+    <path d="M10 17H4V43H44V17H38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 5H10V21.5L24 32L38 21.5V5Z" fill="currentColor"></path>
+    <path d="M10 21.5L24 32L38 21.5M10 21.5V5H38V21.5M10 21.5L4 17M38 21.5L44 17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19 18L24 23M24 23L29 18M24 23V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/inbox-r" viewBox="0 0 48 48" fill="none">
+    <rect x="4" y="4" width="40" height="40" rx="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M4 34L15 34L17 38H31L33 34L44 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 40V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 40V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 16H32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 24H32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/inbox-upload-r" viewBox="0 0 48 48" fill="none">
+    <rect x="4" y="4" width="40" height="40" rx="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M4 34L15 34L17 38H31L33 34L44 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 40V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 40V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 20L24 12L32 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 30V13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/folder-close" viewBox="0 0 48 48" fill="none">
+    <path d="M19 7H6C4.89543 7 4 7.89543 4 9V39C4 40.1046 4.89543 41 6 41H42C43.1046 41 44 40.1046 44 39V15C44 13.8954 43.1046 13 42 13H24L19 7Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M44 22H4" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M4 16V28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 16V28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/folder-plus" viewBox="0 0 48 48" fill="none">
+    <path d="M4 10C4 8.89543 4.89543 8 6 8H19L24 14H42C43.1046 14 44 14.8954 44 16V40C44 41.1046 43.1046 42 42 42H6C4.89543 42 4 41.1046 4 40V10Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M23.9502 22.5L23.9502 34.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17.9502 28.5L29.9502 28.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/folder-minus" viewBox="0 0 48 48" fill="none">
+    <path d="M4 10C4 8.89543 4.89543 8 6 8H19L24 14H42C43.1046 14 44 14.8954 44 16V40C44 41.1046 43.1046 42 42 42H6C4.89543 42 4 41.1046 4 40V10Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M17.9502 28L29.9502 28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/notepad" viewBox="0 0 48 48" fill="none">
+    <path d="M18 8H11C10.4477 8 10 8.44772 10 9V43C10 43.5523 10.4477 44 11 44H39C39.5523 44 40 43.5523 40 43V9C40 8.44772 39.5523 8 39 8H32" stroke="currentColor" stroke-width="4"></path>
+    <path d="M18 13V8H21.9505C21.9778 8 22 7.97784 22 7.9505V6C22 4.34315 23.3431 3 25 3C26.6569 3 28 4.34315 28 6V7.9505C28 7.97784 28.0222 8 28.0495 8H32V13C32 13.5523 31.5523 14 31 14H19C18.4477 14 18 13.5523 18 13Z" fill="currentColor" stroke="currentColor" stroke-width="4"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/doc-search-two" viewBox="0 0 48 48" fill="none">
+    <path d="M40 27V6C40 4.89543 39.1046 4 38 4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44H21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 12L31 12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 20L31 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 28H23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37 37C37 38.3807 36.4404 39.6307 35.5355 40.5355C34.6307 41.4404 33.3807 42 32 42C29.2386 42 27 39.7614 27 37C27 34.2386 29.2386 32 32 32C34.7614 32 37 34.2386 37 37Z" fill="currentColor"></path>
+    <path d="M39 44L35.5355 40.5355M35.5355 40.5355C36.4404 39.6307 37 38.3807 37 37C37 34.2386 34.7614 32 32 32C29.2386 32 27 34.2386 27 37C27 39.7614 29.2386 42 32 42C33.3807 42 34.6307 41.4404 35.5355 40.5355Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/notes" viewBox="0 0 48 48" fill="none">
+    <path d="M8 6C8 4.89543 8.89543 4 10 4H30L40 14V42C40 43.1046 39.1046 44 38 44H10C8.89543 44 8 43.1046 8 42V6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M16 20H32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 28H32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/notebook" viewBox="0 0 48 48" fill="none">
+    <path d="M10 6C10 4.89543 10.8954 4 12 4H40C41.1046 4 42 4.89543 42 6V42C42 43.1046 41.1046 44 40 44H12C10.8954 44 10 43.1046 10 42V6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M34 6V42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 14H14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 24H14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 34H14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 4H39" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 44H39" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/inbox-download-r" viewBox="0 0 48 48" fill="none">
+    <rect x="4" y="4" width="40" height="40" rx="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M4 34L15 34L17 38H31L33 34L44 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 40V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 22L24 30L32 22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 29V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 40V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/notebook-and-pen" viewBox="0 0 48 48" fill="none">
+    <path d="M4 6V42H30V6H4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 42V6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 6H36V38L40 42L44 38V6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 12H44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 6H4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 42H4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 6V22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 6V22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/newspaper-folding" viewBox="0 0 48 48" fill="none">
+    <path d="M21 44L20 36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 44V12H25L26 20L27 28L28 36L21 44H44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 28H35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 20H35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 4H24L25 12L26 20L27 28L28 36H20H4V4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 12H17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 20H18" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 28H19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/view-list" viewBox="0 0 48 48" fill="none">
+    <rect x="8" y="4" width="32" height="40" rx="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M21 14H33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 24H33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 34H33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 16C16.1046 16 17 15.1046 17 14C17 12.8954 16.1046 12 15 12C13.8954 12 13 12.8954 13 14C13 15.1046 13.8954 16 15 16Z" fill="currentColor"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 26C16.1046 26 17 25.1046 17 24C17 22.8954 16.1046 22 15 22C13.8954 22 13 22.8954 13 24C13 25.1046 13.8954 26 15 26Z" fill="currentColor"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 36C16.1046 36 17 35.1046 17 34C17 32.8954 16.1046 32 15 32C13.8954 32 13 32.8954 13 34C13 35.1046 13.8954 36 15 36Z" fill="currentColor"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/view-list-1" viewBox="0 0 48 48" fill="none">
+    <rect x="8" y="4" width="32" height="40" rx="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M21 14H33" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 24H33" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 34H33" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 16C16.1046 16 17 15.1046 17 14C17 12.8954 16.1046 12 15 12C13.8954 12 13 12.8954 13 14C13 15.1046 13.8954 16 15 16Z" fill="#000000"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 26C16.1046 26 17 25.1046 17 24C17 22.8954 16.1046 22 15 22C13.8954 22 13 22.8954 13 24C13 25.1046 13.8954 26 15 26Z" fill="#000000"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 36C16.1046 36 17 35.1046 17 34C17 32.8954 16.1046 32 15 32C13.8954 32 13 32.8954 13 34C13 35.1046 13.8954 36 15 36Z" fill="#000000"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/book" viewBox="0 0 48 48" fill="none">
+    <path d="M8 40C8 36 8 10 8 10C8 6.68629 10.8654 4 14.4 4H40V36C40 36 19.9815 36 14.4 36C9.36225 36 8 36.6842 8 40Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 44H40V36H12C9.79086 36 8 37.7909 8 40C8 42.2091 9.79086 44 12 44Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/book-one" viewBox="0 0 48 48" fill="none">
+    <path d="M6 37C6 29.2967 6 11 6 11C6 7.68629 8.68629 5 12 5H36V31C36 31 17.2326 31 12 31C8.7 31 6 33.6842 6 37Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M36 31C36 31 13.1537 31 12 31C8.68629 31 6 33.6863 6 37C6 40.3137 8.68629 43 12 43C14.2091 43 26.8758 43 42 43V7" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13 37H35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/order" viewBox="0 0 48 48" fill="none">
+    <path d="M33.0499 7H38C39.1046 7 40 7.89543 40 9V42C40 43.1046 39.1046 44 38 44H10C8.89543 44 8 43.1046 8 42L8 9C8 7.89543 8.89543 7 10 7H16H17V10H31V7H33.0499Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <rect x="17" y="4" width="14" height="6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M26.9996 19L19 27.0012H29.004L21.0003 35.0018" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/log" viewBox="0 0 48 48" fill="none">
+    <rect x="13" y="10" width="28" height="34" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M35 10V4H8C7.44772 4 7 4.44772 7 5V38H13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 22H33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 30H33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/notebook-one" viewBox="0 0 48 48" fill="none">
+    <path d="M8 6C8 4.89543 8.89543 4 10 4H38C39.1046 4 40 4.89543 40 6V42C40 43.1046 39.1046 44 38 44H10C8.89543 44 8 43.1046 8 42V6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M16 4V44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 12H32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 20H32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 4H22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 44H22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/doc-success" viewBox="0 0 48 48" fill="none">
+    <path d="M38 4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44H38C39.1046 44 40 43.1046 40 42V6C40 4.89543 39.1046 4 38 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 30L31 30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 36H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 13L22 21L18 17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/envelope" viewBox="0 0 48 48" fill="none">
+    <path d="M40 4H8V44H40V4Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 12V36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40 36H24H8" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8 4L14 12H34L40 4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/doc-add" viewBox="0 0 48 48" fill="none">
+    <path d="M38 4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44H38C39.1046 44 40 43.1046 40 42V6C40 4.89543 39.1046 4 38 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 30L31 30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 36H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19 17L29 17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 22V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/clipboard " viewBox="0 0 48 48" fill="none">
+    <path d="M17 7H16H10C8.89543 7 8 7.89543 8 9L8 42C8 43.1046 8.89543 44 10 44H38C39.1046 44 40 43.1046 40 42V9C40 7.89543 39.1046 7 38 7H33.0499H31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <rect x="17" y="4" width="14" height="6" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+  </symbol>
+
+  <symbol id="Filled/Books/inbox-success-r" viewBox="0 0 48 48" fill="none">
+    <rect x="4" y="4" width="40" height="40" rx="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M4 34L15 34L17 38H31L33 34L44 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 40V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 40V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 20L23 27L36 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/doc-detail" viewBox="0 0 48 48" fill="none">
+    <path d="M39 4H11C9.89543 4 9 4.89543 9 6V42C9 43.1046 9.89543 44 11 44H39C40.1046 44 41 43.1046 41 42V6C41 4.89543 40.1046 4 39 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 30L31 30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 36H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <rect x="17" y="12" width="14" height="10" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+  </symbol>
+
+  <symbol id="Filled/Books/table" viewBox="0 0 48 48" fill="none">
+    <rect x="8" y="4" width="32" height="40" rx="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M14 16H34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 24H34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 32H34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 12V36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/doc-search" viewBox="0 0 48 48" fill="none">
+    <path d="M38 4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44H38C39.1046 44 40 43.1046 40 42V6C40 4.89543 39.1046 4 38 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 16C28 17.3807 27.4404 18.6307 26.5355 19.5355C25.6307 20.4404 24.3807 21 23 21C20.2386 21 18 18.7614 18 16C18 13.2386 20.2386 11 23 11C25.7614 11 28 13.2386 28 16Z" fill="currentColor"></path>
+    <path d="M30 23L26.5355 19.5355M26.5355 19.5355C27.4404 18.6307 28 17.3807 28 16C28 13.2386 25.7614 11 23 11C20.2386 11 18 13.2386 18 16C18 18.7614 20.2386 21 23 21C24.3807 21 25.6307 20.4404 26.5355 19.5355Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 30L31 30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 36H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/seo-folder" viewBox="0 0 48 48" fill="none">
+    <path d="M4 9C4 7.89543 4.89543 7 6 7H19L24 13H42C43.1046 13 44 13.8954 44 15V39C44 40.1046 43.1046 41 42 41H6C4.89543 41 4 40.1046 4 39V9Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M14 22L19 27L14 32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 32H34" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/doc-fail" viewBox="0 0 48 48" fill="none">
+    <path d="M38 4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44H38C39.1046 44 40 43.1046 40 42V6C40 4.89543 39.1046 4 38 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 30L31 30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 36H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 21L28 13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 21L20 13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/folder-open" viewBox="0 0 48 48" fill="none">
+    <path d="M4 9V41L9 21H39.5V15C39.5 13.8954 38.6046 13 37.5 13H24L19 7H6C4.89543 7 4 7.89543 4 9Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40 41L44 21H8.8125L4 41H40Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/bookshelf" viewBox="0 0 48 48" fill="none">
+    <path d="M4 6H40C40 6 44 8 44 13C44 18 40 20 40 20H4C4 20 8 18 8 13C8 8 4 6 4 6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 28H8C8 28 4 30 4 35C4 40 8 42 8 42H44C44 42 40 40 40 35C40 30 44 28 44 28Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Books/book-open" viewBox="0 0 48 48" fill="none">
+    <path d="M4 7H16C20.4183 7 24 10.5817 24 15V43C24 39.6863 21.3137 37 18 37H4V7Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M44 7H32C27.5817 7 24 10.5817 24 15V43C24 39.6863 26.6863 37 30 37H44V7Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+  </symbol>
+</svg>

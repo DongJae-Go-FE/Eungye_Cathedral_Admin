@@ -1,7 +1,6 @@
 import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
 import Button from "@/components/Button";
 import DeleteButton from "@/components/_clientComponents/_btn/DeleteButton";
-import wait from "@/utils/wait";
 
 export default async function Page({
   params,
@@ -9,8 +8,6 @@ export default async function Page({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-
-  await wait(3000);
 
   return (
     <section className="common-layout">

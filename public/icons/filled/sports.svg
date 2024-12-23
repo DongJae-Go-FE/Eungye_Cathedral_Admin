@@ -1,0 +1,574 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="Filled/Sports/chess-one" viewBox="0 0 48 48" fill="none">
+    <path d="M40 44H8V40L14 37H34L40 40V44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 19H34" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27.74 19L33 37H15L20.26 19" fill="currentColor"></path>
+    <path d="M27.74 19L33 37H15L20.26 19" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 4C19.5817 4 16 7.58172 16 12C16 15.012 17.6646 17.6353 20.124 19H27.876C30.3354 17.6353 32 15.012 32 12C32 7.58172 28.4183 4 24 4Z" stroke="currentColor" stroke-width="4"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/muscle" viewBox="0 0 48 48" fill="none">
+    <path d="M21.37 36C22.82 30.75 27.89 27 33.73 27.62C39.29 28.21 43.71 32.9 43.99 38.48C44.06 39.95 43.86 41.36 43.43 42.67C43.17 43.47 42.39 44 41.54 44H11.7584C6.71004 44 2.92371 39.3814 3.91377 34.4311L9.99994 4H21.9999L25.9999 11L17.43 17.13L14.9999 14" fill="currentColor"></path>
+    <path d="M21.37 36C22.82 30.75 27.89 27 33.73 27.62C39.29 28.21 43.71 32.9 43.99 38.48C44.06 39.95 43.86 41.36 43.43 42.67C43.17 43.47 42.39 44 41.54 44H11.7584C6.71004 44 2.92371 39.3814 3.91377 34.4311L9.99994 4H21.9999L25.9999 11L17.43 17.13L14.9999 14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17.4395 17.1299L21.9995 33.9999" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/riding" viewBox="0 0 48 48" fill="none">
+    <path d="M33 14C35.7614 14 38 11.7614 38 9C38 6.23858 35.7614 4 33 4C30.2386 4 28 6.23858 28 9C28 11.7614 30.2386 14 33 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M40.0002 23.0001H32.3702C31.8102 23.0001 31.2702 22.7601 30.8902 22.3501L25.5502 16.5701C24.9002 15.8601 23.8402 15.7101 23.0202 16.2101L15.5702 20.7901C14.9402 21.1801 14.9402 22.1001 15.5702 22.4901L23.0302 27.0601C23.6202 27.4201 23.9902 28.0701 23.9902 28.7701L24.0002 38.0001" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="36.5" cy="36.5" r="7.5" fill="currentColor" stroke="currentColor" stroke-width="4"></circle>
+    <circle cx="11.5" cy="36.5" r="7.5" fill="currentColor" stroke="currentColor" stroke-width="4"></circle>
+  </symbol>
+
+  <symbol id="Filled/Sports/black-eight" viewBox="0 0 48 48" fill="none">
+    <path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M24 23C26.7614 23 29 20.7614 29 18C29 15.2386 26.7614 13 24 13C21.2386 13 19 15.2386 19 18C19 20.7614 21.2386 23 24 23Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M24 35C27.3137 35 30 32.3137 30 29C30 25.6863 27.3137 23 24 23C20.6863 23 18 25.6863 18 29C18 32.3137 20.6863 35 24 35Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/archers-bow" viewBox="0 0 48 48" fill="none">
+    <g clip-path="url(#clip0_6213_37613)">
+      <path d="M40.8505 43.9203L39.2762 43.6054C36.9266 43.1355 35.856 39.9985 36.6027 37.7217C38.5571 31.7627 37.1246 24.1114 36.3326 20.809C36.0869 19.7843 35.2752 19.0151 34.2529 18.7596L31.9902 18.1939C30.9153 17.9252 30.0761 17.0859 29.8074 16.0111L29.2417 13.7483C28.9861 12.726 28.217 11.9143 27.1922 11.6686C23.8899 10.8767 16.2385 9.44416 10.2795 11.3986C8.00278 12.1453 4.86576 11.0746 4.39585 8.72509L4.08097 7.15072" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M6 11L38 43" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M12 36L43 5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_6213_37613">
+        <rect width="48" height="48" fill="currentColor"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+
+  <symbol id="Filled/Sports/bottom-bar" viewBox="0 0 48 48" fill="none">
+    <path d="M13 20H17C17 20 24 27.28 24 34C24 40.72 18 44 18 44H12C12 44 6 40.72 6 34C6 27.28 13 20 13 20Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 4C17.0833 4 20 5.52 20 10C20 14.48 16.6667 20 16.6667 20H13.3333C13.3333 20 10 14.48 10 10C10 5.52 12.9167 4 15 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 20H35C35 20 42 27.28 42 34C42 40.72 36 44 36 44H30C30 44 24 40.72 24 34C24 27.28 31 20 31 20Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33 4C35.0833 4 38 5.52 38 10C38 14.48 34.6667 20 34.6667 20H31.3333C31.3333 20 28 14.48 28 10C28 5.52 30.9167 4 33 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/skiing-nordic" viewBox="0 0 48 48" fill="none">
+    <path d="M24 14C26.7614 14 29 11.7614 29 9C29 6.23858 26.7614 4 24 4C21.2386 4 19 6.23858 19 9C19 11.7614 21.2386 14 24 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M34 24H28L22 19L19 29L25 35L27 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 34L15 39L9 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M5 44H39L44 37" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 24V44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/hockey" viewBox="0 0 48 48" fill="none">
+    <path d="M36 4L30.23 31.41C30.03 32.34 29.22 33 28.27 33H9C7.34 33 6 34.34 6 36V37.55C6 41.03 8.95 43.78 12.43 43.53L29.49 42.31C32.16 42.12 34.38 40.18 34.93 37.56L42 4H36Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 16C19.4183 16 23 14.6569 23 13C23 11.3431 19.4183 10 15 10C10.5817 10 7 11.3431 7 13C7 14.6569 10.5817 16 15 16Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23 13V19C23 20.66 19.42 22 15 22C10.58 22 7 20.66 7 19V13" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/balance-one" viewBox="0 0 48 48" fill="none">
+    <path d="M35 25C27.89 22.42 20.11 22.42 13 25L12 14C19 11 29 11 36 14L35 25Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 23L21 18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42 39C42 40.6569 40.6569 42 39 42H9C7.34315 42 6 40.6569 6 39L6 9C6 7.34315 7.34315 6 9 6H39C40.6569 6 42 7.34315 42 9V39Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29 23.4552C25.6869 22.9349 22.3131 22.9349 19 23.4552" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/swimming-ring" viewBox="0 0 48 48" fill="none">
+    <path d="M28 33.1679C30.3069 32.16 32.16 30.3069 33.1679 28" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M14.832 28C15.84 30.3069 17.6931 32.16 19.9999 33.1679" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M19.9999 14.832C17.6931 15.84 15.84 17.6931 14.832 19.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M28 14.832C30.3069 15.84 32.16 17.6931 33.1679 19.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M30 40.9758C35.1145 39.1681 39.1681 35.1145 40.9758 30" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M7.02344 30C8.83115 35.1145 12.8847 39.1681 17.9992 40.9758" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M17.9992 7.02417C12.8847 8.83188 8.83115 12.8855 7.02344 17.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M30 7.02417C35.1145 8.83188 39.1681 12.8855 40.9758 17.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M27 17H21L18 7L20 4H28L30 7L27 17Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M17 21V27L7 30L4 28L4 20L7 18L17 21Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M21 31H27L30 41L28 44H20L18 41L21 31Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M31 27V21L41 18C42.08 18.8 42.92 19.2 44 20V28C42.92 28.8 42.08 29.2 41 30L31 27Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/spinning-top" viewBox="0 0 48 48" fill="none">
+    <path d="M24 44V41" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 20L24 41L4 20H44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 12H4V20H44V12Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 12V4" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/boxing-one" viewBox="0 0 48 48" fill="none">
+    <path d="M13 26H15C17.76 26 20 23.76 20 21C20 18.24 17.76 16 15 16H11C8.24 16 6 18.24 6 21V30C6 33.3137 8.68629 36 12 36H36C39.3137 36 42 33.3137 42 30V26C42 23.7909 40.2091 22 38 22H24" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 44H14C12.89 44 12 43.1 12 42V36H36V42C36 43.1 35.1 44 34 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 20C5 20 4 18 4 16V12C4 7.58 7.58 4 12 4H36C40.42 4 44 7.58 44 12V16C44 19.31 41.31 22 38 22H19.9" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/arena" viewBox="0 0 48 48" fill="none">
+    <path d="M44 26L24 36L4 26L24 16L44 26Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M24 7L44 17L24 27L4 17L24 7Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M44 26V34L24 44L4 34V26L24 36L44 26Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 14V17V26" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 26V17V14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 36V24" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 16V4" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/diving-bottle" viewBox="0 0 48 48" fill="none">
+    <path d="M4 40L6.5 41.3514C8.1 42.2162 9.9 42.2162 11.5 41.3514C13.1 40.4865 14.9 40.4865 16.5 41.3514C18.1 42.2162 19.9 42.2162 21.5 41.3514C23.1 40.4865 24.9 40.4865 26.5 41.3514C28.1 42.2162 29.9 42.2162 31.5 41.3514C33.1 40.4865 34.9 40.4865 36.5 41.3514C38.1 42.2162 39.9 42.2162 41.5 41.3514L44 40" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 11V4" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 11V4" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 8V4" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 8V4" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <line x1="12" y1="6" x2="20" y2="6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+    <line x1="29" y1="6" x2="37" y2="6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+    <rect x="10" y="11" width="8" height="24" rx="4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <rect x="27" y="11" width="8" height="24" rx="4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M27 15C27 12.7909 28.7909 11 31 11C33.2091 11 35 12.7909 35 15V19H27V15Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 15C10 12.7909 11.7909 11 14 11C16.2091 11 18 12.7909 18 15V19H10V15Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/sailboat" viewBox="0 0 48 48" fill="none">
+    <path d="M8 28L6 24H42L40 28" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.0001 4L10 24H28.0001V4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 11L38 24H28V11Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 34L6.5 35.3514C8.1 36.2162 9.9 36.2162 11.5 35.3514C13.1 34.4865 14.9 34.4865 16.5 35.3514C18.1 36.2162 19.9 36.2162 21.5 35.3514C23.1 34.4865 24.9 34.4865 26.5 35.3514C28.1 36.2162 29.9 36.2162 31.5 35.3514C33.1 34.4865 34.9 34.4865 36.5 35.3514C38.1 36.2162 39.9 36.2162 41.5 35.3514L44 34" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 40L6.5 41.3514C8.1 42.2162 9.9 42.2162 11.5 41.3514C13.1 40.4865 14.9 40.4865 16.5 41.3514C18.1 42.2162 19.9 42.2162 21.5 41.3514C23.1 40.4865 24.9 40.4865 26.5 41.3514C28.1 42.2162 29.9 42.2162 31.5 41.3514C33.1 40.4865 34.9 40.4865 36.5 41.3514C38.1 42.2162 39.9 42.2162 41.5 41.3514L44 40" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/skate" viewBox="0 0 48 48" fill="none">
+    <path d="M44 39.8201H4L36.54 21.8201H44V39.8201Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M3.85742 19.2009L7.08947 20.799L24.41 10.799L24.642 7.20093" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12.3301 24.8799C13.9869 24.8799 15.3301 23.5367 15.3301 21.8799C15.3301 20.223 13.9869 18.8799 12.3301 18.8799C10.6732 18.8799 9.33008 20.223 9.33008 21.8799C9.33008 23.5367 10.6732 24.8799 12.3301 24.8799Z" fill="currentColor"></path>
+    <path d="M23.4492 18.8801C25.1061 18.8801 26.4492 17.537 26.4492 15.8801C26.4492 14.2233 25.1061 12.8801 23.4492 12.8801C21.7924 12.8801 20.4492 14.2233 20.4492 15.8801C20.4492 17.537 21.7924 18.8801 23.4492 18.8801Z" fill="currentColor"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/weightlifting" viewBox="0 0 48 48" fill="none">
+    <path d="M24 27C26.7614 27 29 24.7614 29 22C29 19.2386 26.7614 17 24 17C21.2386 17 19 19.2386 19 22C19 24.7614 21.2386 27 24 27Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M4 9H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 4V14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 4V14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M11 9V26.1L24 34L37 26V9" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 34V44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/boxing" viewBox="0 0 48 48" fill="none">
+    <path d="M38 36V42C38 43.1 37.11 44 36 44H17C15.9 44 15 43.11 15 42V36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M11 15V10C11 6.68629 13.6863 4 17 4H28H38C41.3137 4 44 6.68629 44 10V30C44 33.3137 41.3198 36 38.006 36C30.9668 36 19.6598 36 15 36C8 36 4 28 4 23C4 18 4 15 4 15H11Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <line x1="11" y1="14" x2="11" y2="22" stroke="currentColor" stroke-width="4" stroke-linecap="round"></line>
+  </symbol>
+
+  <symbol id="Filled/Sports/kungfu" viewBox="0 0 48 48" fill="none">
+    <path d="M11 17C13.7614 17 16 14.7614 16 12C16 9.23858 13.7614 7 11 7C8.23858 7 6 9.23858 6 12C6 14.7614 8.23858 17 11 17Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M20 18L28 24L25 42" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 24L44 11" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 16.8L27 8L20 18L16 27L10 30" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/waterpolo-one" viewBox="0 0 48 48" fill="none">
+    <path d="M4 35L6.5 36.3514C8.1 37.2162 9.9 37.2162 11.5 36.3514C13.1 35.4865 14.9 35.4865 16.5 36.3514C18.1 37.2162 19.9 37.2162 21.5 36.3514C23.1 35.4865 24.9 35.4865 26.5 36.3514C28.1 37.2162 29.9 37.2162 31.5 36.3514C33.1 35.4865 34.9 35.4865 36.5 36.3514C38.1 37.2162 39.9 37.2162 41.5 36.3514L44 35" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 41L6.5 42.3514C8.1 43.2162 9.9 43.2162 11.5 42.3514C13.1 41.4865 14.9 41.4865 16.5 42.3514C18.1 43.2162 19.9 43.2162 21.5 42.3514C23.1 41.4865 24.9 41.4865 26.5 42.3514C28.1 43.2162 29.9 43.2162 31.5 42.3514C33.1 41.4865 34.9 41.4865 36.5 42.3514C38.1 43.2162 39.9 43.2162 41.5 42.3514L44 41" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M25 18C27.7614 18 30 15.7614 30 13C30 10.2386 27.7614 8 25 8C22.2386 8 20 10.2386 20 13C20 15.7614 22.2386 18 25 18Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M25 29L24 25" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 11L11 22L24 24.93H42" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M11 10C12.6569 10 14 8.65685 14 7C14 5.34315 12.6569 4 11 4C9.34315 4 8 5.34315 8 7C8 8.65685 9.34315 10 11 10Z" fill="currentColor"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/soccer-one" viewBox="0 0 48 48" fill="none">
+    <path d="M29 14C31.7614 14 34 11.7614 34 9C34 6.23858 31.7614 4 29 4C26.2386 4 24 6.23858 24 9C24 11.7614 26.2386 14 29 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M19 46C20.6569 46 22 44.6569 22 43C22 41.3431 20.6569 40 19 40C17.3431 40 16 41.3431 16 43C16 44.6569 17.3431 46 19 46Z" fill="currentColor"></path>
+    <path d="M24.38 18.9099L20 26.9999L27.31 33.0199C27.62 33.2599 27.84 33.5899 27.97 33.9599L31 43.9999" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 27L14.51 34.64C13.97 35.43 12.95 35.73 12.07 35.36L4 32" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42 23.9999H35C34.64 23.9999 34.28 23.9099 33.96 23.7299L30.75 21.9199C26.74 19.5699 22.35 17.9599 17.78 17.1399L14.56 16.5699C14.11 16.4899 13.64 16.5699 13.24 16.7899L7 19.9999" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/heartbeat" viewBox="0 0 48 48" fill="none">
+    <path d="M11 32L18 23L24 32L30 23L35 31H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 19C44 12.9249 39.0751 8 33 8C29.2797 8 25.9907 9.8469 24 12.6738C22.0093 9.8469 18.7203 8 15 8C8.92487 8 4 12.9249 4 19C4 30 17 40 24 42.3262C25.1936 41.9295 26.5616 41.3098 28.0099 40.5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/skating" viewBox="0 0 48 48" fill="none">
+    <path d="M44 4H28V12H44V4Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 12V34C44 35.11 43.11 36 42 36H8C5.79 36 4 34.21 4 32V26C4 21.58 7.58 18 12 18H28V12H44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 24V18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 24V18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 44V36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 44V36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23 18L12 18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 43.9999H6C4.89 43.9999 4 43.0999 4 41.9999V40.6299" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/target-two" viewBox="0 0 48 48" fill="none">
+    <path d="M24 41C33.39 41 41 33.39 41 24C41 14.61 33.39 7 24 7C14.61 7 7 14.61 7 24C7 33.39 14.61 41 24 41Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M24 32C28.42 32 32 28.42 32 24C32 19.58 28.42 16 24 16C19.58 16 16 19.58 16 24C16 28.42 19.58 32 24 32Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M4 24H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 4V44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/diving-suit" viewBox="0 0 48 48" fill="none">
+    <path d="M17 24H14.09C8.52 24 4 19.5203 4 14C4 8.47968 8.52 4 14.09 4L20 9L25.91 4C31.48 4 36 8.47968 36 14C36 19.5203 31.48 24 25.91 24H23" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 36H14V44H26V36Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 40H36C40.42 40 44 36.42 44 32V14H36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21.2207 30H20.0007H18.7807C17.3207 30 16.2107 28.69 16.4507 27.26L17.6708 19.97C17.8608 18.83 18.8408 18 20.0008 18C21.1508 18 22.1408 18.83 22.3308 19.97L23.5507 27.26C23.7807 28.69 22.6707 30 21.2207 30Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/curling" viewBox="0 0 48 48" fill="none">
+    <path d="M38 42H10C6.69 42 4 39.32 4 36V28C4 24.69 6.68 22 10 22H38C41.31 22 44 24.68 44 28V36C44 39.32 41.32 42 38 42Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M4 32H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 22L16.48 7.2C16.79 6.47 17.51 6 18.31 6H35.5C37.43 6 39 7.57 39 9.5C39 11.43 37.43 13 35.5 13H22V22H10Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/waterpolo" viewBox="0 0 48 48" fill="none">
+    <path d="M4 34L6.5 35.3514C8.1 36.2162 9.9 36.2162 11.5 35.3514C13.1 34.4865 14.9 34.4865 16.5 35.3514C18.1 36.2162 19.9 36.2162 21.5 35.3514C23.1 34.4865 24.9 34.4865 26.5 35.3514C28.1 36.2162 29.9 36.2162 31.5 35.3514C33.1 34.4865 34.9 34.4865 36.5 35.3514C38.1 36.2162 39.9 36.2162 41.5 35.3514L44 34" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 40L6.5 41.3514C8.1 42.2162 9.9 42.2162 11.5 41.3514C13.1 40.4865 14.9 40.4865 16.5 41.3514C18.1 42.2162 19.9 42.2162 21.5 41.3514C23.1 40.4865 24.9 40.4865 26.5 41.3514C28.1 42.2162 29.9 42.2162 31.5 41.3514C33.1 40.4865 34.9 40.4865 36.5 41.3514C38.1 42.2162 39.9 42.2162 41.5 41.3514L44 40" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43.5886 28C44.3784 24.171 44.0485 20.0621 42.399 16.1932C38.0903 6.02588 26.3439 1.27715 16.1871 5.596C7.28981 9.37498 2.55127 18.8325 4.39071 27.94" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16.0009 6C14.4709 13.17 17.7909 20.11 24.0009 24" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23.3906 28C23.7406 26.71 23.9506 25.37 24.0006 24" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 25.9999C38.55 21.0899 30.47 20.5599 24 23.9999" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 16C18 16 28.56 7.50998 41 14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13 28C10.01 24.73 7.26 20.29 7 14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34.3097 22.0901C34.3097 22.0901 34.5297 24.5901 33.9297 28.0401" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/rope-skipping" viewBox="0 0 48 48" fill="none">
+    <path d="M10 32C10 32 10 14.866 10 11C10 7.13401 13.134 4 17 4C20.866 4 24 7.13401 24 11C24 11 24 33.134 24 37C24 40.866 27.134 44 31 44C34.866 44 38 40.866 38 37V16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M41 4V16H35V4H41Z" fill="currentColor"></path>
+    <path d="M32 16H35M44 16H41M41 16V4H35V16M41 16H35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 44V32H13V44H7Z" fill="currentColor"></path>
+    <path d="M16 32H13M4 32H7M7 32V44H13V32M7 32H13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/gold-medal-two" viewBox="0 0 48 48" fill="none">
+    <path d="M36 32C36 28.446 34.455 25.2529 32 23.0556C29.877 21.1554 27.0734 20 24 20C20.9266 20 18.123 21.1554 16 23.0556C13.545 25.2529 12 28.446 12 32C12 38.6274 17.3726 44 24 44C30.6274 44 36 38.6274 36 32Z" fill="currentColor"></path>
+    <path d="M16 4H32V20V23.0556C29.877 21.1554 27.0734 20 24 20C20.9266 20 18.123 21.1554 16 23.0556V20V4Z" fill="currentColor"></path>
+    <path d="M16 4H32M16 4H8V14L16 20M16 4V20M32 4H40V14L32 20M32 4V20M16 23.0556C18.123 21.1554 20.9266 20 24 20C27.0734 20 29.877 21.1554 32 23.0556M16 23.0556C13.545 25.2529 12 28.446 12 32C12 38.6274 17.3726 44 24 44C30.6274 44 36 38.6274 36 32C36 28.446 34.455 25.2529 32 23.0556M16 23.0556V20M32 23.0556V20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 4H40V14L32 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 4H8V14L16 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 32C36 28.446 34.455 25.2529 32 23.0556C29.877 21.1554 27.0734 20 24 20C20.9266 20 18.123 21.1554 16 23.0556C13.545 25.2529 12 28.446 12 32C12 38.6274 17.3726 44 24 44C30.6274 44 36 38.6274 36 32Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 4.00009H32V20.0001V23.0557C29.877 21.1555 27.0734 20.0001 24 20.0001C20.9266 20.0001 18.123 21.1555 16 23.0557V20.0001V4.00009Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 37V27L22 28M24 37H26M24 37H22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/golf-course" viewBox="0 0 48 48" fill="none">
+    <ellipse cx="24" cy="34" rx="20" ry="10" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <circle cx="32" cy="34" r="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <path d="M24 9L13 4V14L24 9Z" fill="currentColor"></path>
+    <path d="M13 34V14M13 14V4L24 9L13 14Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/tennis" viewBox="0 0 48 48" fill="none">
+    <path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="currentColor" stroke-width="4"></path>
+    <path d="M24 4C23.8991 10.6682 22.2619 15.6696 19.0884 19.0044C15.9148 22.3391 10.8853 24.0071 4 24.0083" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43.9682 25.0052C37.4557 24.5585 32.4795 25.9505 29.0395 29.1812C25.5994 32.4119 23.9206 37.3515 24.0029 43.9999" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/dumbbell" viewBox="0 0 48 48" fill="none">
+    <path d="M14 13.6C14 12.1641 12.6569 11 11 11C9.34315 11 8 12.1641 8 13.6V34.4C8 35.8359 9.34315 37 11 37C12.6569 37 14 35.8359 14 34.4V13.6Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M40 13.6C40 12.1641 38.6569 11 37 11C35.3431 11 34 12.1641 34 13.6V34.4C34 35.8359 35.3431 37 37 37C38.6569 37 40 35.8359 40 34.4V13.6Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M8 18.6667C8 17.1939 6.65685 16 5 16C3.34315 16 2 17.1939 2 18.6667V29.3333C2 30.8061 3.34315 32 5 32C6.65685 32 8 30.8061 8 29.3333V18.6667Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M46 18.6667C46 17.1939 44.6569 16 43 16C41.3431 16 40 17.1939 40 18.6667V29.3333C40 30.8061 41.3431 32 43 32C44.6569 32 46 30.8061 46 29.3333V18.6667Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <rect width="20" height="6" transform="matrix(1 0 0 -1 14 27)" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+  </symbol>
+
+  <symbol id="Filled/Sports/rope-skipping" viewBox="0 0 48 48" fill="none">
+    <path d="M7 40.0001V22.0001C7 22.0001 8 8.00007 15 5.00008C22 2.00009 30 11.0001 30 20.0001C30 25.0001 28 29.0001 24 29.0001C20 29.0001 18 25.0001 18 20.0001C18 11.0001 26 2.00008 33 5.00008C40 8.00007 41 22.0001 41 22.0001V40.0001" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 31H10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 31H44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/court" viewBox="0 0 48 48" fill="none">
+    <path d="M24 36H44V12H4V36H24ZM24 36V28M24 12V20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="24" cy="24" r="4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <path d="M11 24C11 26.2091 9.20914 28 7 28H4V20H7C9.20914 20 11 21.7909 11 24Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37 24C37 26.2091 38.7909 28 41 28H44V20H41C38.7909 20 37 21.7909 37 24Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/torch" viewBox="0 0 48 48" fill="none">
+    <path d="M27 34H21V44H27V34Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 34H17L14 26H34L31 34Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21.0006 14C23.0006 9.39 27.0006 4 27.0006 4C27.0006 4 33.3606 15.49 33.3606 19.23C33.3606 22.97 30.7406 26 27.0006 26H19.0006C16.3606 26 14.6406 23.86 14.6406 21.22C14.6406 18.58 19.0006 10 19.0006 10C19.0006 10 19.9606 12.01 21.0006 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/treadmill" viewBox="0 0 48 48" fill="none">
+    <path d="M39.75 44.0001H9.31C6.38 44.0001 4 41.6201 4 38.6901V33.2701C4 32.0601 5.06 31.1301 6.25 31.2801L40.27 35.5301C42.4 35.8001 44 37.6101 44 39.7501C44 42.1001 42.1 44.0001 39.75 44.0001Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 32L4 4H10.43" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 31L12 23" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M25 15H9" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/spikedshoes" viewBox="0 0 48 48" fill="none">
+    <path d="M44 6H28V14H44V6Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 14V36C44 37.11 43.11 38 42 38H8C5.79 38 4 36.21 4 34V28C4 23.58 7.58 20 12 20H28V14H44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 26V20" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 26V20" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 42V38" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8 42V38" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 42V38" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 42V38" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M41 42V38" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23 20L12 20" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/rugby-one" viewBox="0 0 48 48" fill="none">
+    <path d="M4 24C6.2922 32.63 14.3769 39 24 39C33.6231 39 41.7078 32.63 44 24C41.7078 15.37 33.6231 9 24 9C14.3769 9 6.2922 15.37 4 24Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M40 24H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 24H34" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 24H8" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 20V28" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 20V28" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 20V28" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/chess" viewBox="0 0 48 48" fill="none">
+    <path d="M34 4H14V14H34V4Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 14L33 37H15L21 14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40 44H8V40L14 37H34L40 40V44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 23.02H36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20.5 4V8" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27.5 4V8" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/volleyball" viewBox="0 0 48 48" fill="none">
+    <path d="M31.81 42.4054C41.9782 38.0865 46.7173 26.3494 42.4081 16.192C38.0989 6.0345 26.351 1.27569 16.1928 5.59461C6.03464 9.91353 1.2755 21.6506 5.59472 31.808C9.91394 41.9655 21.6518 46.7243 31.81 42.4054Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M16.0006 6C14.5069 13.0103 17.9377 20.1966 24.0006 24" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 40C18.97 37.74 23.74 31.32 24 24" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 25.0001C38.55 20.3276 29.5 20.4033 24 24.0001" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 16C17 16 28.56 7.50998 41 14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M20 33C20 33 7.59 28.02 7 14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M34.0007 22C34.0007 22 35.5607 36.5 23.7207 44.03" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/five-star-badge" viewBox="0 0 48 48" fill="none">
+    <path d="M23.1033 20.817C23.4701 20.0737 24.5299 20.0737 24.8967 20.817L27.8818 26.8654C28.0275 27.1606 28.3091 27.3652 28.6348 27.4125L35.3096 28.3824C36.1298 28.5016 36.4574 29.5096 35.8638 30.0881L31.0339 34.7962C30.7982 35.0259 30.6906 35.3569 30.7463 35.6813L31.8865 42.3292C32.0266 43.1461 31.1691 43.769 30.4355 43.3834L24.4653 40.2446C24.174 40.0915 23.826 40.0915 23.5347 40.2446L17.5645 43.3834C16.8309 43.769 15.9734 43.1461 16.1135 42.3292L17.2537 35.6813C17.3094 35.3569 17.2018 35.0259 16.9661 34.7962L12.1362 30.0881C11.5426 29.5096 11.8702 28.5016 12.6904 28.3824L19.3652 27.4125C19.6909 27.3652 19.9725 27.1606 20.1182 26.8654L23.1033 20.817Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 4H12V14L24 19L36 14V4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/gymnastics-one" viewBox="0 0 48 48" fill="none">
+    <path d="M27 24C29.7614 24 32 21.7614 32 19C32 16.2386 29.7614 14 27 14C24.2386 14 22 16.2386 22 19C22 21.7614 24.2386 24 27 24Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M23 29L21 36L12 33L8 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 36L22.49 42.48C22.71 43.37 23.51 44 24.43 44H35.01" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 23L23 29L14 20L13 11" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 4C14 4 14.69 4 17 4C29 4 44 5.45 44 32" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/gymnastics" viewBox="0 0 48 48" fill="none">
+    <path d="M24 22C26.7614 22 29 19.7614 29 17C29 14.2386 26.7614 12 24 12C21.2386 12 19 14.2386 19 17C19 19.7614 21.2386 22 24 22Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M23 29L21 36L12 34L7 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 36L23 44H34" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M7 23L23 29L35 27L41.04 22.03" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 4.00009C26 2.00009 36 6.00009 44 15.0001" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/swimming-pool" viewBox="0 0 48 48" fill="none">
+    <path d="M36 27V8C36 5.79 37.79 4 40 4H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 27V8C10 5.79 11.79 4 14 4H18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 12H36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10 20H36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 34L6.5 35.3514C8.1 36.2162 9.9 36.2162 11.5 35.3514C13.1 34.4865 14.9 34.4865 16.5 35.3514C18.1 36.2162 19.9 36.2162 21.5 35.3514C23.1 34.4865 24.9 34.4865 26.5 35.3514C28.1 36.2162 29.9 36.2162 31.5 35.3514C33.1 34.4865 34.9 34.4865 36.5 35.3514C38.1 36.2162 39.9 36.2162 41.5 35.3514L44 34" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 40L6.5 41.3514C8.1 42.2162 9.9 42.2162 11.5 41.3514C13.1 40.4865 14.9 40.4865 16.5 41.3514C18.1 42.2162 19.9 42.2162 21.5 41.3514C23.1 40.4865 24.9 40.4865 26.5 41.3514C28.1 42.2162 29.9 42.2162 31.5 41.3514C33.1 40.4865 34.9 40.4865 36.5 41.3514C38.1 42.2162 39.9 42.2162 41.5 41.3514L44 40" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/softball" viewBox="0 0 48 48" fill="none">
+    <path d="M24 44C35.05 44 44 35.05 44 24C44 12.95 35.05 4 24 4C12.95 4 4 12.95 4 24C4 35.05 12.95 44 24 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M10 38C13.7 34.37 16 29.59 16 24C16 18.48 13.62 13.62 10 10" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 38C34.3 34.37 32 29.59 32 24C32 18.48 34.38 13.62 38 10" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 24H36" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 24H20" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 34L36 31" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 17L30 14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 34L12 31" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 17L18 14" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/tabletennis" viewBox="0 0 48 48" fill="none">
+    <path d="M31.4492 16.96C34.2106 16.96 36.4492 14.7214 36.4492 11.96C36.4492 9.19854 34.2106 6.95996 31.4492 6.95996C28.6878 6.95996 26.4492 9.19854 26.4492 11.96C26.4492 14.7214 28.6878 16.96 31.4492 16.96Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M36 34L34 23L23 28L10 25" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 41.03H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="9" cy="25" r="5" fill="currentColor"></circle>
+    <circle cx="6" cy="17" r="2" fill="currentColor"></circle>
+    <path d="M34 23L44 29L29 34" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports//thin" viewBox="0 0 48 48" fill="none">
+    <path d="M33 25H15C13.41 25 11.23 24.77 10 24C6.35 21.69 5.66004 16.63 8.00004 13L14.0001 4C17.9301 12.43 30.04 12.42 34 4L40 13C42.34 16.63 41.64 21.69 38 24C36.77 24.78 34.59 25 33 25Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 25L14.52 34.55C15.39 37.93 14.46 41.52 12 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M35.9994 25L33.4794 34.58C32.6094 37.96 33.5394 41.52 35.9994 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 42V40" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/rings" viewBox="0 0 48 48" fill="none">
+    <path d="M13 43C17.42 43 21 39.42 21 35C21 30.58 17.42 27 13 27C8.58 27 5 30.58 5 35C5 39.42 8.58 43 13 43Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M35 43C39.42 43 43 39.42 43 35C43 30.58 39.42 27 35 27C30.58 27 27 30.58 27 35C27 39.42 30.58 43 35 43Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 5H42" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13 27V5" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="square" stroke-linejoin="round"></path>
+    <path d="M35 27V5" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="square" stroke-linejoin="round"></path>
+    <path d="M9 19H17" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 19H39" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/badminton" viewBox="0 0 48 48" fill="none">
+    <path d="M19.5 44C21.99 44 24 41.99 24 39.5V19H20L15 39.5C15 41.99 17.01 44 19.5 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20.0004 19H16.0004L6.68045 37.9C5.57045 40.51 7.16045 43.64 9.98045 43.97C10.1504 43.99 10.3204 44 10.5004 44C12.9904 44 15.0004 41.99 15.0004 39.5" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28.5 44C26.01 44 24 41.99 24 39.5V19H28L33 39.5C33 41.99 30.99 44 28.5 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 19H32L41.32 37.9C42.43 40.51 40.84 43.64 38.02 43.97C37.85 43.99 37.68 44 37.5 44C35.01 44 33 41.99 33 39.5" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16.06 13C16.02 12.67 16 12.34 16 12C16 7.58 19.58 4 24 4C28.42 4 32 7.58 32 12C32 12.34 31.98 12.67 31.94 13H16.06Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/basketball-stand" viewBox="0 0 48 48" fill="none">
+    <rect x="4" y="5" width="40" height="28" rx="2" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M31 22V15H17V22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 39H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 33H31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 27L30 39L31 43" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 27L18 39L17 43" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 27L24 43" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 27L14 27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/sport" viewBox="0 0 48 48" fill="none">
+    <path d="M36 15C38.7614 15 41 12.7614 41 10C41 7.23858 38.7614 5 36 5C33.2386 5 31 7.23858 31 10C31 12.7614 33.2386 15 36 15Z" fill="currentColor" stroke="currentColor" stroke-width="4"></path>
+    <path d="M12 16.7691L20.0031 13.998L31 19.2466L20.0031 27.4442L31 34.6834L24.0083 43.998" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M35.3203 21.6434L38.002 23.1018L44.0003 17.4658" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16.849 31.5454L13.8793 35.4572L4.00391 40.9964" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/treadmill-one" viewBox="0 0 48 48" fill="none">
+    <path d="M30 14C32.7614 14 35 11.7614 35 9C35 6.23858 32.7614 4 30 4C27.2386 4 25 6.23858 25 9C25 11.7614 27.2386 14 30 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M11 21L17 16L25 19L22 25L29 31L31 38" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 25L17 33L9 32" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 44H40L44 35" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M25 19L33 24L39 22" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/target-one" viewBox="0 0 47.77777862548828 47.77777862548828" fill="none">
+    <path d="M23.8887 39.8889C32.7287 39.8889 39.8887 32.7289 39.8887 23.8889C39.8887 15.0489 32.7287 7.88892 23.8887 7.88892C15.0487 7.88892 7.88867 15.0489 7.88867 23.8889C7.88867 32.7289 15.0487 39.8889 23.8887 39.8889Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M23.8887 31.8889C28.3087 31.8889 31.8887 28.3089 31.8887 23.8889C31.8887 19.4689 28.3087 15.8889 23.8887 15.8889C19.4687 15.8889 15.8887 19.4689 15.8887 23.8889C15.8887 28.3089 19.4687 31.8889 23.8887 31.8889Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M23.8887 25.8889C24.9887 25.8889 25.8887 24.9889 25.8887 23.8889C25.8887 22.7889 24.9887 21.8889 23.8887 21.8889C22.7887 21.8889 21.8887 22.7889 21.8887 23.8889C21.8887 24.9889 22.7887 25.8889 23.8887 25.8889Z" fill="currentColor"></path>
+    <path d="M23.8887 7.88892V3.88892" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M37.8887 43.8889L33.8887 36.8889" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13.8887 36.8889L9.88867 43.8889" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/gold-medal" viewBox="0 0 48 48" fill="none">
+    <path d="M44 4H31L27 14.3001C31.4614 15.2057 35.2038 18.0914 37.2699 22L44 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 4H4L10.7301 22C12.7962 18.0914 16.5386 15.2057 21 14.3001L17 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39 29C39 37.2843 32.2843 44 24 44C15.7157 44 9 37.2843 9 29C9 26.4718 9.62546 24.0897 10.7301 22C12.7962 18.0914 16.5386 15.2057 21 14.3001C21.9693 14.1033 22.9726 14 24 14C25.0274 14 26.0307 14.1033 27 14.3001C31.4614 15.2057 35.2038 18.0914 37.2699 22C38.3745 24.0897 39 26.4718 39 29Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 35V22L21 23M24 35H28M24 35H20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/play-basketball" viewBox="0 0 48 48" fill="none">
+    <path d="M32 16C34.7614 16 37 13.7614 37 11C37 8.23858 34.7614 6 32 6C29.2386 6 27 8.23858 27 11C27 13.7614 29.2386 16 32 16Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M23 40L31.11 37.94C31.89 37.75 32.13 36.75 31.53 36.22L23 29L27 21L16.59 17.26C16.09 17.08 15.69 16.72 15.46 16.24L11 8" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23 29L16.0301 37.79C15.8201 38.04 15.5601 38.24 15.2601 38.36L5 42" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 21L36.9 23.79C37.37 23.93 37.78 24.23 38.04 24.64L42 31" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 8C19.6569 8 21 6.65685 21 5C21 3.34315 19.6569 2 18 2C16.3431 2 15 3.34315 15 5C15 6.65685 16.3431 8 18 8Z" fill="currentColor"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/towel" viewBox="0 0 48 48" fill="none">
+    <path d="M36 18H4V26H36V18Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 12V32C36 34.2091 34.2091 36 32 36H12M12 36H8C5.79086 36 4 34.2091 4 32V8C4 5.79086 5.79086 4 8 4H40C42.2091 4 44 5.79086 44 8V40C44 42.21 42.21 44 40 44H16C13.79 44 12 42.21 12 40V36Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/helmet" viewBox="0 0 48 48" fill="none">
+    <path d="M42.34 32C43.41 29.55 44 26.84 44 24C44 12.95 35.05 4 24 4C12.95 4 4 12.95 4 24H24L24.01 32C24.01 35.87 27.14 39 31.01 39C34.88 39 38.01 35.87 38.01 32H42.34Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 34C32.1 34 33 33.1 33 32C33 30.9 32.1 30 31 30C29.9 30 29 30.9 29 32C29 33.1 29.9 34 31 34Z" fill="currentColor"></path>
+    <path d="M24 32L6 36C8.23 39.17 10.45 42.37 14 44L26 37" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/wingsuit-flying" viewBox="0 0 48 48" fill="none">
+    <path d="M24 14C26.7614 14 29 11.7614 29 9C29 6.23858 26.7614 4 24 4C21.2386 4 19 6.23858 19 9C19 11.7614 21.2386 14 24 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M24 20C15.29 20 8 27.28 8 36H15V44H33V36H40C40.01 27.29 32.71 20 24 20Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 36V23" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33 36L33 23" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 44V20" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/basketball-one" viewBox="0 0 48 48" fill="none">
+    <path d="M18 24C18 17.3762 23.3762 12 30 12C36.6238 12 42 17.3762 42 24" fill="currentColor"></path>
+    <path d="M18 24C18 17.3762 23.3762 12 30 12C36.6238 12 42 17.3762 42 24" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 4H4V36H12V4Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 24H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 24L20 28.5C22 33.5 21.9 38.9 20 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40.9997 24L38.9997 28.5C36.9996 33.5 37.0896 38.9 38.9996 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21.2207 32H37.7807" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21.6895 40H37.3195" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29.5 40V24" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/checkerboard" viewBox="0 0 48 48" fill="none">
+    <path d="M17 4H7C5.34315 4 4 5.34315 4 7V17V31V41C4 42.6569 5.34315 44 7 44H17H31H41C42.6569 44 44 42.6569 44 41V31V17V7C44 5.34315 42.6569 4 41 4H31H17Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <line x1="23" y1="17" x2="44" y2="17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+    <line x1="4" y1="17" x2="13" y2="17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+    <line x1="35" y1="31" x2="44" y2="31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+    <line x1="6" y1="31" x2="25" y2="31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+    <line x1="17" y1="21" x2="17" y2="44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+    <path d="M31 4L31 27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 35L31 44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 4L17 13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M35 31C35 33.2091 33.2091 35 31 35C28.7909 35 27 33.2091 27 31C27 28.7909 28.7909 27 31 27C33.2091 27 35 28.7909 35 31Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 17C21 19.2091 19.2091 21 17 21C14.7909 21 13 19.2091 13 17C13 14.7909 14.7909 13 17 13C19.2091 13 21 14.7909 21 17Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/rowing" viewBox="0 0 48 48" fill="none">
+    <path d="M30.0195 16C32.781 16 35.0195 13.7614 35.0195 11C35.0195 8.23858 32.781 6 30.0195 6C27.2581 6 25.0195 8.23858 25.0195 11C25.0195 13.7614 27.2581 16 30.0195 16Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M42 31L35 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32.01 40L26 29L9 40L21 20L44 25" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 40H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/badge-two" viewBox="0 0 48 48" fill="none">
+    <path d="M16 43.9999L24 39.9999L32 43.9999V24.9443C29.877 26.8445 27.0734 27.9999 24 27.9999C20.9266 27.9999 18.123 26.8445 16 24.9443V43.9999Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 16C36 19.554 34.455 22.7471 32 24.9444C29.877 26.8446 27.0734 28 24 28C20.9266 28 18.123 26.8446 16 24.9444C13.545 22.7471 12 19.554 12 16C12 9.37258 17.3726 4 24 4C30.6274 4 36 9.37258 36 16Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 21V11L22 12M24 21H26M24 21H22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/bowling" viewBox="0 0 48 48" fill="none">
+    <path d="M24 44C35.05 44 44 35.05 44 24C44 12.95 35.05 4 24 4C12.95 4 4 12.95 4 24C4 35.05 12.95 44 24 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M24 26C25.66 26 27 24.66 27 23C27 21.34 25.66 20 24 20C22.34 20 21 21.34 21 23C21 24.66 22.34 26 24 26Z" fill="currentColor"></path>
+    <path d="M31 18C32.66 18 34 16.66 34 15C34 13.34 32.66 12 31 12C29.34 12 28 13.34 28 15C28 16.66 29.34 18 31 18Z" fill="currentColor"></path>
+    <path d="M17 18C18.66 18 20 16.66 20 15C20 13.34 18.66 12 17 12C15.34 12 14 13.34 14 15C14 16.66 15.34 18 17 18Z" fill="currentColor"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/soccer" viewBox="0 0 48 48" fill="none">
+    <path d="M17.8172 4.97973C7.30905 8.38921 1.57007 19.6775 4.97947 30.1758C8.38886 40.6742 19.6769 46.4233 30.175 43.0139C40.6831 39.6044 46.4221 28.3161 43.0127 17.8178C39.6033 7.30937 28.3153 1.57026 17.8172 4.97973Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 21L24 13L14 21L18 33H30L34 21Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 21L43 18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 40L30 33" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 33L12 40" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 21L5 18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 13V4" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/baokemeng" viewBox="0 0 48 48" fill="none">
+    <path d="M44 24H30C30 20.69 27.31 18 24 18C20.69 18 18 20.69 18 24H4C4 12.95 12.95 4 24 4C35.05 4 44 12.95 44 24Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+    <path d="M18 24H4C4 35.05 12.95 44 24 44C35.05 44 44 35.05 44 24H30" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 30C27.3137 30 30 27.3137 30 24C30 20.6863 27.3137 18 24 18C20.6863 18 18 20.6863 18 24C18 27.3137 20.6863 30 24 30Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/whistling" viewBox="0 0 48 48" fill="none">
+    <path d="M27 11L4 11V19H15C14.35 20.55 14 22.21 14 24C14 31.21 19.79 37 27 37C34.2 37 40 31.21 40 24C40 16.79 34.21 11 27 11Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 11V17" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40 24H44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/rollerskates" viewBox="0 0 48 48" fill="none">
+    <path d="M44 4H28V12H44V4Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 12V34C44 35.11 43.11 36 42 36H8C5.79 36 4 34.21 4 32V26C4 21.58 7.58 18 12 18H28V12H44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 24V18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 24V18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M23 18L12 18" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 44C11.2091 44 13 42.2091 13 40C13 37.7909 11.2091 36 9 36C6.79086 36 5 37.7909 5 40C5 42.2091 6.79086 44 9 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19.3301 44C21.5392 44 23.3301 42.2091 23.3301 40C23.3301 37.7909 21.5392 36 19.3301 36C17.1209 36 15.3301 37.7909 15.3301 40C15.3301 42.2091 17.1209 44 19.3301 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29.6699 44C31.8791 44 33.6699 42.2091 33.6699 40C33.6699 37.7909 31.8791 36 29.6699 36C27.4608 36 25.6699 37.7909 25.6699 40C25.6699 42.2091 27.4608 44 29.6699 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M40 44C42.2091 44 44 42.2091 44 40C44 37.7909 42.2091 36 40 36C37.7909 36 36 37.7909 36 40C36 42.2091 37.7909 44 40 44Z" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/scoreboard" viewBox="0 0 48 48" fill="none">
+    <rect x="4" y="12" width="40" height="28" rx="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M14 6V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 6V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10.2266 24L15.0006 19.0166V33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 12V40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <ellipse cx="34" cy="26" rx="3" ry="7" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></ellipse>
+    <path d="M21 12H27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 40H27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Sports/play-volleyball" viewBox="0 0 48 48" fill="none">
+    <path d="M29 14C31.7614 14 34 11.7614 34 9C34 6.23858 31.7614 4 29 4C26.2386 4 24 6.23858 24 9C24 11.7614 26.2386 14 29 14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-miterlimit="2"></path>
+    <path d="M41 24C42.6569 24 44 22.6569 44 21C44 19.3431 42.6569 18 41 18C39.3431 18 38 19.3431 38 21C38 22.6569 39.3431 24 41 24Z" fill="currentColor"></path>
+    <path d="M16 24L13.73 35.26C13.52 36.57 12.12 37.31 10.92 36.76L4 34" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38.0006 30L23.7606 19.07C22.9906 18.5 21.9306 18.56 21.2206 19.2L16.3806 23.63C15.9106 24.06 15.9506 24.8 16.4706 25.18L26.0006 32.15C26.7206 32.68 27.0106 33.63 26.6906 34.47L23.1206 44" stroke="currentColor" stroke-width="4" stroke-miterlimit="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</svg>

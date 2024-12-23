@@ -25,8 +25,6 @@ const Empty: FC<Props> = ({
     classList.push(className);
   }
 
-  //TODO. SVG 처리 고민 - DongJae
-
   return (
     <div className={classList.join(" ")} {...props}>
       {icons !== undefined ? (
@@ -60,7 +58,7 @@ const Empty: FC<Props> = ({
           />
         </svg>
       )}
-      <p className="font-medium text-gray-500">{description}</p>
+      <p className="text-body01m text-gray-500">{description}</p>
     </div>
   );
 };

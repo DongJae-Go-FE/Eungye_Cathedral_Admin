@@ -1,0 +1,425 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="Filled/Money/commodity" viewBox="0 0 48 48" fill="none">
+    <path d="M9.78101 9.75193C9.90612 8.75107 10.7569 8 11.7656 8H36.2344C37.2431 8 38.0939 8.75107 38.219 9.75193L41.719 37.7519C41.8682 38.9456 40.9374 40 39.7344 40H8.26556C7.06257 40 6.1318 38.9456 6.28101 37.7519L9.78101 9.75193Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M15 18C15 18 17 22 24 22C31 22 33 18 33 18" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/history-query" viewBox="0 0 48 48" fill="none">
+    <path d="M42 24V9C42 7.34315 40.6569 6 39 6H9C7.34315 6 6 7.34315 6 9V39C6 40.6569 7.34315 42 9 42H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="32" cy="32" r="6" fill="currentColor" stroke="currentColor" stroke-width="4"></circle>
+    <path d="M37 36L42 40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 16H34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 24L22 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/transaction-order" viewBox="0 0 48 48" fill="none">
+    <rect x="9" y="8" width="30" height="36" rx="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M18 4V10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 4V10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 19L32 19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 27L28 27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 35H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/discovery-index" viewBox="0 0 48 48" fill="none">
+    <path d="M16 6H8C6.89543 6 6 6.89543 6 8V16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 42H8C6.89543 42 6 41.1046 6 40V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 42H40C41.1046 42 42 41.1046 42 40V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 6H40C41.1046 6 42 6.89543 42 8V16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <rect x="19" y="18" width="10" height="12" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M24 18V12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 36V30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/exchange-four" viewBox="0 0 48 48" fill="none">
+    <path d="M39 6H9C7.34315 6 6 7.34315 6 9V39C6 40.6569 7.34315 42 9 42H39C40.6569 42 42 40.6569 42 39V9C42 7.34315 40.6569 6 39 6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 21L33 21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 27L33 27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M33 21L26 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 34L15 27" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/stock-market" viewBox="0 0 48 48" fill="none">
+    <rect x="6" y="20" width="8" height="14" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <rect x="20" y="14" width="8" height="26" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M24 44V40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <rect x="34" y="12" width="8" height="9" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M10 20V10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 34V21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 12V4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/medication-time" viewBox="0 0 48 48" fill="none">
+    <rect x="9" y="5" width="24" height="10" rx="4" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M21 5V13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 5V13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 5V13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M27 40H8C6.89543 40 6 39.1046 6 38V17C6 15.8954 6.89543 15 8 15H34C35.1046 15 36 15.8954 36 17V26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 32V36H38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="35" cy="35" r="9" stroke="currentColor" stroke-width="4"></circle>
+    <path d="M13 5L29 5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13 15L29 15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/exchange-two" viewBox="0 0 48 48" fill="none">
+    <path d="M9 18V42H39V18L24 6L9 18Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 30V36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 26V36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 32V36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 25L22 21L25 24L31 19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/exchange-one" viewBox="0 0 48 48" fill="none">
+    <path d="M9 18V42H39V18L24 6L9 18Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 24L31 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 30L31 30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 24L26 19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 35L17 30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/open-an-account" viewBox="0 0 48 48" fill="none">
+    <path d="M42 24V9C42 7.34315 40.6569 6 39 6H9C7.34315 6 6 7.34315 6 9V39C6 40.6569 7.34315 42 9 42H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39.0508 33L39.0508 43" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 37.9502L34 37.9502" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="24" cy="18" r="5" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <path d="M33 31C33 26.5817 28.9706 23 24 23C19.0294 23 15 26.5817 15 31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/insert-card" viewBox="0 0 48 48" fill="none">
+    <path d="M10 18H4L4 6H44V18H38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 12L4 41H44L36 12H12Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/blockchain" viewBox="0 0 48 48" fill="none">
+    <path d="M40 30V15L27.5 7.96875M20.5 7.96875L8 15V30M11 34.6875L24 42L32 37.5L37 34.6875" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 18.75L18 20.5V24V27.5L21 29.25L24 31L27 29.25L30 27.5V24V20.5L27 18.75L24 17L21 18.75Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 17V10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 27L37 31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 27L11 31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="24" cy="7" r="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <circle cx="8" cy="33" r="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <circle cx="40" cy="33" r="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+  </symbol>
+
+  <symbol id="Filled/Money/shopping-cart-add" viewBox="0 0 48 48" fill="none">
+    <path d="M39 32H13L8 12H44L39 32Z" fill="currentColor"></path>
+    <path d="M3 6H6.5L8 12M8 12L13 32H39L44 12H8Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="13" cy="39" r="3" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <circle cx="39" cy="39" r="3" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <path d="M22 22H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 26V18" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/financing" viewBox="0 0 48 48" fill="none">
+    <path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <rect x="24" y="16.9287" width="10" height="10" rx="2" transform="rotate(45 24 16.9287)" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+  </symbol>
+
+  <symbol id="Filled/Money/shopping" viewBox="0 0 48 48" fill="none">
+    <path d="M39 32H13L8 12H44L39 32Z" fill="currentColor"></path>
+    <path d="M3 6H6.5L8 12M8 12L13 32H39L44 12H8Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="13" cy="39" r="3" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <circle cx="39" cy="39" r="3" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+  </symbol>
+
+  <symbol id="Filled/Money/wallet" viewBox="0 0 48 48" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9816 11.9689L31.7842 4L36.3966 11.9889L17.9816 11.9689Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 14C4 12.8954 4.89543 12 6 12H42C43.1046 12 44 12.8954 44 14V42C44 43.1046 43.1046 44 42 44H6C4.89543 44 4 43.1046 4 42V14Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M35.25 33H44V23H35.25C32.3505 23 30 25.2386 30 28C30 30.7614 32.3505 33 35.25 33Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M44 16.5V40.5" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/financing-one" viewBox="0 0 48 48" fill="none">
+    <path d="M14.9997 14.3848C19.1252 16.0002 24.0081 16.0002 24.0081 16.0002C24.0081 16.0002 28.8797 16.0002 32.9997 14.3848C37.5015 19.6386 40.6561 26.5646 42.7294 32.3977C44.8284 38.3029 40.2003 44.0002 33.9332 44.0002H14.0194C7.76788 44.0002 3.14559 38.329 5.23399 32.4366C7.29763 26.614 10.4546 19.6856 14.9997 14.3848Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M18 28H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 34H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24.0078 28V38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 22L24 28L18 22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M24 16C31.1797 16 37 13.3137 37 10C37 6.68629 31.1797 4 24 4C16.8203 4 11 6.68629 11 10C11 13.3137 16.8203 16 24 16Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/finance" viewBox="0 0 48 48" fill="none">
+    <path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M18 22H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 28H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24.0088 22V34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M30 15L24 21L18 15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/funds" viewBox="0 0 48 48" fill="none">
+    <ellipse cx="14" cy="10" rx="10" ry="5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <path d="M4 10C4 10 4 14.2386 4 17C4 19.7614 8.47715 22 14 22C19.5228 22 24 19.7614 24 17C24 15.3644 24 10 24 10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 17C4 17 4 21.2386 4 24C4 26.7614 8.47715 29 14 29C19.5228 29 24 26.7614 24 24C24 22.3644 24 17 24 17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 24C4 24 4 28.2386 4 31C4 33.7614 8.47715 36 14 36C19.5228 36 24 33.7614 24 31C24 29.3644 24 24 24 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 31C4 31 4 35.2386 4 38C4 40.7614 8.47715 43 14 43C19.5228 43 24 40.7614 24 38C24 36.3644 24 31 24 31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <ellipse cx="34" cy="24" rx="10" ry="5" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <path d="M24 24C24 24 24 28.2386 24 31C24 33.7614 28.4772 36 34 36C39.5228 36 44 33.7614 44 31C44 29.3644 44 24 44 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 31C24 31 24 35.2386 24 38C24 40.7614 28.4772 43 34 43C39.5228 43 44 40.7614 44 38C44 36.3644 44 31 44 31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/dollar" viewBox="0 0 48 48" fill="none">
+    <path d="M24 2V46" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M35 6C35 6 24.9706 6 20 6C15.0294 6 11 10.0294 11 15C11 19.9706 15.0294 24 20 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13 42C13 42 23.0294 42 28 42C32.9706 42 37 37.9706 37 33C37 28.0294 32.9706 24 28 24H20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/wallet-two" viewBox="0 0 48 48" fill="none">
+    <path d="M4 8H44V16C44 16 34 18 34 24C34 30 44 32 44 32V40H4V8Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M44 24H42" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/transaction" viewBox="0 0 48 48" fill="none">
+    <path d="M39 6H9C7.34315 6 6 7.34315 6 9V39C6 40.6569 7.34315 42 9 42H39C40.6569 42 42 40.6569 42 39V9C42 7.34315 40.6569 6 39 6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 31L26 35L34 25" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 15H34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 23L22 23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/pay-code-one" viewBox="0 0 48 48" fill="none">
+    <rect x="32" y="6" width="10" height="10" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <rect x="32" y="32" width="10" height="10" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <rect x="6" y="32" width="10" height="10" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <rect x="6" y="6" width="10" height="10" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M8 24L30 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 24L40 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 37V39" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 17V31" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 8V10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/payment-method" viewBox="0 0 48 48" fill="none">
+    <path d="M38 10L10 38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 6L12 14L18 6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M5 14H19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M5 20H19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 14V26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32.8462 26H42V42H22V36.15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/swipe" viewBox="0 0 48 48" fill="none">
+    <path d="M6 15L19.3714 25.5377C20.5 26.5 22.8282 28 25 26C27.2893 23.8918 25.5 21.5 25 21L17 15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 8H27L38 18" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 33L44 33.0193" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 18V40H44V18H22.0002" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/red-envelope" viewBox="0 0 48 48" fill="none">
+    <path d="M39 4H9V10L24 14L39 10V4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39 17V44H9V17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19 19L24 25L29 19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 31H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 25H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 25V37" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/currency" viewBox="0 0 48 48" fill="none">
+    <path d="M19 16L24 22L29 16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 13.9999C9 13.9999 16.5 2.49984 29.5 6.99986C42.5 11.4999 42 24.4999 42 24.4999" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M39 34C39 34 33 45 19.5 41.5C6 38 6 24 6 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42 8V24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6 24L6 40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 28H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 22H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 22V34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/financing-two" viewBox="0 0 48 48" fill="none">
+    <path d="M12 9.92704V7C12 5.34315 13.3431 4 15 4H41C42.6569 4 44 5.34315 44 7V33C44 34.6569 42.6569 36 41 36H38.0174" stroke="currentColor" stroke-width="4"></path>
+    <rect x="4" y="10" width="34" height="34" rx="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M15 17L21 23L27 17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 25H28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 31H28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 25V36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/shopping-cart" viewBox="0 0 48 48" fill="none">
+    <path d="M39 32H13L8 12H44L39 32Z" fill="currentColor"></path>
+    <path d="M3 6H6.5L8 12M8 12L13 32H39L44 12H8Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="13" cy="39" r="3" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <circle cx="39" cy="39" r="3" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <path d="M22 22H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 26V18" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/add-subtract" viewBox="0 0 48 48" fill="none">
+    <rect x="6" y="6" width="36" height="36" rx="3" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M27 31H35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 13V21" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 17H13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 14L14 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/exchange" viewBox="0 0 48 48" fill="none">
+    <path d="M24 16H29V4L44 19L29 34V24H18V13L4 28L18 44V32H23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/bank-card" viewBox="0 0 48 48" fill="none">
+    <path d="M4 10C4 8.89543 4.89543 8 6 8H42C43.1046 8 44 8.89543 44 10V38C44 39.1046 43.1046 40 42 40H6C4.89543 40 4 39.1046 4 38V10Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M4 16H44" stroke="currentColor" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"></path>
+    <path d="M27 32H36" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 10V26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 10V26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/bank-card-one" viewBox="0 0 48 48" fill="none">
+    <path d="M14 13V9C14 7.89543 14.8954 7 16 7H42C43.1046 7 44 7.89543 44 9V27C44 28.1046 43.1046 29 42 29H40" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <rect x="4" y="19" width="30" height="22" rx="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M4 28L34 28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M34 23L34 35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 23L4 35" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M11 34L19 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M25 34L27 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/credit" viewBox="0 0 48 48" fill="none">
+    <path d="M38 15V7H10V15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43 27V15H5V41H43" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29 27L24 34L43 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M26 21H22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 21H12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/wallet-one" viewBox="0 0 48 48" fill="none">
+    <rect x="5" y="13" width="38" height="26" rx="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <rect x="25" y="20" width="18" height="11" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></rect>
+    <path d="M43 18L43 33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 13C32 8 28.5 7 27 7C23.6667 7 16.1 7 12.5 7C8.9 7 8 9.86567 8 11.2985V13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="33.5" cy="25.5" r="1.5" fill="currentColor"></circle>
+  </symbol>
+
+  <symbol id="Filled/Money/expenses-one" viewBox="0 0 48 48" fill="none">
+    <path d="M30 36L35 31L30.0004 26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 36L43 31L38.0004 26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43 22V9C43 7.89543 42.1046 7 41 7H7C5.89543 7 5 7.89543 5 9V39C5 40.1046 5.89543 41 7 41H28.4706" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13 15L18 21L23 15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 27H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 21H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 21V33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/heavy-metal" viewBox="0 0 48 48" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.2187 7.37891L33.8868 16.6221L36.1778 24.0003L25.2625 26.0857L12.5889 14.5317L15.281 9.00196L22.2187 7.37891Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M15.2812 9.00195L26.4867 18.6021" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M25.2627 26.0856L26.4866 18.1329L33.887 16.6221" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24.993 31.0228L27.2792 38.1032L15.601 40.3785L4 29.014L6.57052 22.6253L12.0285 21.3535" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M6.57031 22.625L17.2837 32.7577" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+    <path d="M15.6006 39.8653L17.486 32.1329L24.9903 31.0439" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M34.8868 29.6077L34 36.7999L43.236 34.9985L41.2813 28.1875L34.8868 29.6077Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/flash-payment" viewBox="0 0 48 48" fill="none">
+    <path d="M31 4H16L10 27H18L14 44L40 16H28L31 4Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M21 11L19 19" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/deposit" viewBox="0 0 48 48" fill="none">
+    <path d="M12 16V44H36V16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19 20L24 26L29 20" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 32H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 26H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 26V38" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 10L23.6154 10L34 10" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 18H42V4H6V18H12" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/income" viewBox="0 0 48 48" fill="none">
+    <path d="M31 34L43 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43 26V10C43 8.34315 41.6569 7 40 7H8C6.34315 7 5 8.34315 5 10V38C5 39.6569 6.34315 41 8 41H28.4706" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36 39L31 34L35.9996 29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 15L20 21L25 15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 27H26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 21H26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 21V33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/ipo" viewBox="0 0 48 48" fill="none">
+    <path d="M4 18.313V7H44V18.313C41.8815 19.068 40.3636 21.1053 40.3636 23.5C40.3636 25.8947 41.8815 27.932 44 28.687V40H4V28.687C6.11853 27.932 7.63636 25.8947 7.63636 23.5C7.63636 21.1053 6.11853 19.068 4 18.313V18.313Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M13 18V29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 18V29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 18H21C22.6569 18 24 19.3431 24 21V21C24 22.6569 22.6569 24 21 24H18V18Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <ellipse cx="32" cy="24" rx="3" ry="5" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></ellipse>
+  </symbol>
+
+  <symbol id="Filled/Money/shopping-cart-del" viewBox="0 0 48 48" fill="none">
+    <path d="M39 32H13L8 12H44L39 32Z" fill="currentColor"></path>
+    <path d="M3 6H6.5L8 12M8 12L13 32H39L44 12H8Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle cx="13" cy="39" r="3" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <circle cx="39" cy="39" r="3" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <path d="M22 22H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/pay-code-two" viewBox="0 0 48 48" fill="none">
+    <path d="M16 6H8C6.89543 6 6 6.89543 6 8V16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 42H8C6.89543 42 6 41.1046 6 40V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 42H40C41.1046 42 42 41.1046 42 40V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 6H40C41.1046 6 42 6.89543 42 8V16" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 16V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32 16V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M16 16V32" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/bank" viewBox="0 0 48 48" fill="none">
+    <path d="M10 17V44H38V17" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M5 22L10 17L24 4L38 17L43 22" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M19 19L24 25L29 19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 31H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 25H30" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 25V37" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/optional" viewBox="0 0 48 48" fill="none">
+    <path d="M39 6H9C7.34315 6 6 7.34315 6 9V39C6 40.6569 7.34315 42 9 42H39C40.6569 42 42 40.6569 42 39V9C42 7.34315 40.6569 6 39 6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 28L22 20L26 27L34 19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/bank-transfer" viewBox="0 0 48 48" fill="none">
+    <rect x="4" y="10" width="40" height="28" rx="2" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></rect>
+    <path d="M4 20H44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 17V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M44 17V23" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M29 29L37 29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/income-one" viewBox="0 0 48 48" fill="none">
+    <path d="M35 38L30 33L34.9996 28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43 38L38 33L42.9996 28" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43 22V9C43 7.89543 42.1046 7 41 7H7C5.89543 7 5 7.89543 5 9V39C5 40.1046 5.89543 41 7 41H28.4706" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M13 15L18 21L23 15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 27H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 21H24" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18 21V33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/expenses" viewBox="0 0 48 48" fill="none">
+    <path d="M31 34L43 34" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M38 39L43 34L38.0004 29" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M43 26V10C43 8.34315 41.6569 7 40 7H8C6.34315 7 5 8.34315 5 10V38C5 39.6569 6.34315 41 8 41H28.4706" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15 15L20 21L25 15" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 27H26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M14 21H26" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 21V33" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/paper-money-two" viewBox="0 0 48 48" fill="none">
+    <path d="M4 13H44V37H4V13Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 21C8.41828 21 12 17.4183 12 13H4V21Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 29C8.41828 29 12 32.5817 12 37H4V29Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M44 29V37H36C36 32.5817 39.5817 29 44 29Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M44 21C39.5817 21 36 17.4183 36 13H44V21Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24 31C26.7614 31 29 28.3137 29 25C29 21.6863 26.7614 19 24 19C21.2386 19 19 21.6863 19 25C19 28.3137 21.2386 31 24 31Z" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/exchange-three" viewBox="0 0 48 48" fill="none">
+    <path d="M6 8.25564L24.0086 3L42 8.25564V19.0337C42 30.3622 34.7502 40.4194 24.0026 44.0005C13.2521 40.4195 6 30.36 6 19.0287V8.25564Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M17 19L31 19" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 25L31 25" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31 19L26 14" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 30L17 25" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+
+  <symbol id="Filled/Money/mall-bag" viewBox="0 0 48 48" fill="none">
+    <path d="M6 12.5996V40.9996C6 42.1042 6.89543 42.9996 8 42.9996H40C41.1046 42.9996 42 42.1042 42 40.9996V12.5996H6Z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
+    <path d="M42 12.6L36.3333 5H11.6667L6 12.6V12.6" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M31.5554 19.2002C31.5554 23.3976 28.1727 26.8002 23.9999 26.8002C19.8271 26.8002 16.4443 23.3976 16.4443 19.2002" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</svg>
