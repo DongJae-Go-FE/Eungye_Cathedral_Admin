@@ -49,7 +49,7 @@ const QuillEditor: FC<QuillEditorProps> = ({
     return () => {};
   }, [placeholder]);
 
-  return <div ref={quillEditorRef} style={{ height: "400px" }} />;
+  return <div ref={quillEditorRef} className="h-full" />;
 };
 
 export default QuillEditor;

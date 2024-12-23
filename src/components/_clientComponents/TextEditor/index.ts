@@ -1,3 +1,3 @@
-import TextEditor from "./TextEditor";
+import TextEditor from "./TextEditorNoSSR";
 
 export default TextEditor;
