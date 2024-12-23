@@ -4,6 +4,7 @@ import EditButton from "@/components/_clientComponents/_btn/EditButton";
 import Input from "@/components/Input";
 
 import TextEditor from "@/components/_clientComponents/TextEditor";
+import ImageUpload from "@/components/ImageUpload/ImageUpload";
 
 export default async function Page({
   params,
@@ -46,7 +47,9 @@ export default async function Page({
             </tr>
             <tr>
               <th>사진 파일</th>
-              <td colSpan={3}></td>
+              <td colSpan={3}>
+                <ImageUpload />
+              </td>
             </tr>
           </tbody>
         </table>

@@ -16,7 +16,6 @@ export default async function Page() {
       key: "testb",
       title: "제목",
       width: "30%",
-      
     },
     {
       key: "testc",
@@ -38,10 +37,12 @@ export default async function Page() {
         items={[{ id: 0, title: "본당소식", path: "/news" }]}
       />
       <FormSearch />
-      <div className="mt-4 flex justify-end">
-        <Button href="/news/add">등록하기</Button>
+      <div className="mt-4 mb-2 flex justify-end">
+        <Button size="sm" color="white" href="/news/add">
+          등록
+        </Button>
       </div>
-      <Table caption="테스트" columns={columns} initialData={data}/>
+      <Table caption="테스트" columns={columns} initialData={data} />
     </div>
   );
 }

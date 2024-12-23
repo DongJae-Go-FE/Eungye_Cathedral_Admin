@@ -10,8 +10,10 @@ export default async function Page() {
         items={[{ id: 0, title: "공지사항", path: "/notices" }]}
       />
       <FormSearch />
-      <div className="mt-4 flex justify-end">
-        <Button href="/notices/add">등록하기</Button>
+      <div className="mb-2 mt-4 flex justify-end">
+        <Button size="sm" color="white" href="/notices/add">
+          등록
+        </Button>
       </div>
     </div>
   );

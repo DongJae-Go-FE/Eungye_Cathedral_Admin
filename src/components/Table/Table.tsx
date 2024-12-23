@@ -1,4 +1,4 @@
-import { ReactNode, HtmlHTMLAttributes} from "react";
+import { ReactNode, HtmlHTMLAttributes } from "react";
 import Empty from "@/components/Empty";
 import Spinner from "../Spinner";
 
@@ -24,6 +24,33 @@ interface TableProps extends HtmlHTMLAttributes<HTMLTableElement> {
   pageSize?: number;
 }
 
+const RenderPrevUI = ({
+  columns,
+  children,
+}: {
+  columns: Array<TableColumn>;
+  children: ReactNode;
+}) => {
+  return (
+    <div className="relative h-[528px] w-full">
+      <ul className="flex h-12 w-full items-center border-y-2 border-gray-200">
+        {columns.map(({ title, width }, index) => {
+          return (
+            <li
+              key={index}
+              style={{ width: width ? width : "auto" }}
+              className="px-5 text-center text-body02m"
+            >
+              {title}
+            </li>
+          );
+        })}
+      </ul>
+      {children}
+    </div>
+  );
+};
+
 export default function Table({
   caption,
   columns,
@@ -33,32 +60,20 @@ export default function Table({
   totalCount,
   isLoading,
 }: TableProps) {
+
+  
   if (isLoading) {
     return (
-      <div className="relative w-full h-[528px]">
-        <ul className="flex border-y-2 border-gray-200 w-full h-12 items-center">
-          {columns.map(({title, width},index) => {
-            return(
-              <li key = {index} style={{width: width ? width :"auto"}} className="text-center text-body02m px-5">{title}</li>
-            )
-          })}
-        </ul>
-        <Spinner/>
-      </div>
+      <RenderPrevUI columns={columns}>
+        <Spinner />
+      </RenderPrevUI>
     );
   }
   if (initialData.length === 0 || !initialData) {
     return (
-      <div className="relative w-full h-[528px]">
-        <ul className="flex border-y-2 border-gray-200 w-full h-12 items-center">
-          {columns.map(({title, width},index) => {
-            return(
-              <li key = {index} style={{width: width ? width :"auto"}} className="text-center text-body02m px-5">{title}</li>
-            )
-          })}
-        </ul>
+      <RenderPrevUI columns={columns}>
         <Empty description="데이터가 없습니다." />
-      </div>
+      </RenderPrevUI>
     );
   }
 
@@ -69,7 +84,7 @@ export default function Table({
   const columnsKey = columns.map((columns) => columns.key);
 
   return (
-    <div className="w-full h-[528px]">
+    <div className="h-[528px] w-full">
       {totalCount && (
         <div className="table-header">
           <span>{totalCount}</span>
@@ -84,10 +99,14 @@ export default function Table({
             })}
           </colgroup>
           <thead>
-            <tr className="border-y-2 border-gray-200 w-full h-12">
+            <tr>
               {columns.map(({ title, headerAlign }, index) => {
                 return (
-                  <th key={index} style={{ textAlign: headerAlign }} className="text-body02m px-5">
+                  <th
+                    key={index}
+                    style={{ textAlign: headerAlign }}
+                    className="h-12 border-y-2 border-gray-200 px-5 text-body02m"
+                  >
                     {title}
                   </th>
                 );
@@ -96,9 +115,14 @@ export default function Table({
           </thead>
           <tbody>
             {initialData.map((item, index) => (
-              <tr key={index} className="border-b-2 border-gray-100 h-12">
+              <tr key={index}>
                 {columnsKey.map((key) => (
-                  <td key={key + index} className="text-center text-body02r px-5">{item[key]}</td>
+                  <td
+                    key={key + index}
+                    className="h-12 border-b-2 border-gray-100 px-5 text-center text-body02r"
+                  >
+                    {item[key]}
+                  </td>
                 ))}
               </tr>
             ))}
