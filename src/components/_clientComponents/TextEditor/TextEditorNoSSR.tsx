@@ -12,18 +12,18 @@ const TextEditor = dynamic(() => import("./TextEditor"), {
 });
 
 export default function TextEditorNoSSR() {
-  const [loading, setLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLoading(false);
+      setIsLoading(false);
     }, 200);
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <div className="relative h-[400px]">
-      {loading ? <Spinner /> : <TextEditor />}
+      {isLoading ? <Spinner /> : <TextEditor />}
     </div>
   );
 }
