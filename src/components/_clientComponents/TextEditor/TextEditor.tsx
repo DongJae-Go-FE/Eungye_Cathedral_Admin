@@ -18,6 +18,7 @@ const QuillEditor: FC<QuillEditorProps> = ({
   const quillEditorRef = useRef<HTMLDivElement>(null);
   const quillRef = useRef<Quill | null>(null);
 
+  //TODO. Clean Up 수정
   useEffect(() => {
     const toolbarOptions = [
       ["bold", "italic", "underline", "strike"],
