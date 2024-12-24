@@ -1,6 +1,7 @@
-import { ReactNode, HtmlHTMLAttributes } from "react";
+import { ReactNode, HtmlHTMLAttributes, Fragment } from "react";
 import Empty from "@/components/Empty";
 import Spinner from "../Spinner";
+import Pagination from "../Pagination";
 
 export type TableColumnAlign = "left" | "right" | "center";
 
@@ -19,9 +20,10 @@ interface TableProps extends HtmlHTMLAttributes<HTMLTableElement> {
   initialData: any[];
   caption: string;
   isLoading?: boolean;
-  totalCount?: number;
+  totalCount: number;
   page?: number;
   pageSize?: number;
+  onPageChange?: (page: number) => void;
 }
 
 const RenderPrevUI = ({
@@ -55,13 +57,14 @@ export default function Table({
   caption,
   columns,
   initialData,
-  //page,
-  //pageSize,
+  page,
+  pageSize,
   totalCount,
   isLoading,
+  onPageChange,
 }: TableProps) {
+  const totalPage = pageSize ? Math.ceil(totalCount / pageSize) : 1;
 
-  
   if (isLoading) {
     return (
       <RenderPrevUI columns={columns}>
@@ -84,51 +87,62 @@ export default function Table({
   const columnsKey = columns.map((columns) => columns.key);
 
   return (
-    <div className="h-[528px] w-full">
-      {totalCount && (
-        <div className="table-header">
-          <span>{totalCount}</span>
-        </div>
-      )}
-      <div className="table-body relative w-full">
-        <table className="w-full">
-          <caption className="sr-only">{caption}</caption>
-          <colgroup>
-            {columns.map(({ width }, index) => {
-              return <col key={index} width={width ? width : "auto"} />;
-            })}
-          </colgroup>
-          <thead>
-            <tr>
-              {columns.map(({ title, headerAlign }, index) => {
-                return (
-                  <th
-                    key={index}
-                    style={{ textAlign: headerAlign }}
-                    className="h-12 border-y-2 border-gray-200 px-5 text-body02m"
-                  >
-                    {title}
-                  </th>
-                );
+    <Fragment>
+      <div className="h-[528px] w-full">
+        {totalCount && (
+          <div className="table-header mb-2">
+            <span className="text-body02m">총 {totalCount}건</span>
+          </div>
+        )}
+        <div className="table-body relative w-full">
+          <table className="w-full">
+            <caption className="sr-only">{caption}</caption>
+            <colgroup>
+              {columns.map(({ width }, index) => {
+                return <col key={index} width={width ? width : "auto"} />;
               })}
-            </tr>
-          </thead>
-          <tbody>
-            {initialData.map((item, index) => (
-              <tr key={index}>
-                {columnsKey.map((key) => (
-                  <td
-                    key={key + index}
-                    className="h-12 border-b-2 border-gray-100 px-5 text-center text-body02r"
-                  >
-                    {item[key]}
-                  </td>
-                ))}
+            </colgroup>
+            <thead>
+              <tr>
+                {columns.map(({ title, headerAlign }, index) => {
+                  return (
+                    <th
+                      key={index}
+                      style={{ textAlign: headerAlign }}
+                      className="h-12 border-y-2 border-gray-200 px-5 text-body02m"
+                    >
+                      {title}
+                    </th>
+                  );
+                })}
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {initialData.map((item, index) => (
+                <tr key={index}>
+                  {columnsKey.map((key) => (
+                    <td
+                      key={key + index}
+                      className="h-12 border-b-2 border-gray-100 px-5 text-center text-body02r"
+                    >
+                      {item[key]}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {totalPage > 1 && (
+          <div className="mt-4 flex w-full justify-center">
+            <Pagination
+              current={page || 1}
+              total={totalPage}
+              onChange={onPageChange}
+            />
+          </div>
+        )}
       </div>
-    </div>
+    </Fragment>
   );
 }

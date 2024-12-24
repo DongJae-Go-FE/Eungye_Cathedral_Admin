@@ -3,6 +3,8 @@ import FormSearch from "@/components/_clientComponents/FormSearch";
 import Button from "@/components/Button";
 
 import Table from "@/components/Table";
+import Pagination from "@/components/Pagination";
+
 import { TableColumn } from "@/components/Table/Table";
 
 export default async function Page() {
@@ -37,12 +39,19 @@ export default async function Page() {
         items={[{ id: 0, title: "본당소식", path: "/news" }]}
       />
       <FormSearch />
-      <div className="mt-4 mb-2 flex justify-end">
+      <div className="mb-2 mt-4 flex justify-end">
         <Button size="sm" color="white" href="/news/add">
           등록
         </Button>
       </div>
-      <Table caption="테스트" columns={columns} initialData={data} />
+      <Table
+        caption="테스트"
+        columns={columns}
+        initialData={data}
+        page={1}
+        pageSize={5}
+        totalCount={20}
+      />
     </div>
   );
 }

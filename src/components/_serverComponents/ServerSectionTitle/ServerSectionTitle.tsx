@@ -1,5 +1,5 @@
-import Breadcrumb from "../Breadcrumb/Breadcrumb";
-import { BreadcrumbType } from "../Breadcrumb/Breadcrumb";
+import Breadcrumb from "../../Breadcrumb/Breadcrumb";
+import { BreadcrumbType } from "../../Breadcrumb/Breadcrumb";
 
 interface SectionTitleType extends BreadcrumbType {
   title: string;
