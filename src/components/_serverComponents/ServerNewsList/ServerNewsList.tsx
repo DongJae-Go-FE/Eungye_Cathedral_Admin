@@ -1,23 +1,31 @@
 import List from "@/components/List";
 
+import { RequestGetListType } from "@/type";
+
 export default async function ServerNewsList() {
+  const response: RequestGetListType = await fetch(
+    `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=1&limit=5`,
+    {
+      method: "GET",
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json;charset=UTF-8",
+      },
+    },
+  ).then((res) => res.json());
+
   return (
     <section>
-      <h3 className="mb-7 text-heading03b text-black">분당소식</h3>
+      <h3 className="mb-7 text-heading03b text-black">본당소식</h3>
       <List
         href="/news"
-        items={[
-          {
-            id: 0,
-            title: "타이틀1",
-            date: "2024.12.07",
-          },
-          {
-            id: 1,
-            title: "타이틀2",
-            date: "2024.12.07",
-          },
-        ]}
+        items={response.data.map(({ id, title, created_at }) => {
+          return {
+            id,
+            title,
+            date: created_at,
+          };
+        })}
       />
     </section>
   );

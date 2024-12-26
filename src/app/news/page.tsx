@@ -3,7 +3,6 @@ import FormSearch from "@/components/_clientComponents/FormSearch";
 import Button from "@/components/Button";
 
 import Table from "@/components/Table";
-import Pagination from "@/components/Pagination";
 
 import { TableColumn } from "@/components/Table/Table";
 
