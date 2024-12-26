@@ -1,3 +1,5 @@
+import { notFound } from "next/navigation";
+
 import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
 import Button from "@/components/Button";
 import DeleteButton from "@/components/_clientComponents/_btn/DeleteButton";
@@ -12,7 +14,7 @@ export default async function Page({
 }) {
   const { id } = await params;
 
-  const response: RequestGetDetailType = await fetch(
+  const response = await fetch(
     `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/notices/${id}`,
     {
       method: "GET",
@@ -21,7 +23,13 @@ export default async function Page({
         "Content-Type": "application/json;charset=UTF-8",
       },
     },
-  ).then((res) => res.json());
+  );
+
+  if (response.status === 404) {
+    notFound();
+  }
+
+  const data: RequestGetDetailType = await response.json();
 
   return (
     <section className="common-layout">
@@ -38,15 +46,13 @@ export default async function Page({
         <tbody>
           <tr>
             <th>제목</th>
-            <td>{response.title ? response.title : "-"}</td>
+            <td>{data.title ? data.title : "-"}</td>
             <th>생성일</th>
-            <td>
-              {response.created_at ? formatDate(response.created_at) : "-"}
-            </td>
+            <td>{data.created_at ? formatDate(data.created_at) : "-"}</td>
           </tr>
           <tr>
             <th>내용</th>
-            <td colSpan={3}>{response.content ? response.content : "-"}</td>
+            <td colSpan={3}>{data.content ? data.content : "-"}</td>
           </tr>
           <tr>
             <th>사진 파일</th>
