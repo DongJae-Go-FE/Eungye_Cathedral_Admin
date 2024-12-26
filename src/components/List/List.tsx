@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Url } from "url";
 
 import Empty from "@/components/Empty";
+import { formatDate } from "@/utils/common";
 
 type ItemType = {
   id: number | string;
@@ -61,9 +62,7 @@ export default function List({ items, href, isLoading }: ListType) {
               >
                 {title ? title : "타이틀이 없습니다."}
               </Link>
-              <span className={spanStyle}>
-                {date ? date?.toLocaleString() : "-"}
-              </span>
+              <span className={spanStyle}>{date ? formatDate(date) : "-"}</span>
             </li>
           );
         } else {
@@ -75,7 +74,7 @@ export default function List({ items, href, isLoading }: ListType) {
               >
                 {title ? title : "타이틀이 없습니다."}
               </p>
-              {date ? date?.toLocaleString() : "-"}
+              {date ? formatDate(date) : "-"}
             </li>
           );
         }
