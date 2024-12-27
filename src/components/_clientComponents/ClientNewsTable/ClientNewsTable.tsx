@@ -49,15 +49,15 @@ export default function ClientNewsTable() {
         caption="본당소식 테이블"
         columns={columns}
         initialData={
-          data?.data?.map((list, index) => ({
+          data?.data.list.map((list, index) => ({
             no: index + 1,
             title: list.title,
             created_at: formatDate(list.created_at),
           })) || []
         }
-        page={1}
-        pageSize={5}
-        totalCount={20}
+        page={Number(data?.page)}
+        pageSize={Number(data?.limit)}
+        totalCount={data?.data.total || 0}
         isLoading={isLoading}
       />
     </div>

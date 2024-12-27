@@ -18,7 +18,7 @@ export default async function ServerWeeklysList() {
       <h3 className="mb-7 text-heading03b text-black">주보</h3>
       <List
         href="/weeklys"
-        items={response.data.map(({ id, title, created_at }) => {
+        items={response.data.list.map(({ id, title, created_at }) => {
           return {
             id,
             title,

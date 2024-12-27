@@ -19,7 +19,7 @@ export default async function ServerNewsList() {
       <h3 className="mb-7 text-heading03b text-black">본당소식</h3>
       <List
         href="/news"
-        items={response.data.map(({ id, title, created_at }) => {
+        items={response.data.list.map(({ id, title, created_at }) => {
           return {
             id,
             title,

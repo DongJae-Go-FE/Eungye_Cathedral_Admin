@@ -18,7 +18,7 @@ export default async function ServerNoticeList() {
       <h3 className="mb-7 text-heading03b text-black">공지사항</h3>
       <List
         href="/notices"
-        items={response.data.map(({ id, title, created_at }) => {
+        items={response.data.list.map(({ id, title, created_at }) => {
           return {
             id,
             title,
