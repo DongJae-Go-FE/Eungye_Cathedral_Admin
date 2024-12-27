@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+
 import "./globals.css";
 
 import Header from "@/components/_clientComponents/Header";
 import Sidebar from "@/components/_clientComponents/Sidebar";
 
+import QueryProvider from "@/components/_clientComponents/QueryProvider";
 
 const pretendard = localFont({
   src: "fonts/PretendardVariable.woff2",
@@ -24,11 +26,14 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={pretendard.className}>
-        <Header />
-        <div className="flex">
-          <Sidebar />
-          <main>{children}</main>
-        </div>
+        <QueryProvider>
+          <Header />
+
+          <div className="flex">
+            <Sidebar />
+            <main>{children}</main>
+          </div>
+        </QueryProvider>
       </body>
     </html>
   );

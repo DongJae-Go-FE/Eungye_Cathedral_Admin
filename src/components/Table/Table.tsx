@@ -1,4 +1,4 @@
-import { ReactNode, HtmlHTMLAttributes, Fragment } from "react";
+import { ReactNode, HtmlHTMLAttributes } from "react";
 import Empty from "@/components/Empty";
 import Spinner from "../Spinner";
 import Pagination from "../Pagination";
@@ -34,7 +34,10 @@ const RenderPrevUI = ({
   children: ReactNode;
 }) => {
   return (
-    <div className="relative h-[528px] w-full">
+    <div className="relative h-[611px] w-full">
+      <div className="table-header mb-2">
+        <span className="text-body02m">총 0건</span>
+      </div>
       <ul className="flex h-12 w-full items-center border-y-2 border-gray-200">
         {columns.map(({ title, width }, index) => {
           return (
@@ -87,8 +90,8 @@ export default function Table({
   const columnsKey = columns.map((columns) => columns.key);
 
   return (
-    <Fragment>
-      <div className="h-[528px] w-full">
+    <div>
+      <div className="h-[611px] w-full">
         {totalCount && (
           <div className="table-header mb-2">
             <span className="text-body02m">총 {totalCount}건</span>
@@ -143,6 +146,6 @@ export default function Table({
           </div>
         )}
       </div>
-    </Fragment>
+    </div>
   );
 }
