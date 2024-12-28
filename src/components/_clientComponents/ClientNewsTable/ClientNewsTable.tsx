@@ -55,7 +55,7 @@ export default function ClientNewsTable() {
 
   return (
     <div>
-      <FormSearch handleSearch={handleSubmit} isLoading={isLoading}/>
+      <FormSearch handleSearch={handleSubmit} isLoading={isLoading} />
       <div className="mb-2 mt-4 flex justify-end">
         <Button size="sm" color="white" href="/news/add">
           등록
@@ -69,11 +69,13 @@ export default function ClientNewsTable() {
             no: index + 1,
             title: list.title,
             created_at: formatDate(list.created_at),
+            id: list.id,
           })) || []
         }
         page={Number(data?.page)}
         pageSize={Number(data?.limit)}
         totalCount={data?.data.total || 0}
+        href="/news"
         isLoading={isLoading}
       />
     </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { ReactNode, HtmlHTMLAttributes } from "react";
 import Empty from "@/components/Empty";
 import Spinner from "../Spinner";
@@ -19,6 +21,7 @@ interface TableProps extends HtmlHTMLAttributes<HTMLTableElement> {
   // eslint-disable-next-line
   initialData: any[];
   caption: string;
+  href?: string;
   isLoading?: boolean;
   totalCount: number;
   page?: number;
@@ -63,6 +66,7 @@ export default function Table({
   page,
   pageSize,
   totalCount,
+  href,
   isLoading,
   onPageChange,
 }: TableProps) {
@@ -123,12 +127,16 @@ export default function Table({
             <tbody>
               {initialData.map((item, index) => (
                 <tr key={index}>
-                  {columnsKey.map((key) => (
+                  {columnsKey.map((key, index2) => (
                     <td
                       key={key + index}
                       className="h-12 border-b-2 border-gray-100 px-5 text-center text-body02r"
                     >
-                      {item[key]}
+                      {Object.keys(item)[index2] === "title" ? (
+                        <Link href={`${href}/${item.id}`}>{item[key]}</Link>
+                      ) : (
+                        item[key]
+                      )}
                     </td>
                   ))}
                 </tr>
