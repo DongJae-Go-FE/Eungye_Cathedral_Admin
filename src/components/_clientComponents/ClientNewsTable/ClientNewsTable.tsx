@@ -1,7 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 
+import FormSearch from "@/components/_clientComponents/FormSearch";
+import Button from "@/components/Button";
 import Table from "@/components/Table";
 
 import { TableColumn } from "@/components/Table/Table";
@@ -9,12 +12,15 @@ import { RequestGetListType } from "@/type";
 import { formatDate } from "@/utils/common";
 
 export default function ClientNewsTable() {
-  //TODO. API 수정해야함
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(10);
+  const [search, setSearch] = useState("");
+
   const { data, isLoading } = useQuery<RequestGetListType>({
-    queryKey: ["news"],
+    queryKey: ["news", page, limit, search],
     queryFn: async () =>
       await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=1&limit=10`,
+        `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=${page}&limit=${limit}&q=${search}`,
         {
           method: "GET",
           headers: {
@@ -43,8 +49,18 @@ export default function ClientNewsTable() {
     },
   ];
 
+  const handleSubmit = (e: string) => {
+    setSearch(e);
+  };
+
   return (
     <div>
+      <FormSearch handleSearch={handleSubmit} isLoading={isLoading}/>
+      <div className="mb-2 mt-4 flex justify-end">
+        <Button size="sm" color="white" href="/news/add">
+          등록
+        </Button>
+      </div>
       <Table
         caption="본당소식 테이블"
         columns={columns}

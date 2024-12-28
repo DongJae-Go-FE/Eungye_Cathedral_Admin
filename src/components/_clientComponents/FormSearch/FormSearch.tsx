@@ -1,43 +1,47 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-
-import { useState, useActionState, KeyboardEvent } from "react";
+import { useState, KeyboardEvent } from "react";
 
 import Button from "@/components/Button";
 
-export default function FormSearch() {
-  const { push } = useRouter();
+type FormType = {
+  handleSearch?: (e: string) => void;
+  isLoading?: boolean;
+};
 
-  const [search, setSearch] = useState("");
+export default function FormSearch({ handleSearch, isLoading }: FormType) {
+  const [formSearch, setFormSearch] = useState("");
   const [isFocus, setIsFocus] = useState(false);
 
-  //TODO. 검색 백엔드 추가 후 쿼리스트링 구현 필요 - DongJae
   const handleSubmit = () => {
-    console.log("");
+    if (handleSearch) handleSearch(formSearch);
   };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
-      push(`/`);
+    if (e.key === "Enter" && handleSearch) {
+      handleSearch(e.currentTarget.value);
     }
   };
 
   const handleReset = () => {
-    setSearch("");
+    if (handleSearch) {
+      setFormSearch((prev) => {
+        prev = "";
+        handleSearch(prev);
+        return prev;
+      });
+    }
   };
-
-  const [state, formAction, isPending] = useActionState(handleSubmit, null);
-
-  console.log(state);
 
   return (
     <div className="rounded-md bg-gray-100 px-10 py-6">
-      <form action={formAction}>
+      <form>
         <label htmlFor="search" className="mb-2 block text-body01b">
           검색
         </label>
-        <div className="flex h-12 items-center gap-x-2 rounded border border-gray-200 bg-white px-4">
+        <div
+          className={`flex h-12 items-center gap-x-2 rounded border px-4 ${isFocus ? "border-gray-800" : "border-gray-200"} bg-white`}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -61,12 +65,12 @@ export default function FormSearch() {
           <input
             id="search"
             type="search"
-            value={search}
-            placeholder="검색어를 입력하세요."
+            value={formSearch}
+            placeholder="제목을 입력하세요."
             className="h-full w-full text-body01m outline-none"
-            disabled={isPending}
             maxLength={50}
-            onChange={(e) => setSearch(e.target.value)}
+            disabled={isLoading}
+            onChange={(e) => setFormSearch(e.target.value)}
             onFocus={() => {
               setIsFocus(true);
             }}
@@ -79,16 +83,21 @@ export default function FormSearch() {
           />
         </div>
         <div className="mt-4 flex justify-end gap-x-1">
-          <Button type="submit" color="black" disabled={isPending}>
-            검색
-          </Button>
           <Button
             color="blue"
             type="reset"
-            disabled={isPending}
+            disabled={isLoading}
             onClick={handleReset}
           >
             초기화
+          </Button>
+          <Button
+            type="button"
+            color="black"
+            disabled={isLoading}
+            onClick={handleSubmit}
+          >
+            검색
           </Button>
         </div>
       </form>
