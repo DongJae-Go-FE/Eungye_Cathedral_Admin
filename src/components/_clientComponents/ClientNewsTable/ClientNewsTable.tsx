@@ -16,6 +16,8 @@ export default function ClientNewsTable() {
   const [limit, setLimit] = useState(10);
   const [search, setSearch] = useState("");
 
+//   console.log("")
+
   const { data, isLoading } = useQuery<RequestGetListType>({
     queryKey: ["news", page, limit, search],
     queryFn: async () =>
