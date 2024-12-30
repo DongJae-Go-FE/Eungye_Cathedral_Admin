@@ -77,6 +77,12 @@ export default function ClientNewsTable() {
         totalCount={data?.data.total || 0}
         href="/news"
         isLoading={isLoading}
+        onPageChange={(page) => {
+          setPage((prev) => {
+            prev = page;
+            return prev;
+          });
+        }}
       />
     </div>
   );

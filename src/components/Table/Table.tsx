@@ -150,6 +150,9 @@ export default function Table({
               current={page || 1}
               total={totalPage}
               onChange={onPageChange}
+              numericOptions={{
+                max: 10,
+              }}
             />
           </div>
         )}
