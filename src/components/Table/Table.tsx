@@ -149,10 +149,10 @@ export default function Table({
             <Pagination
               current={page || 1}
               total={totalPage}
-              onChange={onPageChange}
               numericOptions={{
                 max: 10,
               }}
+              onChange={onPageChange}
             />
           </div>
         )}
