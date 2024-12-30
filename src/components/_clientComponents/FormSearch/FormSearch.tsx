@@ -14,11 +14,12 @@ export default function FormSearch({ handleSearch, isLoading }: FormType) {
   const [isFocus, setIsFocus] = useState(false);
 
   const handleSubmit = () => {
-    if (handleSearch) handleSearch(formSearch);
+    if (handleSearch) handleSearch(formSearch || "");
   };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter" && handleSearch) {
+      e.preventDefault();
       handleSearch(e.currentTarget.value);
     }
   };
@@ -27,9 +28,9 @@ export default function FormSearch({ handleSearch, isLoading }: FormType) {
     if (handleSearch) {
       setFormSearch((prev) => {
         prev = "";
-        handleSearch(prev);
         return prev;
       });
+      handleSearch("");
     }
   };
 
