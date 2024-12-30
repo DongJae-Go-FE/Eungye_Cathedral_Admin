@@ -41,7 +41,7 @@ export default function FormSearch({ handleSearch, isLoading }: FormType) {
           검색
         </label>
         <div
-          className={`flex h-12 items-center gap-x-2 rounded border px-4 ${isFocus ? "border-gray-800" : "border-gray-200"} bg-white`}
+          className={`flex h-12 items-center gap-x-2 rounded border px-4 ${isFocus ? "border-gray-800" : "border-gray-200"} ${isLoading ? "bg-[#efefef4d]" : "bg-white"}`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
