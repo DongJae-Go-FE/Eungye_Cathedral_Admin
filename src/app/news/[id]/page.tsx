@@ -51,7 +51,17 @@ export default async function Page({
           </tr>
           <tr>
             <th>내용</th>
-            <td colSpan={3}>{data.content ? data.content : "-"}</td>
+            <td colSpan={3}>
+              {data.content ? (
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: data.content,
+                  }}
+                />
+              ) : (
+                "-"
+              )}
+            </td>
           </tr>
           <tr>
             <th>사진 파일</th>

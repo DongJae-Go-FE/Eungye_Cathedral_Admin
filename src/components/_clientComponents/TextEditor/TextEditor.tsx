@@ -10,10 +10,12 @@ import "./style.css";
 
 interface QuillEditorProps {
   placeholder?: string;
+  defaultValue?: string;
 }
 
 const QuillEditor: FC<QuillEditorProps> = ({
   placeholder = "내용을 입력해주세요",
+  defaultValue = "<p>내용을 입력해주세요.</p>",
 }) => {
   const quillEditorRef = useRef<HTMLDivElement>(null);
   const quillRef = useRef<Quill | null>(null);
@@ -46,9 +48,16 @@ const QuillEditor: FC<QuillEditorProps> = ({
         },
         placeholder,
       });
+
+      if (defaultValue) {
+        const delta = quillRef.current.clipboard.convert({
+          html: defaultValue,
+        });
+        quillRef.current.setContents(delta);
+      }
     }
     return () => {};
-  }, [placeholder]);
+  }, [placeholder, defaultValue]);
 
   return <div ref={quillEditorRef} className="h-full" />;
 };
