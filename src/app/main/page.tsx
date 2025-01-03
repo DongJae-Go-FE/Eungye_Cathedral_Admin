@@ -4,11 +4,7 @@ import ServerNoticeList from "@/components/_serverComponents/ServerNoticeList/Se
 import ServerNewsList from "@/components/_serverComponents/ServerNewsList";
 import ServerWeeklysList from "@/components/_serverComponents/ServerWeeklysList";
 
-//import wait from "@/utils/wait";
-
 export default async function Home() {
-  // await wait(1000);
-
   return (
     <div className="common-layout">
       <div className="mb-8 flex h-[300px] w-full bg-gray-200">

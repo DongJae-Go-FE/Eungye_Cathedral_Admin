@@ -13,14 +13,13 @@ import { formatDate } from "@/utils/common";
 
 export default function ClientNewsTable() {
   const [page, setPage] = useState(1);
-  const [limit, setLimit] = useState(10);
   const [search, setSearch] = useState("");
 
   const { data, isLoading } = useQuery<RequestGetListType>({
-    queryKey: ["news", page, limit, search],
+    queryKey: ["news", page, search],
     queryFn: async () =>
       await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=${page}&limit=${limit}&q=${search}`,
+        `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=${page}&limit=10&q=${search}`,
         {
           method: "GET",
           headers: {

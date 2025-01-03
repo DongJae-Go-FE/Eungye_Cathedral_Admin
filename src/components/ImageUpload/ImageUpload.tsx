@@ -1,42 +1,74 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useRef, HTMLAttributes } from "react";
+import { useState, HTMLAttributes } from "react";
+import Button from "../Button";
+import Spinner from "../Spinner";
 
 interface ImageUploadType extends HTMLAttributes<HTMLInputElement> {
   alt?: string;
+  defaultValue?: string;
 }
 
-export default function ImageUpload({ alt, ...props }: ImageUploadType) {
-  const uploadRef = useRef<HTMLInputElement>(null);
+export default function ImageUpload({
+  alt,
+  defaultValue = "",
+  ...props
+}: ImageUploadType) {
+  const [isLoading, setIsLoading] = useState(false);
+  const [imageUrl, setImageUrl] = useState(defaultValue);
+  const [imageName, setImageName] = useState("");
 
-  const [fileName, setFileName] = useState("");
-  const [imgSrc, setImgSrc] = useState("");
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      setIsLoading(true);
 
-  const handleFileImage = (fileBlob: React.ChangeEvent<HTMLInputElement>) => {
-    if (
-      uploadRef.current &&
-      fileBlob.target.files &&
-      fileBlob.target.files[0]
-    ) {
-      const fileUrl = URL.createObjectURL(fileBlob.target.files[0]);
+      if (file.size > 10 * 1024 * 1024) {
+        alert("파일 크기가 10MB를 초과합니다. 다른 파일을 선택해 주세요.");
+        return;
+      }
 
-      setFileName(
-        uploadRef.current.value.substring(
-          uploadRef.current.value.lastIndexOf("\\") + 1,
-          uploadRef.current.value.length,
-        ),
-      );
-      setImgSrc(fileUrl);
+      const formData = new FormData();
+      formData.append("file", file, file.name);
+
+      try {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/images/upload`,
+          {
+            method: "POST",
+            body: formData,
+          },
+        );
+
+        if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(`파일 업로드 실패, ${errorText}`);
+        }
+
+        const data = await response.json();
+        setImageUrl(data.url);
+        setImageName(file.name);
+      } catch (error) {
+        console.error("업로드 중 오류 발생:", error);
+      } finally {
+        setIsLoading(false);
+      }
     }
+  };
+
+  const handleImageDel = () => {
+    //TODO. 상위 폼에서 URL 없애기 구현 필요
+    setImageUrl("");
+    setImageName("");
   };
 
   return (
     <div>
       <div className="flex items-center gap-x-2">
         <label
-          htmlFor="upload"
-          className="inline-flex h-10 cursor-pointer items-center gap-x-1 rounded-md border px-4 text-body02m"
+          htmlFor="file"
+          className={`inline-flex h-10 ${isLoading ? "pointer-events-none cursor-auto" : "cursor-pointer"} items-center gap-x-1 rounded-md border px-4 text-body02m`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -74,14 +106,15 @@ export default function ImageUpload({ alt, ...props }: ImageUploadType) {
         </label>
         <input
           type="file"
-          name=""
-          id="upload"
-          ref={uploadRef}
+          name="file"
+          id="file"
+          accept=".jpeg, .png"
+          disabled={isLoading}
           hidden
-          onChange={handleFileImage}
           {...props}
+          onChange={handleFileChange}
         />
-        {fileName && (
+        {imageName && (
           <p className="inline-flex items-center gap-x-1 text-body02m text-blue-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -97,21 +130,41 @@ export default function ImageUpload({ alt, ...props }: ImageUploadType) {
                 fill="#111111"
               />
             </svg>
-            {fileName}
+            {imageName}
           </p>
         )}
       </div>
-
-      {imgSrc && (
-        <div className="mt-2">
-          <Image
-            src={imgSrc}
-            width={100}
-            height={100}
-            alt={alt ? alt : "이미지 설명"}
-          />
+      {isLoading ? (
+        <div className="relative mt-2 h-[300px] w-[300px] animate-pulse rounded bg-gray-200">
+          <Spinner />
         </div>
+      ) : (
+        imageUrl && (
+          <div className="relative mt-2 w-[300px]">
+            <Image
+              src={imageUrl}
+              width={300}
+              height={300}
+              alt={alt ? alt : "이미지 설명"}
+            />
+            <div className="absolute right-0 top-0">
+              <Button
+                type="button"
+                size="xs"
+                color="blue"
+                onClick={handleImageDel}
+              >
+                사진 삭제
+              </Button>
+            </div>
+          </div>
+        )
       )}
+
+      <span className="mt-1 flex items-center text-body02m text-gray-600">
+        <span className="relative top-0.5 text-red-500">*</span> 파일 확장자는
+        jpeg, png만 가능하고 file size는 10MB 이하만 가능합니다.
+      </span>
     </div>
   );
 }

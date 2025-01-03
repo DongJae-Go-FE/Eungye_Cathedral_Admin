@@ -10,13 +10,23 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  //캐싱 여부 콘솔 체크
+
   logging: {
     fetches: {
       fullUrl: true,
     },
   },
   productionBrowserSourceMaps: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "zaldcyiylcbizoctbcrx.supabase.co",
+        port: "",
+        pathname: "/storage/v1/object/public/images/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
