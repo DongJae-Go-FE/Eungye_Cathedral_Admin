@@ -22,6 +22,7 @@ export default async function Page({
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "application/json;charset=UTF-8",
       },
+      cache: "force-cache",
     },
   );
 

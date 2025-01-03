@@ -26,6 +26,7 @@ export default function ClientWeeklysTable() {
             "Access-Control-Allow-Origin": "*",
             "Content-Type": "application/json;charset=UTF-8",
           },
+          cache: "force-cache",
         },
       ).then((res) => res.json()),
   });
