@@ -90,8 +90,8 @@ export default function ClientNewsEdit({
                 readOnly
                 hidden
               />
-              <label htmlFor="od" className="hidden">
-                경로
+              <label htmlFor="id" className="hidden">
+                아이디
               </label>
               <input
                 type="hidden"
