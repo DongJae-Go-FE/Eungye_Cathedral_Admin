@@ -1,5 +1,5 @@
 import SectionTitle from "@/components/SectionTitle";
-import ClientNoticeTable from "@/components/_clientComponents/ClientNoticeTable";
+import ClientNoticesTable from "@/components/_clientComponents/ClientNoticesTable";
 
 export default async function Page() {
   return (
@@ -8,7 +8,7 @@ export default async function Page() {
         title="공지사항"
         items={[{ id: 0, title: "공지사항", path: "/notices" }]}
       />
-      <ClientNoticeTable />
+      <ClientNoticesTable />
     </div>
   );
 }

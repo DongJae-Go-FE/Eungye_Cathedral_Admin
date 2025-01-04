@@ -1,11 +1,5 @@
 import SectionTitle from "@/components/SectionTitle";
-import ClientNotiesAdd from "@/components/_clientComponents/ClientNoticesAdd";
-// import Button from "@/components/Button";
-// import AddButton from "@/components/_clientComponents/_btn/AddButton";
-// import Input from "@/components/Input";
-
-// import TextEditor from "@/components/TextEditor";
-// import ImageUpload from "@/components/ImageUpload/ImageUpload";
+import ClientNoticesAdd from "@/components/_clientComponents/ClientNoticesAdd";
 
 export default async function Page() {
   return (
@@ -17,7 +11,7 @@ export default async function Page() {
           { id: 1, title: "공지사항 등록", path: `/notices/add` },
         ]}
       />
-      <ClientNotiesAdd/>
+      <ClientNoticesAdd />
     </section>
   );
 }

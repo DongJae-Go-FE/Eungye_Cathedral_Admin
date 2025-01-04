@@ -1,3 +1,3 @@
-import ClientWeeklysTable from "./ClientNoticeTable";
+import ClientWeeklysTable from "./ClientNoticesTable";
 
 export default ClientWeeklysTable;

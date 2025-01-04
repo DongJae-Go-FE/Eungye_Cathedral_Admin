@@ -11,7 +11,7 @@ import { TableColumn } from "@/components/Table/Table";
 import { RequestGetListType } from "@/type";
 import { formatDate } from "@/utils/common";
 
-export default function ClientNoticeTable() {
+export default function ClientNoticesTable() {
   const [page, setPage] = useState(1);
   const [search, setSearch] = useState("");
 
