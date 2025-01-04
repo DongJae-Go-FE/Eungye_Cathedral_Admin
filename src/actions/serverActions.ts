@@ -45,10 +45,11 @@ const handleEdit = async (_: unknown, formData: FormData) => {
   const content = formData.get("content")?.toString();
   const imgUrl = formData.get("imageUrl")?.toString();
   const hrefData = formData.get("path")?.toString();
+  const id = formData.get("id")?.toString();
 
   try {
     const response = await fetch(
-      `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}${hrefData}`,
+      `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}${hrefData}/${id}`,
       {
         method: "PATCH",
         headers: {
