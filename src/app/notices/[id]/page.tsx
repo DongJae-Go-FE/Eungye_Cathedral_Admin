@@ -115,7 +115,7 @@ export default async function Page({
         <Button color="black" href={`/notices/${id}/edit`}>
           수정
         </Button>
-        <DeleteButton id={id} href="/notices" />
+        <DeleteButton id={id} href="/notices" update="serverNoticesList" />
         <Button color="white" href="/notices">
           목록으로
         </Button>

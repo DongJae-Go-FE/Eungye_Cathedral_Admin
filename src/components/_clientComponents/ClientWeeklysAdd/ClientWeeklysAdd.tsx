@@ -71,6 +71,17 @@ export default function ClientWeeklysAdd() {
                 readOnly
                 hidden
               />
+              <label htmlFor="update" className="sr-only">
+                update
+              </label>
+              <input
+                type="hidden"
+                id="update"
+                value="serverWeeklysList"
+                name="update"
+                hidden
+                readOnly
+              />
             </td>
           </tr>
         </tbody>

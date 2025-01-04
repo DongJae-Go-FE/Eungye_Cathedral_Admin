@@ -101,6 +101,17 @@ export default function ClientNewsEdit({
                 readOnly
                 hidden
               />
+              <label htmlFor="update" className="sr-only">
+                update
+              </label>
+              <input
+                type="hidden"
+                id="update"
+                value="serverNewsList"
+                name="update"
+                hidden
+                readOnly
+              />
             </td>
           </tr>
         </tbody>

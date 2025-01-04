@@ -1,12 +1,13 @@
 "use server";
 
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 
 const handleAdd = async (_: unknown, formData: FormData) => {
   const title = formData.get("title")?.toString();
   const content = formData.get("content")?.toString();
   const imgUrl = formData.get("imageUrl")?.toString();
   const hrefData = formData.get("path")?.toString();
+  const listUpdate = formData.get("update")?.toString();
 
   try {
     const response = await fetch(
@@ -28,6 +29,7 @@ const handleAdd = async (_: unknown, formData: FormData) => {
     if (!response.ok) {
       throw new Error(`등록 실패: ${response.statusText}`);
     }
+    revalidateTag(listUpdate || "");
 
     return {
       status: true,
@@ -46,6 +48,7 @@ const handleEdit = async (_: unknown, formData: FormData) => {
   const imgUrl = formData.get("imageUrl")?.toString();
   const hrefData = formData.get("path")?.toString();
   const id = formData.get("id")?.toString();
+  const listUpdate = formData.get("update")?.toString();
 
   try {
     const response = await fetch(
@@ -67,6 +70,7 @@ const handleEdit = async (_: unknown, formData: FormData) => {
     if (!response.ok) {
       throw new Error(`등록 실패: ${response.statusText}`);
     }
+    revalidateTag(listUpdate || "");
 
     return {
       status: true,
@@ -82,6 +86,7 @@ const handleEdit = async (_: unknown, formData: FormData) => {
 const handleDelete = async (_: unknown, formData: FormData) => {
   const hrefData = formData.get("path")?.toString();
   const idData = formData.get("id")?.toString();
+  const listUpdate = formData.get("update")?.toString();
 
   if (!idData) {
     return {
@@ -105,7 +110,7 @@ const handleDelete = async (_: unknown, formData: FormData) => {
     if (!response.ok) {
       throw new Error(`삭제 요청 실패: ${response.statusText}`);
     }
-
+    revalidateTag(listUpdate || "");
     revalidatePath(`${hrefData}/${idData}`);
 
     return {

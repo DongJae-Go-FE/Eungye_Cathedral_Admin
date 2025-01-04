@@ -13,6 +13,7 @@ export default async function ServerWeeklysList() {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "application/json;charset=UTF-8",
       },
+      next: { tags: ["serverWeeklysList"] },
     },
   ).then((res) => res.json());
 

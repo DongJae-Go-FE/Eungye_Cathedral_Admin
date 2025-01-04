@@ -13,6 +13,7 @@ export default async function ServerNoticeList() {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "application/json;charset=UTF-8",
       },
+      next: { tags: ["serverNoticesList"] },
     },
   ).then((res) => res.json());
 

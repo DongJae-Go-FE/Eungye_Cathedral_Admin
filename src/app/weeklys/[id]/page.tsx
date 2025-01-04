@@ -66,7 +66,7 @@ export default async function Page({
                   priority
                 />
               ) : (
-                <div className="relative h-[300] w-[300] rounded bg-gray-200">
+                <div className="relative h-[300px] w-[300px] rounded bg-gray-200">
                   <Empty description="사진이 없습니다." />
                 </div>
               )}
@@ -111,7 +111,7 @@ export default async function Page({
         <Button color="black" href={`/weeklys/${id}/edit`}>
           수정
         </Button>
-        <DeleteButton id={id} href="/weeklys" />
+        <DeleteButton id={id} href="/weeklys" update="serverWeeklysList" />
         <Button color="white" href="/weeklys">
           목록으로
         </Button>

@@ -19,9 +19,10 @@ import {
 type DeleteType = {
   href?: Url | string;
   id?: string | number;
+  update?: string;
 };
 
-export default function DeleteButton({ id, href }: DeleteType) {
+export default function DeleteButton({ id, href, update }: DeleteType) {
   const { push } = useRouter();
   const queryClient = useQueryClient();
 
@@ -64,6 +65,17 @@ export default function DeleteButton({ id, href }: DeleteType) {
         id={id?.toString()}
         value={id?.toString()}
         name="id"
+        hidden
+        readOnly
+      />
+      <label htmlFor="update" className="sr-only">
+        update
+      </label>
+      <input
+        type="hidden"
+        id="update"
+        value={update}
+        name="update"
         hidden
         readOnly
       />
