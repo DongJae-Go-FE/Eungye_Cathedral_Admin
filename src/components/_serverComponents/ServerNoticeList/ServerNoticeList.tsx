@@ -19,7 +19,7 @@ export default async function ServerNoticeList() {
       <List
         href="/notices"
         items={
-          response.data?.list?.map(({ id, title, created_at }) => {
+          response?.data?.list?.map(({ id, title, created_at }) => {
             return {
               id,
               title,

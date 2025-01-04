@@ -64,7 +64,7 @@ export default function ClientNoticesTable() {
         caption="공지사항 테이블"
         columns={columns}
         initialData={
-          data?.data.list.map((list, index) => ({
+          data?.data?.list.map((list, index) => ({
             no: index + 1,
             title: list.title,
             created_at: formatDate(list.created_at),
@@ -73,7 +73,7 @@ export default function ClientNoticesTable() {
         }
         page={Number(data?.page)}
         pageSize={Number(data?.limit)}
-        totalCount={data?.data.total || 0}
+        totalCount={data?.data?.total || 0}
         href="/notices"
         isLoading={isLoading}
         onPageChange={(page) => {
