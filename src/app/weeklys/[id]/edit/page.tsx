@@ -1,9 +1,9 @@
-import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
+import SectionTitle from "@/components/SectionTitle";
 import Button from "@/components/Button";
 import EditButton from "@/components/_clientComponents/_btn/EditButton";
 import Input from "@/components/Input";
 
-import TextEditor from "@/components/_clientComponents/TextEditor";
+import TextEditor from "@/components/TextEditor";
 import ImageUpload from "@/components/ImageUpload/ImageUpload";
 
 export default async function Page({

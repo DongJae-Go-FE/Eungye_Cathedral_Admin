@@ -1,10 +1,5 @@
-import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
-import Button from "@/components/Button";
-import AddButton from "@/components/_clientComponents/_btn/AddButton";
-import Input from "@/components/Input";
-
-import TextEditor from "@/components/_clientComponents/TextEditor";
-import ImageUpload from "@/components/ImageUpload/ImageUpload";
+import SectionTitle from "@/components/SectionTitle";
+import ClientNewsAdd from "@/components/_clientComponents/ClientNewsAdd";
 
 export default async function Page() {
   return (
@@ -16,44 +11,7 @@ export default async function Page() {
           { id: 1, title: "본당소식 등록", path: `/news/add` },
         ]}
       />
-      <form action="">
-        <table className="description-table">
-          <caption>본당소식 등록 테이블</caption>
-          <tbody>
-            <tr>
-              <th>
-                <label htmlFor="title">제목</label>
-              </th>
-              <td colSpan={3}>
-                <Input
-                  type="text"
-                  id="title"
-                  placeholder="제목을 입력해주세요."
-                  maxLength={50}
-                />
-              </td>
-            </tr>
-            <tr>
-              <th>내용</th>
-              <td colSpan={3}>
-                <TextEditor />
-              </td>
-            </tr>
-            <tr>
-              <th>사진 파일</th>
-              <td colSpan={3}>
-                <ImageUpload />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <div className="mt-6 flex justify-end gap-x-1">
-          <AddButton href="/news" />
-          <Button color="white" href="/news">
-            취소
-          </Button>
-        </div>
-      </form>
+      <ClientNewsAdd />
     </section>
   );
 }

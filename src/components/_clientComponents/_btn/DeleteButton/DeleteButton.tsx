@@ -3,13 +3,18 @@
 import { useRouter } from "next/navigation";
 import { useActionState } from "react";
 
+import { useQueryClient, RefetchQueryFilters } from "@tanstack/react-query";
+
 import Button from "@/components/Button";
 import { Url } from "url";
-import { handleDelete } from "@/actions/serverDelete";
+import { handleDelete } from "@/actions/serverActions";
 
 import Spinner from "@/components/Spinner";
 
-import { ADMIN_DELETE_STRING } from "@/const/const";
+import {
+  ADMIN_DELETE_STRING,
+  ADMIN_DELETE_STRING_COMPLETE,
+} from "@/const/const";
 
 type DeleteType = {
   href?: Url | string;
@@ -18,8 +23,10 @@ type DeleteType = {
 
 export default function DeleteButton({ id, href }: DeleteType) {
   const { push } = useRouter();
-  const [_, formActions, isPending] = useActionState(handleDelete, null);
-  console.log(_);
+  const queryClient = useQueryClient();
+
+  const [state, formActions, isPending] = useActionState(handleDelete, null);
+  console.log(state);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -28,6 +35,8 @@ export default function DeleteButton({ id, href }: DeleteType) {
       const response = await handleDelete(null, formData);
 
       if (response.status && response.redirectUrl) {
+        queryClient.refetchQueries(href as RefetchQueryFilters<string>);
+        alert(ADMIN_DELETE_STRING_COMPLETE);
         push(response.redirectUrl);
       } else {
         alert(response.error);
@@ -40,7 +49,7 @@ export default function DeleteButton({ id, href }: DeleteType) {
         {href?.toString()}
       </label>
       <input
-        type="text"
+        type="hidden"
         id={href?.toString()}
         value={href?.toString()}
         name="path"
@@ -51,7 +60,7 @@ export default function DeleteButton({ id, href }: DeleteType) {
         {id?.toString()}
       </label>
       <input
-        type="text"
+        type="hidden"
         id={id?.toString()}
         value={id?.toString()}
         name="id"

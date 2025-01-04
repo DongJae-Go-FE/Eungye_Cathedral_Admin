@@ -1,4 +1,4 @@
-import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
+import SectionTitle from "@/components/SectionTitle";
 import ClientNoticeTable from "@/components/_clientComponents/ClientNoticeTable";
 
 export default async function Page() {

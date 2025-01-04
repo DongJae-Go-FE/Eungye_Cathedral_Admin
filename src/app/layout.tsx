@@ -3,10 +3,10 @@ import localFont from "next/font/local";
 
 import "./globals.css";
 
-import Header from "@/components/_clientComponents/Header";
-import Sidebar from "@/components/_clientComponents/Sidebar";
+import Header from "@/components/Header";
+import Sidebar from "@/components/Sidebar";
 
-import QueryProvider from "@/components/_clientComponents/QueryProvider";
+import QueryProvider from "@/components/QueryProvider";
 
 const pretendard = localFont({
   src: "fonts/PretendardVariable.woff2",

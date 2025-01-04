@@ -15,7 +15,7 @@ function serverQueryClient() {
   return new QueryClient({
     defaultOptions: {
       queries: {
-        staleTime: 0,
+        staleTime: 1000 * 20,
       },
       dehydrate: {
         shouldDehydrateQuery: (query) =>

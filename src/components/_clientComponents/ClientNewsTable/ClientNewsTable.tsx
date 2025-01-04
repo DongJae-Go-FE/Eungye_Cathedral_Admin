@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 
-import FormSearch from "@/components/_clientComponents/FormSearch";
+import FormSearch from "@/components/FormSearch";
 import Button from "@/components/Button";
 import Table from "@/components/Table";
 
@@ -16,7 +16,7 @@ export default function ClientNewsTable() {
   const [search, setSearch] = useState("");
 
   const { data, isLoading } = useQuery<RequestGetListType>({
-    queryKey: ["news", page, search],
+    queryKey: ["/news", page, search],
     queryFn: async () =>
       await fetch(
         `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=${page}&limit=10&q=${search}`,
@@ -26,7 +26,6 @@ export default function ClientNewsTable() {
             "Access-Control-Allow-Origin": "*",
             "Content-Type": "application/json;charset=UTF-8",
           },
-          cache: "force-cache",
         },
       ).then((res) => res.json()),
   });
@@ -65,7 +64,7 @@ export default function ClientNewsTable() {
         caption="본당소식 테이블"
         columns={columns}
         initialData={
-          data?.data.list.map((list, index) => ({
+          data?.data?.list?.map((list, index) => ({
             no: index + 1,
             title: list.title,
             created_at: formatDate(list.created_at),
@@ -74,7 +73,7 @@ export default function ClientNewsTable() {
         }
         page={Number(data?.page)}
         pageSize={Number(data?.limit)}
-        totalCount={data?.data.total || 0}
+        totalCount={data?.data?.total || 0}
         href="/news"
         isLoading={isLoading}
         onPageChange={(page) => {

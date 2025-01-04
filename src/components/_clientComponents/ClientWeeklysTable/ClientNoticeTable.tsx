@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 
-import FormSearch from "@/components/_clientComponents/FormSearch";
+import FormSearch from "@/components/FormSearch";
 import Button from "@/components/Button";
 import Table from "@/components/Table";
 
@@ -16,7 +16,7 @@ export default function ClientWeeklysTable() {
   const [search, setSearch] = useState("");
 
   const { data, isLoading } = useQuery<RequestGetListType>({
-    queryKey: ["weeklys", page, search],
+    queryKey: ["/weeklys", page, search],
     queryFn: async () =>
       await fetch(
         `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/weeklys?page=${page}&limit=10&q=${search}`,
@@ -26,7 +26,6 @@ export default function ClientWeeklysTable() {
             "Access-Control-Allow-Origin": "*",
             "Content-Type": "application/json;charset=UTF-8",
           },
-          cache: "force-cache",
         },
       ).then((res) => res.json()),
   });

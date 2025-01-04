@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
+import SectionTitle from "@/components/SectionTitle";
 import Button from "@/components/Button";
 import DeleteButton from "@/components/_clientComponents/_btn/DeleteButton";
 

@@ -58,7 +58,6 @@ export default function ImageUpload({
   };
 
   const handleImageDel = () => {
-    //TODO. 상위 폼에서 URL 없애기 구현 필요
     setImageUrl("");
     setImageName("");
   };
@@ -157,6 +156,17 @@ export default function ImageUpload({
                 사진 삭제
               </Button>
             </div>
+            <label htmlFor="imageUrl" className="hidden">
+              이미지 주소
+            </label>
+            <input
+              type="hidden"
+              id="imageUrl"
+              name="imageUrl"
+              value={imageUrl}
+              hidden
+              readOnly
+            />
           </div>
         )
       )}

@@ -1,4 +1,4 @@
-import SectionTitle from "@/components/_serverComponents/ServerSectionTitle";
+import SectionTitle from "@/components/SectionTitle";
 
 import ClientWeeklysTable from "@/components/_clientComponents/ClientWeeklysTable";
 
