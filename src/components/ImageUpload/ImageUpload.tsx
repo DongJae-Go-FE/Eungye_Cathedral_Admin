@@ -174,7 +174,7 @@ export default function ImageUpload({
 
       <span className="mt-1 flex items-center text-body02m text-gray-600">
         <span className="relative top-0.5 text-red-500">*</span> 파일 확장자는
-        jpeg, png만 가능하고 file size는 10MB 이하만 가능합니다.
+        jpeg, png만 가능하고 파일 크기는 10MB 이하만 가능합니다.
       </span>
     </div>
   );
