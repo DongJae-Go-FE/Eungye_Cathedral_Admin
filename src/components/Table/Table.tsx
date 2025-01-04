@@ -133,7 +133,12 @@ export default function Table({
                       className="h-12 border-b-2 border-gray-100 px-5 text-center text-body02r"
                     >
                       {Object.keys(item)[index2] === "title" ? (
-                        <Link href={`${href}/${item.id}`}>{item[key]}</Link>
+                        <Link
+                          href={`${href}/${item.id}`}
+                          className="hover:underline"
+                        >
+                          {item[key]}
+                        </Link>
                       ) : (
                         item[key]
                       )}

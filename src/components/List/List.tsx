@@ -23,7 +23,7 @@ export default function List({ items, href, isLoading }: ListType) {
   const liBeforeStyle =
     "before:content[``] before:absolute before:top-1/2 before:h-[3px] before:w-[3px] before:-translate-y-1/2 before:rounded-[3px] before:bg-black before:left-2.5";
 
-  const titleStyle = "truncate text-body01m text-black w-[80%]";
+  const titleStyle = "truncate text-body01m text-black w-[80%] hover:underline";
   const spanStyle = "text-body02m text-gray-500";
 
   if (isLoading) {

@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 import List from "@/components/List";
+
 import { RequestGetListType } from "@/type";
 
 export default async function ServerNoticeList() {
@@ -15,7 +18,12 @@ export default async function ServerNoticeList() {
 
   return (
     <section>
-      <h3 className="mb-7 text-heading03b text-black">공지사항</h3>
+      <h3 className="mb-7 flex items-center justify-between text-heading03b text-black">
+        공지사항
+        <Link href="/notices" className="text-body01m hover:underline">
+          더보기
+        </Link>
+      </h3>
       <List
         href="/notices"
         items={

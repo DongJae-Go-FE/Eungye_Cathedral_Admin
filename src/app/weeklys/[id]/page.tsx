@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import SectionTitle from "@/components/SectionTitle";
 import Button from "@/components/Button";
 import DeleteButton from "@/components/_clientComponents/_btn/DeleteButton";
+import Empty from "@/components/Empty";
 
 import { RequestGetDetailType } from "@/type";
 import { formatDate } from "@/utils/common";
@@ -55,7 +56,7 @@ export default async function Page({
           <tr>
             <th>내용</th>
             <td colSpan={3}>
-              {data.imgUrl && (
+              {data.imgUrl ? (
                 <Image
                   src={data.imgUrl}
                   width={500}
@@ -64,6 +65,10 @@ export default async function Page({
                   className="mb-4 h-auto w-auto"
                   priority
                 />
+              ) : (
+                <div className="relative h-[300] w-[300] rounded bg-gray-200">
+                  <Empty description="사진이 없습니다." />
+                </div>
               )}
             </td>
           </tr>

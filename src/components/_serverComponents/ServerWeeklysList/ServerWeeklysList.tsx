@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 import List from "@/components/List";
+
 import { RequestGetListType } from "@/type";
 
 export default async function ServerWeeklysList() {
@@ -15,7 +18,12 @@ export default async function ServerWeeklysList() {
 
   return (
     <section>
-      <h3 className="mb-7 text-heading03b text-black">주보</h3>
+      <h3 className="mb-7 flex items-center justify-between text-heading03b text-black">
+        주보
+        <Link href="/weeklys" className="text-body01m hover:underline">
+          더보기
+        </Link>
+      </h3>
       <List
         href="/weeklys"
         items={

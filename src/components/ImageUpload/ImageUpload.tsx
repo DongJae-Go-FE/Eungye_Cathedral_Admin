@@ -50,6 +50,7 @@ export default function ImageUpload({
         setImageUrl(data.url);
         setImageName(file.name);
       } catch (error) {
+        alert("사진은 jpeg, png만 가능합니다.")
         console.error("업로드 중 오류 발생:", error);
       } finally {
         setIsLoading(false);

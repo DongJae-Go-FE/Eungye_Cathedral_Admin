@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import List from "@/components/List";
 
 import { RequestGetListType } from "@/type";
@@ -16,7 +18,12 @@ export default async function ServerNewsList() {
 
   return (
     <section>
-      <h3 className="mb-7 text-heading03b text-black">본당소식</h3>
+      <h3 className="mb-7 flex items-center justify-between text-heading03b text-black">
+        본당소식
+        <Link href="/news" className="text-body01m hover:underline">
+          더보기
+        </Link>
+      </h3>
       <List
         href="/news"
         items={
