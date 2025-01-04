@@ -65,6 +65,7 @@ export default function ClientNewsEdit({
                 name="title"
                 placeholder="제목을 입력해주세요."
                 maxLength={50}
+                required
               />
             </td>
           </tr>
