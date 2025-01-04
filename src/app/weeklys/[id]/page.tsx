@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 
 import SectionTitle from "@/components/SectionTitle";
 import Button from "@/components/Button";
-import DeleteButton from "@/components/_clientComponents/_btn/DeleteButton";
+import DeleteButton from "@/components/_clientComponents/DeleteButton";
 import Empty from "@/components/Empty";
 
 import { RequestGetDetailType } from "@/type";
