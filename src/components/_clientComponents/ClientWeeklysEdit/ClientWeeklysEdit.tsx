@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useActionState } from "react";
+import { useState, useActionState } from "react";
 
 import { useQueryClient, RefetchQueryFilters } from "@tanstack/react-query";
 
@@ -26,6 +26,7 @@ export default function ClientWeeklysEdit({
   const { push } = useRouter();
   const queryClient = useQueryClient();
 
+  const [isVal, setIsVal] = useState(data.title);
   const [state, formActions, isPending] = useActionState(handleEdit, null);
   console.log(state);
 
@@ -58,13 +59,14 @@ export default function ClientWeeklysEdit({
             </th>
             <td colSpan={3}>
               <Input
-                defaultValue={data.title}
                 type="text"
                 id="title"
                 name="title"
                 placeholder="제목을 입력해주세요."
+                value={isVal}
                 maxLength={50}
                 required
+                onChange={(e) => setIsVal(e.target.value)}
               />
             </td>
           </tr>
@@ -110,8 +112,8 @@ export default function ClientWeeklysEdit({
         </tbody>
       </table>
       <div className="mt-6 flex justify-end gap-x-1">
-        <Button type="submit" color="blue" disabled={isPending}>
-          {isPending ? <Spinner /> : "수정"}
+        <Button type="submit" color="blue" disabled={isPending || !isVal}>
+          {isPending ? <Spinner /> : "등록"}
         </Button>
         <Button type="button" color="white" href={`/weeklys/${id}`}>
           취소

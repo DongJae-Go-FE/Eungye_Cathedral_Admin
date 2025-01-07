@@ -70,8 +70,31 @@ export default function ImageUpload({
           htmlFor="file"
           className={`inline-flex h-10 ${isLoading ? "pointer-events-none cursor-auto" : "cursor-pointer"} items-center gap-x-1 rounded-md border px-4 text-body02m`}
         >
-          <svg width={14} height={14} color="#000" aria-hidden>
-            <use href="icons/outlined/arrows.svg#Outlined/Arrows/upload" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+          >
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M11.2513 5.41663C11.5735 5.41663 11.8346 5.67779 11.8346 5.99996L11.8346 11.25C11.8346 11.5721 11.5735 11.8333 11.2513 11.8333L0.751302 11.8333C0.429136 11.8333 0.167969 11.5721 0.167969 11.25L0.167969 6.00238C0.167969 5.68021 0.429136 5.41905 0.751302 5.41905C1.07347 5.41905 1.33464 5.68021 1.33464 6.00238L1.33464 10.6666L10.668 10.6666V5.99996C10.668 5.67779 10.9291 5.41663 11.2513 5.41663Z"
+              fill="#111111"
+            />
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M5.58882 0.33748C5.81663 0.109674 6.18597 0.109674 6.41378 0.33748L9.03878 2.96248C9.26659 3.19029 9.26659 3.55963 9.03878 3.78744C8.81097 4.01524 8.44163 4.01524 8.21382 3.78744L6.0013 1.57492L3.78878 3.78744C3.56098 4.01524 3.19163 4.01524 2.96382 3.78744C2.73602 3.55963 2.73602 3.19029 2.96382 2.96248L5.58882 0.33748Z"
+              fill="#111111"
+            />
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M5.9974 0.166626C6.31956 0.166626 6.58073 0.427793 6.58073 0.749959L6.58073 8.33329C6.58073 8.65546 6.31956 8.91663 5.9974 8.91663C5.67523 8.91663 5.41406 8.65546 5.41406 8.33329L5.41406 0.749959C5.41406 0.427793 5.67523 0.166626 5.9974 0.166626Z"
+              fill="#111111"
+            />
           </svg>
           이미지 업로드
         </label>
@@ -145,7 +168,7 @@ export default function ImageUpload({
 
       <span className="mt-1 flex items-center text-body02m text-gray-600">
         <span className="relative top-0.5 text-red-500">*</span> 파일 확장자는
-        jpeg, png만 가능하고 파일 크기는 10MB 이하만 가능합니다.
+        jpeg, png만 가능하고 파일 크기는 10MB 이하 1장만 가능합니다.
       </span>
     </div>
   );
