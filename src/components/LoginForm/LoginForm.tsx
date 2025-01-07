@@ -26,7 +26,7 @@ export default function LoginForm() {
         push("/");
       }
     } catch (e) {
-      console.error(e);
+      alert(e);
     }
   };
 
@@ -77,7 +77,8 @@ export default function LoginForm() {
         </ul>
         <button
           type="submit"
-          className="mt-auto h-14 w-full rounded bg-black text-lg font-bold text-white"
+          className="mt-auto h-14 w-full rounded bg-black text-lg font-bold text-white disabled:bg-gray-300"
+          disabled={!email || !password}
         >
           로그인
         </button>
