@@ -44,24 +44,12 @@ export default function FormSearch({ handleSearch, isLoading }: FormType) {
           className={`flex h-12 items-center gap-x-2 rounded border px-4 ${isFocus ? "border-gray-800" : "border-gray-200"} ${isLoading ? "bg-[#efefef4d]" : "bg-white"}`}
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 14 14"
-            fill="none"
+            width={20}
+            height={20}
+            color={isFocus ? "#000" : "#ddd"}
+            aria-hidden
           >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M2.33325 6.7085C2.33325 4.29225 4.29201 2.3335 6.70825 2.3335C9.1245 2.3335 11.0833 4.29225 11.0833 6.7085C11.0833 9.12474 9.1245 11.0835 6.70825 11.0835C4.29201 11.0835 2.33325 9.12474 2.33325 6.7085ZM6.70825 3.50016C4.93634 3.50016 3.49992 4.93658 3.49992 6.7085C3.49992 8.48041 4.93634 9.91683 6.70825 9.91683C8.48017 9.91683 9.91658 8.48041 9.91658 6.7085C9.91658 4.93658 8.48017 3.50016 6.70825 3.50016Z"
-              fill={isFocus ? "#000" : "#ddd"}
-            />
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M9.625 8.7998L11.4958 10.6706C11.7236 10.8984 11.7236 11.2678 11.4958 11.4956C11.268 11.7234 10.8987 11.7234 10.6709 11.4956L8.80004 9.62476L9.625 8.7998Z"
-              fill={isFocus ? "#000" : "#ddd"}
-            />
+            <use href="icons/outlined/base.svg#Outlined/Base/search" />
           </svg>
           <input
             id="search"

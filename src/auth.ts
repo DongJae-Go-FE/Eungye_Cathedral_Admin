@@ -3,7 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 
 export const {
   handlers: { GET, POST },
-  auth,
+
   signIn,
   signOut,
 } = NextAuth({
@@ -32,7 +32,10 @@ export const {
         const user = await res.json();
 
         if (res.ok && user) {
-          return user;
+          return {
+            email: user.email,
+            ...user,
+          };
         }
         return null;
       },

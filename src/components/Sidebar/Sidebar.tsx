@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation";
 export default function Sidebar() {
   const pathname = usePathname();
 
+  if (pathname.includes("login")) return null;
+
   const menu = [
     {
       id: 0,

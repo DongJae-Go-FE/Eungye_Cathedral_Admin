@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -91,14 +90,14 @@ export default async function Page({
                       fill="#111111"
                     />
                   </svg>
-                  <Link
+                  <a
                     className="text-blue-400 hover:underline"
                     href={data.imgUrl}
                     target="_blank"
                     download
                   >
                     이미지 파일
-                  </Link>
+                  </a>
                 </div>
               ) : (
                 "사진 파일이 없습니다."

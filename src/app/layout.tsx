@@ -6,7 +6,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 
-import QueryProvider from "@/components/QueryProvider";
+import QueryProvider from "@/components/provider/QueryProvider";
 
 const pretendard = localFont({
   src: "fonts/PretendardVariable.woff2",
@@ -28,7 +28,6 @@ export default function RootLayout({
       <body className={pretendard.className}>
         <QueryProvider>
           <Header />
-
           <div className="flex">
             <Sidebar />
             <main>{children}</main>

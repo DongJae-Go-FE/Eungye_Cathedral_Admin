@@ -11,7 +11,6 @@ import { doLogout } from "@/actions/loginActions";
 
 export default function Header() {
   const searchUrl = usePathname();
-
   if (searchUrl.includes("login")) return null;
 
   return (
@@ -29,7 +28,7 @@ export default function Header() {
         </Link>
       </h1>
       <div className="flex items-center gap-x-2">
-        <p className="text-body02m">admin@naver.com</p>
+        <p className="text-body02m">관리자</p>
         <Button color="white" size="sm" onClick={doLogout}>
           로그아웃
         </Button>
