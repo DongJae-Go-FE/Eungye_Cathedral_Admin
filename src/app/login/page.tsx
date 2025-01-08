@@ -7,11 +7,11 @@ export default async function page() {
       <div className="position-center w-full max-w-[488px]">
         <h1>
           <Image
-            width={241}
-            height={131}
+            width={128}
+            height={71}
             src="/logo.png"
-            alt="은계성당 로고입니다."
-            className="m-auto block h-auto w-auto"
+            alt="은계성당 로고 입니다."
+            className="m-auto aspect-auto h-auto w-auto"
             priority
           />
         </h1>
