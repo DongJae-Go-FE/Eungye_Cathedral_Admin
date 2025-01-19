@@ -5,8 +5,27 @@ import SectionTitle from "@/components/SectionTitle";
 import Button from "@/components/Button";
 import DeleteButton from "@/components/_clientComponents/DeleteButton";
 
-import { RequestGetDetailType } from "@/type";
+import { RequestGetListType, RequestGetDetailType } from "@/type";
 import { formatDate } from "@/utils/common";
+
+export async function generateStaticParams(): Promise<{ id: string }[]> {
+  const response: RequestGetListType = await fetch(
+    `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/notices?page=1&limit=10`,
+    {
+      method: "GET",
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json;charset=UTF-8",
+      },
+    },
+  ).then((res) => res.json());
+
+  return (
+    response.data.list.map((value) => ({
+      id: value.id.toString(),
+    })) || []
+  );
+}
 
 export default async function Page({
   params,

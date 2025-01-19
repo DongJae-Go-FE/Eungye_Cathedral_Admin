@@ -59,7 +59,7 @@ const Empty: FC<Props> = ({
           />
         </svg>
       )}
-      <p className="text-body01m text-gray-500">{description}</p>
+      <p className="text-body01b text-gray-500">{description}</p>
     </div>
   );
 };

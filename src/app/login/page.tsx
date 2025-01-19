@@ -18,7 +18,7 @@ export default async function page() {
         <LoginForm />
         <p className="mt-4 text-center text-body03m text-gray-600">
           Copyright © Siheung Eungye Cathedral. All rights reserved.
-        </p>
+        </p>  
       </div>
     </main>
   );
