@@ -41,7 +41,7 @@ export default function FormSearch({ handleSearch, isLoading }: FormType) {
           검색
         </label>
         <div
-          className={`flex h-12 items-center gap-x-2 rounded border px-4 ${isFocus ? "border-gray-800" : "border-gray-200"} ${isLoading ? "bg-[#efefef4d]" : "bg-white"}`}
+          className={`flex h-12 items-center gap-x-2 rounded-sm border px-4 ${isFocus ? "border-gray-800" : "border-gray-200"} ${isLoading ? "bg-[#efefef4d]" : "bg-white"}`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ export default function FormSearch({ handleSearch, isLoading }: FormType) {
             type="search"
             value={formSearch}
             placeholder="제목을 입력하세요."
-            className="h-full w-full text-body01m outline-none"
+            className="h-full w-full text-body01m outline-hidden"
             maxLength={50}
             disabled={isLoading}
             onChange={(e) => setFormSearch(e.target.value)}

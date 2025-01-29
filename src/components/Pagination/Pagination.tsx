@@ -57,7 +57,7 @@ export default function Pagination({
     }
   };
 
-  const btnArrowStyle = "rounded border border-gray-200 p-[9px]";
+  const btnArrowStyle = "rounded-sm border border-gray-200 p-[9px]";
 
   return (
     <div className="flex h-8 items-center gap-x-2">

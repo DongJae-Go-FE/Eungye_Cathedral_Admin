@@ -129,7 +129,7 @@ export default function ImageUpload({
         )}
       </div>
       {isLoading ? (
-        <div className="relative mt-2 h-[300px] w-[300px] animate-pulse rounded bg-gray-200">
+        <div className="relative mt-2 h-[300px] w-[300px] animate-pulse rounded-sm bg-gray-200">
           <Spinner />
         </div>
       ) : (

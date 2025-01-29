@@ -1,59 +1,61 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-body {
-  @apply h-full min-h-[100dvh] w-[100dvw] min-w-[1680px] bg-gray-100;
-}
-main {
-  @apply w-[calc(100%-240px)] pt-20;
+@config '../../tailwind.config.ts';
+
+@utility common-layout {
+  @apply h-full bg-white p-10;
 }
 
-h2 {
-  @apply mb-4 font-bold text-black;
+@utility position-center {
+  @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform;
 }
 
-@layer components {
-  .common-layout {
-    @apply h-full bg-white p-10;
+@utility skeleton-basic {
+  @apply rounded-md bg-gray-200;
+}
+
+@utility description-table {
+  @apply w-full table-fixed border-spacing-0;
+
+  caption {
+    @apply sr-only;
   }
-  .position-center {
-    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform;
-  }
-  .skeleton-basic {
-    @apply rounded-md bg-gray-200;
-  }
 
-  .description-table {
-    @apply w-full table-fixed border-spacing-0;
+  tbody {
+    tr {
+      th {
+        @apply text-body02m w-60 bg-gray-100 px-4 py-3.5 text-left align-top;
 
-    caption {
-      @apply sr-only;
-    }
-
-    tbody {
-      tr {
-        th {
-          @apply w-60 bg-gray-100 px-4 py-3.5 text-left align-top text-body02m;
-
-          &.required {
-            @apply text-red-500 after:content-['_*'];
-          }
-        }
-
-        td {
-          @apply px-4 py-1 text-body02r;
-        }
-
-        th,
-        td {
-          @apply whitespace-pre-wrap border border-gray-200;
-        }
-
-        &:first-of-type {
-          @apply border-t border-gray-200;
+        &.required {
+          @apply text-red-500 after:content-['_*'];
         }
       }
+
+      td {
+        @apply text-body02r px-4 py-1;
+      }
+
+      th,
+      td {
+        @apply border border-gray-200 whitespace-pre-wrap;
+      }
+
+      &:first-of-type {
+        @apply border-t border-gray-200;
+      }
     }
+  }
+}
+
+@layer utilities {
+  body {
+    @apply h-full min-h-[100dvh] w-[100dvw] min-w-[1680px] bg-gray-100;
+  }
+  main {
+    @apply w-full pt-20 pl-[240px];
+  }
+
+  h2 {
+    @apply mb-4 font-bold text-black;
   }
 }

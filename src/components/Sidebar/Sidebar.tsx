@@ -32,12 +32,12 @@ export default function Sidebar() {
   ];
 
   return (
-    <aside className="mt-20 min-h-[calc(100dvh-80px)] w-60 border border-t-0 border-gray-200 bg-white">
+    <aside className="fixed mt-20 min-h-[calc(100dvh-80px)] w-60 border border-t-0 border-gray-200 bg-white">
       <nav>
         <ul className="p-8">
           {menu.map(({ title, href, id }) => {
             return (
-              <li key={id} className="h-12 text-body01b text-gray-400">
+              <li key={id} className="text-body01b h-12 text-gray-400">
                 <Link
                   className={`${pathname.includes(href) ? "text-black" : "text-gray-400"}`}
                   href={href}

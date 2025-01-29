@@ -84,7 +84,7 @@ export default async function Page({
                   priority
                 />
               ) : (
-                <div className="relative h-[300px] w-[300px] rounded bg-gray-200">
+                <div className="relative h-[300px] w-[300px] rounded-sm bg-gray-200">
                   <Empty description="사진이 없습니다." />
                 </div>
               )}

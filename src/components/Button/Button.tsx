@@ -22,7 +22,7 @@ const Button: FC<ButtonProps> = ({
   ...props
 }) => {
   const btnStyle =
-    "inline-flex items-center rounded whitespace-nowrap border disabled:bg-gray-300";
+    "inline-flex items-center rounded-sm whitespace-nowrap border disabled:bg-gray-300";
 
   const classList = [btnStyle];
 
@@ -31,15 +31,15 @@ const Button: FC<ButtonProps> = ({
 
   switch (color) {
     case "black": {
-      colorStyle = "bg-black text-white";
+      colorStyle = "bg-black text-white border-black";
       break;
     }
     case "white": {
-      colorStyle = "bg-white text-black";
+      colorStyle = "bg-white text-black border-gray-200";
       break;
     }
     case "blue": {
-      colorStyle = "bg-blue-700 text-white";
+      colorStyle = "bg-blue-700 text-white border-blue-700";
       break;
     }
   }
