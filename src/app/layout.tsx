@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className={pretendard.className}>
         <QueryProvider>
           <Header />
-          <div className="flex">
+          <div>
             <Sidebar />
             <main>{children}</main>
           </div>

@@ -14,7 +14,7 @@ export default function Header() {
   if (searchUrl.includes("login")) return null;
 
   return (
-    <header className="fixed left-0 top-0 z-[1001] flex h-20 w-full items-center justify-between border-b border-gray-200 bg-white pl-5 pr-[54px]">
+    <header className="fixed left-0 top-0 z-1001 flex h-20 w-full items-center justify-between border-b border-gray-200 bg-white pl-5 pr-[54px]">
       <h1>
         <Link href="/">
           <Image
