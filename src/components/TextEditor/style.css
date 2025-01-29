@@ -1,12 +1,13 @@
 .ql-container.ql-snow,
 .ql-toolbar.ql-snow {
-  @apply border-gray-200;
+  border-color: #eee;
 }
 
 .ql-container.ql-snow {
-  @apply h-[calc(100%-42px)] rounded-b-md;
+  height: calc(100%-42px);
+  border-radius: 16px;
 }
 
 .ql-toolbar.ql-snow {
-  @apply rounded-t-md;
+  border-radius: 16px;
 }

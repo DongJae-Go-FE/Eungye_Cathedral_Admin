@@ -3,7 +3,7 @@
 @config '../../tailwind.config.ts';
 
 @utility common-layout {
-  @apply h-full bg-white p-10;
+  @apply h-full bg-white p-10 min-h-[calc(100dvh-80px)];
 }
 
 @utility position-center {
