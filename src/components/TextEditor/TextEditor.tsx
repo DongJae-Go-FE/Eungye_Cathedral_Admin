@@ -3,10 +3,10 @@
 import { FC, useEffect, useState, useRef } from "react";
 import Quill from "quill";
 
-import "quill/dist/quill.core.css";
-import "quill/dist/quill.snow.css";
+// import "quill/dist/quill.core.css";
+// import "quill/dist/quill.snow.css";
 
-import "./style.css";
+import "./style.css"
 
 interface QuillEditorProps {
   placeholder?: string;
@@ -65,7 +65,7 @@ const QuillEditor: FC<QuillEditorProps> = ({
   }, [placeholder, defaultValue]);
 
   return (
-    <div className="h-full">
+    <div className="h-[calc(100%-48px)]">
       <div ref={quillEditorRef} className="h-full" />
       <label htmlFor="content" className="sr-only">
         텍스트 에디터

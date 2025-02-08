@@ -15,7 +15,7 @@ module.exports = {
   },
   ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}),
 
-  content: ["./src/**/**/*.{js,ts,jsx,tsx}"],
+  content: ["./src/**/**/*.{js,ts,jsx,tsx}", "./node_modules/quill/**/*.js"],
   theme: {
     fontFamily: {
       sans: ["Pretendard"],

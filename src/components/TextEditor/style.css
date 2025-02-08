@@ -1,13 +1,12 @@
-.ql-container.ql-snow,
-.ql-toolbar.ql-snow {
-  border-color: #eee;
-}
-
 .ql-container.ql-snow {
-  height: calc(100%-42px);
-  border-radius: 16px;
+  border-radius: 0 0 4px 4px;
 }
 
 .ql-toolbar.ql-snow {
-  border-radius: 16px;
+  border-radius: 4px 4px 0 0;
+}
+
+.ql-toolbar.ql-snow:not(#\#):not(#\#):not(#\#),
+.ql-container.ql-snow:not(#\#):not(#\#):not(#\#) {
+  border-color: #eee;
 }
