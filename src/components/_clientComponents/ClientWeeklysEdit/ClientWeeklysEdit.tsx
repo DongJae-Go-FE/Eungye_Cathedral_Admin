@@ -27,8 +27,7 @@ export default function ClientWeeklysEdit({
   const queryClient = useQueryClient();
 
   const [isVal, setIsVal] = useState(data.title);
-  const [state, formActions, isPending] = useActionState(handleEdit, null);
-  console.log(state);
+  const [, formActions, isPending] = useActionState(handleEdit, null);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();

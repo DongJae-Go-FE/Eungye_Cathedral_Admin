@@ -26,8 +26,7 @@ export default function DeleteButton({ id, href, update }: DeleteType) {
   const { push } = useRouter();
   const queryClient = useQueryClient();
 
-  const [state, formActions, isPending] = useActionState(handleDelete, null);
-  console.log(state);
+  const [, formActions, isPending] = useActionState(handleDelete, null);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();

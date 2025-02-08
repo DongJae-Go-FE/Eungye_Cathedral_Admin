@@ -20,8 +20,8 @@ export default function ClientNewsAdd() {
   const queryClient = useQueryClient();
 
   const [isVal, setIsVal] = useState("");
-  const [state, formActions, isPending] = useActionState(handleAdd, null);
-  console.log(state);
+
+  const [, formActions, isPending] = useActionState(handleAdd, null);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();

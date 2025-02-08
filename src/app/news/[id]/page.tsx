@@ -22,7 +22,7 @@ export async function generateStaticParams(): Promise<{ id: string }[]> {
   ).then((res) => res.json());
 
   return (
-    response.data.list.map((value) => ({
+    response.data?.list.map((value) => ({
       id: value.id.toString(),
     })) || []
   );

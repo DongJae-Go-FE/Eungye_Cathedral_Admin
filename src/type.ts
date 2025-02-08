@@ -3,6 +3,7 @@ export type RequestGetListType = {
   limit: string;
   data: {
     total: number;
+    totalPages: number;
     list: {
       id: number;
       title: string;
