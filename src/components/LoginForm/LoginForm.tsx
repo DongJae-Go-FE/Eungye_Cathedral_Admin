@@ -32,12 +32,12 @@ export default function LoginForm() {
 
   const liStyle = "flex w-full flex-col gap-y-1";
   const labelStyle = "text-body01m text-black";
-  const inputStyle = "h-12 border rounded-md px-3";
+  const inputStyle = "h-12 border rounded-md px-3 border-gray-300";
 
   return (
     <div className="rounded-2xl border border-gray-200 bg-white px-12 py-[72px]">
       <form className="flex h-full flex-col" onSubmit={handleSubmit}>
-        <h2 className="mb-[112px] text-heading03b">
+        <h2 className="text-heading03b mb-[112px]">
           은계성당 관리자 페이지에 <br />
           오신 것을 환영합니다.
         </h2>
@@ -77,7 +77,7 @@ export default function LoginForm() {
         </ul>
         <button
           type="submit"
-          className="mt-auto h-14 w-full rounded-sm bg-black text-lg font-bold text-white disabled:bg-gray-300"
+          className="mt-auto h-14 w-full cursor-pointer rounded-sm bg-black text-lg font-bold text-white disabled:bg-gray-300"
           disabled={!email || !password}
         >
           로그인

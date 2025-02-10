@@ -22,7 +22,7 @@ const Button: FC<ButtonProps> = ({
   ...props
 }) => {
   const btnStyle =
-    "inline-flex items-center rounded-sm whitespace-nowrap border disabled:bg-gray-300 disabled:border-gray-300";
+    "inline-flex items-center rounded-sm whitespace-nowrap border disabled:bg-gray-300 disabled:border-gray-300 cursor-pointer";
 
   const classList = [btnStyle];
 
