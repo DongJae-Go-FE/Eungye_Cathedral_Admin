@@ -57,7 +57,8 @@ export default function Pagination({
     }
   };
 
-  const btnArrowStyle = "rounded-sm border border-gray-200 p-[9px]";
+  const btnArrowStyle =
+    "rounded-sm border border-gray-200 p-[9px] cursor-pointer";
 
   return (
     <div className="flex h-8 items-center gap-x-2">
@@ -119,7 +120,7 @@ export default function Pagination({
             <li key={index}>
               <button
                 type="button"
-                className={`h-6 px-2 text-body03m ${start + index === current ? "text-gray-900" : "text-gray-500"}`}
+                className={`text-body03m h-6 cursor-pointer px-2 ${start + index === current ? "text-gray-900" : "text-gray-500"}`}
                 onClick={() => handlePageClick(start + index)}
               >
                 {start + index}

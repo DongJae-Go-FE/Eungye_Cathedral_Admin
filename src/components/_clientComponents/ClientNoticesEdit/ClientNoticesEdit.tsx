@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useActionState } from "react";
+import { useState, useTransition } from "react";
 
 import { useQueryClient, RefetchQueryFilters } from "@tanstack/react-query";
 
@@ -28,28 +28,31 @@ export default function ClientNoticesEdit({
   const queryClient = useQueryClient();
 
   const [isVal, setIsVal] = useState(data.title);
-  const [, formActions, isPending] = useActionState(handleEdit, null);
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const [isPending, startTransition] = useTransition();
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (confirm(ADMIN_EDIT_STRING)) {
       const formData = new FormData(event.currentTarget);
-      const response = await handleEdit(null, formData);
-      if (response.status) {
-        queryClient.refetchQueries(
-          `/notices/${id}` as RefetchQueryFilters<string>,
-        );
-        queryClient.refetchQueries(`/notices` as RefetchQueryFilters<string>);
-        alert(ADMIN_EDIT_STRING_COMPLETE);
-        push(`/notices/${id}`);
-      } else {
-        alert(response.error);
-      }
+      startTransition(async () => {
+        const response = await handleEdit(null, formData);
+        if (response.status) {
+          queryClient.refetchQueries(
+            `/notices/${id}` as RefetchQueryFilters<string>,
+          );
+          queryClient.refetchQueries(`/notices` as RefetchQueryFilters<string>);
+          alert(ADMIN_EDIT_STRING_COMPLETE);
+          push(`/notices/${id}`);
+        } else {
+          alert(response.error);
+        }
+      });
     }
   };
 
   return (
-    <form action={formActions} onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <table className="description-table">
         <caption>공지사항 수정 테이블</caption>
         <tbody>

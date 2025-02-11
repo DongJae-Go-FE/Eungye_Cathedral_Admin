@@ -1,13 +1,13 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useActionState } from "react";
+import { useState, useTransition } from "react";
 
 import { useQueryClient, RefetchQueryFilters } from "@tanstack/react-query";
 
 import Button from "@/components/Button";
 import Input from "@/components/Input";
-import Spinner from "@/components/Spinner";
+
 import ImageUpload from "@/components/ImageUpload/ImageUpload";
 
 import { handleEdit } from "@/actions/serverActions";
@@ -27,28 +27,30 @@ export default function ClientWeeklysEdit({
   const queryClient = useQueryClient();
 
   const [isVal, setIsVal] = useState(data.title);
-  const [, formActions, isPending] = useActionState(handleEdit, null);
+  const [isPending, startTransition] = useTransition();
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (confirm(ADMIN_EDIT_STRING)) {
       const formData = new FormData(event.currentTarget);
-      const response = await handleEdit(null, formData);
-      if (response.status) {
-        queryClient.refetchQueries(
-          `/weeklys/${id}` as RefetchQueryFilters<string>,
-        );
-        queryClient.refetchQueries(`/weeklys` as RefetchQueryFilters<string>);
-        alert(ADMIN_EDIT_STRING_COMPLETE);
-        push(`/weeklys/${id}`);
-      } else {
-        alert(response.error);
-      }
+      startTransition(async () => {
+        const response = await handleEdit(null, formData);
+        if (response.status) {
+          queryClient.refetchQueries(
+            `/weeklys/${id}` as RefetchQueryFilters<string>,
+          );
+          queryClient.refetchQueries(`/weeklys` as RefetchQueryFilters<string>);
+          alert(ADMIN_EDIT_STRING_COMPLETE);
+          push(`/weeklys/${id}`);
+        } else {
+          alert(response.error);
+        }
+      });
     }
   };
 
   return (
-    <form action={formActions} onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <table className="description-table">
         <caption>주보 수정 테이블</caption>
         <tbody>
@@ -123,7 +125,7 @@ export default function ClientWeeklysEdit({
       </table>
       <div className="mt-6 flex justify-end gap-x-1">
         <Button type="submit" color="blue" disabled={isPending || !isVal}>
-          {isPending ? <Spinner /> : "등록"}
+          {isPending ? "수정중" : "수정"}
         </Button>
         <Button type="button" color="white" href={`/weeklys/${id}`}>
           취소

@@ -1,15 +1,13 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useActionState } from "react";
+import { useTransition } from "react";
 
 import { useQueryClient, RefetchQueryFilters } from "@tanstack/react-query";
 
 import Button from "@/components/Button";
 import { Url } from "url";
 import { handleDelete } from "@/actions/serverActions";
-
-import Spinner from "@/components/Spinner";
 
 import {
   ADMIN_DELETE_STRING,
@@ -26,25 +24,28 @@ export default function DeleteButton({ id, href, update }: DeleteType) {
   const { push } = useRouter();
   const queryClient = useQueryClient();
 
-  const [, formActions, isPending] = useActionState(handleDelete, null);
+  const [isPending, startTransition] = useTransition();
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (confirm(ADMIN_DELETE_STRING)) {
       const formData = new FormData(event.currentTarget);
-      const response = await handleDelete(null, formData);
+      startTransition(async () => {
+        const response = await handleDelete(null, formData);
 
-      if (response.status && response.redirectUrl) {
-        queryClient.refetchQueries(href as RefetchQueryFilters<string>);
-        alert(ADMIN_DELETE_STRING_COMPLETE);
-        push(response.redirectUrl);
-      } else {
-        alert(response.error);
-      }
+        if (response.status && response.redirectUrl) {
+          queryClient.refetchQueries(href as RefetchQueryFilters<string>);
+          alert(ADMIN_DELETE_STRING_COMPLETE);
+          push(response.redirectUrl);
+        } else {
+          alert(response.error);
+        }
+      });
     }
   };
+  
   return (
-    <form action={formActions} onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <label htmlFor={href?.toString()} className="sr-only">
         {href?.toString()}
       </label>
@@ -79,7 +80,7 @@ export default function DeleteButton({ id, href, update }: DeleteType) {
         readOnly
       />
       <Button type="submit" color="blue" disabled={isPending}>
-        {isPending ? <Spinner /> : "삭제"}
+        {isPending ? "삭제중" : "삭제"}
       </Button>
     </form>
   );
