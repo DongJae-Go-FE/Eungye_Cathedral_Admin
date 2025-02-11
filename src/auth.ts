@@ -3,7 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 
 export const {
   handlers: { GET, POST },
-
+  auth,
   signIn,
   signOut,
 } = NextAuth({
@@ -52,17 +52,17 @@ export const {
   callbacks: {
     async session({ session, user }) {
       session.user.email = user.email;
-      session.user.id = user.id;
       return session;
     },
     async jwt({ token, user }) {
       if (user) {
-        token.id = user.id;
+        token.id = user.email;
       }
+
       return token;
     },
-    async redirect({ url, baseUrl }) {
-      return url.startsWith(baseUrl) ? "/main" : url;
-    },
+      async redirect({ url, baseUrl }) {
+        return url.startsWith(baseUrl) ? "/main" : url;
+      },
   },
 });
