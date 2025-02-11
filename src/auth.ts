@@ -35,7 +35,6 @@ export const {
         if (res.ok && user) {
           return {
             email: user.email,
-            ...user,
           };
         }
         return null;
@@ -48,11 +47,16 @@ export const {
   },
   session: {
     strategy: "jwt",
+    maxAge: 60 * 60 * 24,
   },
 
   callbacks: {
+    signIn: async () => {
+      return true;
+    },
     async session({ session, user }) {
       session.user.email = user.email;
+      session.userId = user.email;
       return session;
     },
     async jwt({ token, user }) {
