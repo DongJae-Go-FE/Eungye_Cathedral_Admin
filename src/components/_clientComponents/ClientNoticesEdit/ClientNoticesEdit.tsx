@@ -7,7 +7,7 @@ import { useQueryClient, RefetchQueryFilters } from "@tanstack/react-query";
 
 import Button from "@/components/Button";
 import Input from "@/components/Input";
-import Spinner from "@/components/Spinner";
+
 import TextEditor from "@/components/TextEditor";
 import ImageUpload from "@/components/ImageUpload/ImageUpload";
 
@@ -133,7 +133,7 @@ export default function ClientNoticesEdit({
       </table>
       <div className="mt-6 flex justify-end gap-x-1">
         <Button type="submit" color="blue" disabled={isPending || !isVal}>
-          {isPending ? <Spinner /> : "등록"}
+          {isPending ? "수정중" : "수젗"}
         </Button>
         <Button type="button" color="white" href={`/notices/${id}`}>
           취소
