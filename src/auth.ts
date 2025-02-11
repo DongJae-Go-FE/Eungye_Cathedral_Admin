@@ -20,6 +20,7 @@ export const {
           {
             method: "POST",
             headers: {
+              "Access-Control-Allow-Origin": "*",
               "Content-Type": "application/json",
             },
             body: JSON.stringify({
@@ -61,8 +62,8 @@ export const {
 
       return token;
     },
-      async redirect({ url, baseUrl }) {
-        return url.startsWith(baseUrl) ? "/main" : url;
-      },
+    async redirect({ url, baseUrl }) {
+      return url.startsWith(baseUrl) ? "/main" : url;
+    },
   },
 });
