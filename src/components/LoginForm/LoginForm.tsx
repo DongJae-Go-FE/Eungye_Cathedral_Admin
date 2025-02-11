@@ -1,9 +1,10 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useTransition } from "react";
 
 import Input from "@/components/Input";
+import Spinner from "@/components/Spinner";
 
 import { doCredentialLogin } from "@/actions/loginActions";
 
@@ -12,22 +13,24 @@ export default function LoginForm() {
 
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string | number>("");
+  const [isPending, startTransition] = useTransition();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    try {
-      const formData = new FormData(e.currentTarget);
+    startTransition(async () => {
+      try {
+        const formData = new FormData(e.currentTarget);
+        const response = await doCredentialLogin(formData);
 
-      const response = await doCredentialLogin(formData);
-
-      if (!response) {
-        alert("계정정보를 확인하세요");
-      } else {
-        push("/");
+        if (!response) {
+          alert("계정정보를 확인하세요");
+        } else {
+          push("/");
+        }
+      } catch (error) {
+        alert(error);
       }
-    } catch (e) {
-      alert(e);
-    }
+    });
   };
 
   const liStyle = "flex w-full flex-col gap-y-1";
@@ -77,10 +80,10 @@ export default function LoginForm() {
         </ul>
         <button
           type="submit"
-          className="mt-auto h-14 w-full cursor-pointer rounded-sm bg-black text-lg font-bold text-white disabled:bg-gray-300"
-          disabled={!email || !password}
+          className="relative mt-auto h-14 w-full cursor-pointer rounded-sm bg-black text-lg font-bold text-white disabled:bg-gray-300"
+          disabled={!email || !password || isPending}
         >
-          로그인
+          {isPending ? <Spinner /> : "로그인"}
         </button>
       </form>
     </div>
