@@ -19,7 +19,7 @@ export default async function ServerWeeklysList() {
 
   return (
     <section>
-      <h3 className="mb-7 flex items-center justify-between text-heading03b text-black">
+      <h3 className="mb-3 flex items-center justify-between text-heading03b text-black">
         주보
         <Link href="/weeklys" className="text-body01m hover:underline">
           더보기

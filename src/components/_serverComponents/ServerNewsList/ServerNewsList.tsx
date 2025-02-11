@@ -19,7 +19,7 @@ export default async function ServerNewsList() {
 
   return (
     <section>
-      <h3 className="mb-7 flex items-center justify-between text-heading03b text-black">
+      <h3 className="mb-3 flex items-center justify-between text-heading03b text-black">
         본당소식
         <Link href="/news" className="text-body01m hover:underline">
           더보기

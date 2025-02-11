@@ -30,7 +30,7 @@ export default async function Home() {
           priority
         />
       </div>
-      <ul className="grid grid-cols-2 grid-rows-2 gap-3">
+      <ul className="grid grid-cols-2 grid-rows-2 gap-6">
         <li>
           <ServerNoticeList />
         </li>
