@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { ReactNode, HtmlHTMLAttributes } from "react";
+import { ReactNode, HtmlHTMLAttributes, memo } from "react";
 import Empty from "@/components/Empty";
 import Spinner from "../Spinner";
 import Pagination from "../Pagination";
@@ -47,7 +47,7 @@ const RenderPrevUI = ({
             <li
               key={index}
               style={{ width: width ? width : "auto" }}
-              className="px-5 text-center text-body02m"
+              className="text-body02m px-5 text-center"
             >
               {title}
             </li>
@@ -59,109 +59,113 @@ const RenderPrevUI = ({
   );
 };
 
-export default function Table({
-  caption,
-  columns,
-  initialData,
-  page,
-  pageSize,
-  totalCount,
-  href,
-  isLoading,
-  onPageChange,
-}: TableProps) {
-  const totalPage = pageSize ? Math.ceil(totalCount / pageSize) : 1;
+const Table = memo(
+  ({
+    caption,
+    columns,
+    initialData,
+    page,
+    pageSize,
+    totalCount,
+    href,
+    isLoading,
+    onPageChange,
+  }: TableProps) => {
+    const totalPage = pageSize ? Math.ceil(totalCount / pageSize) : 1;
 
-  if (isLoading) {
+    if (isLoading) {
+      return (
+        <RenderPrevUI columns={columns}>
+          <Spinner />
+        </RenderPrevUI>
+      );
+    }
+    if (initialData.length === 0 || !initialData) {
+      return (
+        <RenderPrevUI columns={columns}>
+          <Empty description="데이터가 없습니다." />
+        </RenderPrevUI>
+      );
+    }
+
+    if (!columns || !columns.length) {
+      throw new Error("테이블 헤더값이 없습니다.");
+    }
+
+    const columnsKey = columns.map((column) => column.key);
+
     return (
-      <RenderPrevUI columns={columns}>
-        <Spinner />
-      </RenderPrevUI>
-    );
-  }
-  if (initialData.length === 0 || !initialData) {
-    return (
-      <RenderPrevUI columns={columns}>
-        <Empty description="데이터가 없습니다." />
-      </RenderPrevUI>
-    );
-  }
-
-  if (!columns || !columns.length) {
-    throw new Error("테이블 헤더값이 없습니다.");
-  }
-
-  const columnsKey = columns.map((columns) => columns.key);
-
-  return (
-    <div>
-      <div className="h-[611px] w-full">
-        {totalCount && (
-          <div className="table-header mb-2">
-            <span className="text-body02m">총 {totalCount}건</span>
-          </div>
-        )}
-        <div className="table-body relative w-full">
-          <table className="w-full">
-            <caption className="sr-only">{caption}</caption>
-            <colgroup>
-              {columns.map(({ width }, index) => {
-                return <col key={index} width={width ? width : "auto"} />;
-              })}
-            </colgroup>
-            <thead>
-              <tr>
-                {columns.map(({ title, headerAlign }, index) => {
-                  return (
+      <div>
+        <div className="h-[611px] w-full">
+          {totalCount && (
+            <div className="table-header mb-2">
+              <span className="text-body02m">총 {totalCount}건</span>
+            </div>
+          )}
+          <div className="table-body relative w-full">
+            <table className="w-full">
+              <caption className="sr-only">{caption}</caption>
+              <colgroup>
+                {columns.map(({ width }, index) => (
+                  <col key={index} width={width ? width : "auto"} />
+                ))}
+              </colgroup>
+              <thead>
+                <tr>
+                  {columns.map(({ title, headerAlign }, index) => (
                     <th
                       key={index}
                       style={{ textAlign: headerAlign }}
-                      className="h-12 border-y-2 border-gray-200 px-5 text-body02m"
+                      className="text-body02m h-12 border-y-2 border-gray-200 px-5"
                     >
                       {title}
                     </th>
-                  );
-                })}
-              </tr>
-            </thead>
-            <tbody>
-              {initialData.map((item, index) => (
-                <tr key={index}>
-                  {columnsKey.map((key, index2) => (
-                    <td
-                      key={key + index}
-                      className="h-12 border-b-2 border-gray-100 px-5 text-center text-body02r"
-                    >
-                      {Object.keys(item)[index2] === "title" ? (
-                        <Link
-                          href={`${href}/${item.id}`}
-                          className="hover:underline"
-                        >
-                          {item[key]}
-                        </Link>
-                      ) : (
-                        item[key]
-                      )}
-                    </td>
                   ))}
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        {totalPage > 1 && (
-          <div className="mt-4 flex w-full justify-center">
-            <Pagination
-              current={page || 1}
-              total={totalPage}
-              numericOptions={{
-                max: 10,
-              }}
-              onChange={onPageChange}
-            />
+              </thead>
+              <tbody>
+                {initialData.map((item, index) => (
+                  <tr key={index}>
+                    {columnsKey.map((key) => (
+                      <td
+                        key={key + index}
+                        className="text-body02r h-12 border-b-2 border-gray-100 px-5 text-center"
+                      >
+                        {key === "title" ? (
+                          <Link
+                            href={`${href}/${item.id}`}
+                            className="hover:underline"
+                          >
+                            {item[key]}
+                          </Link>
+                        ) : (
+                          item[key]
+                        )}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
-        )}
+          {totalPage > 1 && (
+            <div className="mt-4 flex w-full justify-center">
+              <Pagination
+                current={page || 1}
+                total={totalPage}
+                numericOptions={{
+                  max: 10,
+                }}
+                onChange={onPageChange}
+              />
+            </div>
+          )}
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  },
+);
+
+export default Table;
+
+Table.displayName = "Table";

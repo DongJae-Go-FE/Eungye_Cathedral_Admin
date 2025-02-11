@@ -11,15 +11,19 @@ import { TableColumn } from "@/components/Table/Table";
 import { RequestGetListType } from "@/type";
 import { formatDate } from "@/utils/common";
 
+import useDebounce from "@/hooks/useDebounce";
+
 export default function ClientNewsTable() {
   const [page, setPage] = useState(1);
   const [search, setSearch] = useState("");
 
+  const debouncedSearchValue = useDebounce({ value: search, delay: 300 });
+
   const { data, isLoading } = useQuery<RequestGetListType>({
-    queryKey: ["/news", page, search],
+    queryKey: ["/news", page, debouncedSearchValue],
     queryFn: async () =>
       await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=${page}&limit=10&q=${search}`,
+        `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=${page}&limit=10&q=${debouncedSearchValue}`,
         {
           method: "GET",
           headers: {
@@ -55,7 +59,7 @@ export default function ClientNewsTable() {
   return (
     <div>
       <FormSearch handleSearch={handleSubmit} isLoading={isLoading} />
-      <div className="mb-2 mt-4 flex justify-end">
+      <div className="mt-4 mb-2 flex justify-end">
         <Button size="sm" color="white" href="/news/add">
           등록
         </Button>
@@ -76,11 +80,16 @@ export default function ClientNewsTable() {
         totalCount={data?.data?.total || 0}
         href="/news"
         isLoading={isLoading}
-        onPageChange={(page) => {
-          setPage((prev) => {
-            prev = page;
-            return prev;
-          });
+        // onPageChange={(page) => {
+        //   setPage((prev) => {
+        //     prev = page;
+        //     return prev;
+        //   });
+        // }}
+        onPageChange={(newPage) => {
+          if (newPage !== page) {
+            setPage(newPage);
+          }
         }}
       />
     </div>
