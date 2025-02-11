@@ -48,12 +48,18 @@ export const {
   session: {
     strategy: "jwt",
   },
-  jwt: {},
 
   callbacks: {
     async session({ session, user }) {
       session.user.email = user.email;
+      session.user.id = user.id;
       return session;
+    },
+    async jwt({ token, user }) {
+      if (user) {
+        token.id = user.id;
+      }
+      return token;
     },
     async redirect({ url, baseUrl }) {
       return url.startsWith(baseUrl) ? "/main" : url;
