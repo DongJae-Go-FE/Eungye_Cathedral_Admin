@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import Input from "@/components/Input";
@@ -8,7 +8,7 @@ import Input from "@/components/Input";
 import { doCredentialLogin } from "@/actions/loginActions";
 
 export default function LoginForm() {
-  const { push } = useRouter();
+  // const { push } = useRouter();
 
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string | number>("");
@@ -23,7 +23,7 @@ export default function LoginForm() {
       if (!response) {
         alert("계정정보를 확인하세요");
       } else {
-        push("/");
+        window.location.href = "/main";
       }
     } catch (e) {
       alert(e);
