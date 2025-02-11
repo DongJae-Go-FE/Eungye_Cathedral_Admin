@@ -113,6 +113,17 @@ export default function ClientNoticesEdit({
                 hidden
                 readOnly
               />
+              <label htmlFor="detailUpdate" className="sr-only">
+                detailUpdate
+              </label>
+              <input
+                type="hidden"
+                id="detailUpdate"
+                value="notices"
+                name="detailUpdate"
+                hidden
+                readOnly
+              />
             </td>
           </tr>
         </tbody>

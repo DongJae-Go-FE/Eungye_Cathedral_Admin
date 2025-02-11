@@ -49,6 +49,7 @@ const handleEdit = async (_: unknown, formData: FormData) => {
   const hrefData = formData.get("path")?.toString();
   const id = formData.get("id")?.toString();
   const listUpdate = formData.get("update")?.toString();
+  const detailUpdate = formData.get("detailUpdate")?.toString();
 
   try {
     const response = await fetch(
@@ -71,6 +72,7 @@ const handleEdit = async (_: unknown, formData: FormData) => {
       throw new Error(`등록 실패: ${response.statusText}`);
     }
     revalidateTag(listUpdate || "");
+    revalidateTag(`${detailUpdate}-${id}` || "");
 
     return {
       status: true,
