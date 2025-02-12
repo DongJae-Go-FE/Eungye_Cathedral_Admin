@@ -31,22 +31,25 @@ export default function ClientWeeklysEdit({
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (confirm(ADMIN_EDIT_STRING)) {
-      const formData = new FormData(event.currentTarget);
-      startTransition(async () => {
-        const response = await handleEdit(null, formData);
-        if (response.status) {
-          queryClient.refetchQueries(
-            `/weeklys/${id}` as RefetchQueryFilters<string>,
-          );
-          queryClient.refetchQueries(`/weeklys` as RefetchQueryFilters<string>);
-          alert(ADMIN_EDIT_STRING_COMPLETE);
-          push(`/weeklys/${id}`);
-        } else {
-          alert(response.error);
-        }
-      });
-    }
+
+    if (!confirm(ADMIN_EDIT_STRING)) return;
+
+    const formData = new FormData(event.currentTarget);
+
+    startTransition(async () => {
+      const response = await handleEdit(null, formData);
+
+      if (response.status) {
+        queryClient.refetchQueries(
+          `/weeklys/${id}` as RefetchQueryFilters<string>,
+        );
+        queryClient.refetchQueries(`/weeklys` as RefetchQueryFilters<string>);
+        alert(ADMIN_EDIT_STRING_COMPLETE);
+        push(`/weeklys/${id}`);
+      } else {
+        alert(response.error);
+      }
+    });
   };
 
   return (

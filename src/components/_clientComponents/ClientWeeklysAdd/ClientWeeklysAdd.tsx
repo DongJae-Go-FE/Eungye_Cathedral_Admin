@@ -23,19 +23,22 @@ export default function ClientWeeklysAdd() {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (confirm(ADMIN_ADD_STRING)) {
-      const formData = new FormData(event.currentTarget);
-      startTransition(async () => {
-        const response = await handleAdd(null, formData);
-        if (response.status) {
-          queryClient.refetchQueries("/weeklys" as RefetchQueryFilters<string>);
-          alert(ADMIN_ADD_STRING_COMPLETE);
-          push("/weeklys");
-        } else {
-          alert(response.error);
-        }
-      });
-    }
+
+    if (!confirm(ADMIN_ADD_STRING)) return;
+
+    const formData = new FormData(event.currentTarget);
+
+    startTransition(async () => {
+      const response = await handleAdd(null, formData);
+
+      if (response.status) {
+        queryClient.refetchQueries("/weeklys" as RefetchQueryFilters<string>);
+        alert(ADMIN_ADD_STRING_COMPLETE);
+        push("/weeklys");
+      } else {
+        alert(response.error);
+      }
+    });
   };
 
   return (

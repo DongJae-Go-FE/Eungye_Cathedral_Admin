@@ -28,22 +28,24 @@ export default function DeleteButton({ id, href, update }: DeleteType) {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (confirm(ADMIN_DELETE_STRING)) {
-      const formData = new FormData(event.currentTarget);
-      startTransition(async () => {
-        const response = await handleDelete(null, formData);
 
-        if (response.status && response.redirectUrl) {
-          queryClient.refetchQueries(href as RefetchQueryFilters<string>);
-          alert(ADMIN_DELETE_STRING_COMPLETE);
-          push(response.redirectUrl);
-        } else {
-          alert(response.error);
-        }
-      });
-    }
+    if (!confirm(ADMIN_DELETE_STRING)) return;
+
+    const formData = new FormData(event.currentTarget);
+
+    startTransition(async () => {
+      const response = await handleDelete(null, formData);
+
+      if (response.status && response.redirectUrl) {
+        queryClient.refetchQueries(href as RefetchQueryFilters<string>);
+        alert(ADMIN_DELETE_STRING_COMPLETE);
+        push(response.redirectUrl);
+      } else {
+        alert(response.error);
+      }
+    });
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <label htmlFor={href?.toString()} className="sr-only">

@@ -20,24 +20,26 @@ export default function ClientNewsAdd() {
   const queryClient = useQueryClient();
 
   const [isVal, setIsVal] = useState("");
-
   const [isPending, startTransition] = useTransition();
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (confirm(ADMIN_ADD_STRING)) {
-      const formData = new FormData(event.currentTarget);
-      startTransition(async () => {
-        const response = await handleAdd(null, formData);
-        if (response.status) {
-          queryClient.refetchQueries("/news" as RefetchQueryFilters<string>);
-          alert(ADMIN_ADD_STRING_COMPLETE);
-          push("/news");
-        } else {
-          alert(response.error);
-        }
-      });
-    }
+
+    if (!confirm(ADMIN_ADD_STRING)) return;
+
+    const formData = new FormData(event.currentTarget);
+
+    startTransition(async () => {
+      const response = await handleAdd(null, formData);
+
+      if (response.status) {
+        queryClient.refetchQueries("/news" as RefetchQueryFilters<string>);
+        alert(ADMIN_ADD_STRING_COMPLETE);
+        push("/news");
+      } else {
+        alert(response.error);
+      }
+    });
   };
   return (
     <form onSubmit={handleSubmit}>

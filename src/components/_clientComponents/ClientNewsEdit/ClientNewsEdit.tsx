@@ -33,24 +33,26 @@ export default function ClientNewsEdit({
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (confirm(ADMIN_EDIT_STRING)) {
-      const formData = new FormData(event.currentTarget);
-      startTransition(async () => {
-        const response = await handleEdit(null, formData);
-        if (response.status) {
-          queryClient.refetchQueries(
-            `/news/${id}` as RefetchQueryFilters<string>,
-          );
-          queryClient.refetchQueries(`/news` as RefetchQueryFilters<string>);
-          alert(ADMIN_EDIT_STRING_COMPLETE);
-          push(`/news/${id}`);
-        } else {
-          alert(response.error);
-        }
-      });
-    }
-  };
 
+    if (!confirm(ADMIN_EDIT_STRING)) return;
+
+    const formData = new FormData(event.currentTarget);
+
+    startTransition(async () => {
+      const response = await handleEdit(null, formData);
+
+      if (response.status) {
+        queryClient.refetchQueries(
+          `/news/${id}` as RefetchQueryFilters<string>,
+        );
+        queryClient.refetchQueries(`/news` as RefetchQueryFilters<string>);
+        alert(ADMIN_EDIT_STRING_COMPLETE);
+        push(`/news/${id}`);
+      } else {
+        alert(response.error);
+      }
+    });
+  };
   return (
     <form onSubmit={handleSubmit}>
       <table className="description-table">
