@@ -1,15 +1,16 @@
 "use client";
 
 import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
 
 import FormSearch from "@/components/FormSearch";
 import Button from "@/components/Button";
 import Table from "@/components/Table";
 
 import { TableColumn } from "@/components/Table/Table";
-import { RequestGetListType } from "@/type";
+
 import { formatDate } from "@/utils/common";
+
+import { useWeeklys } from "@/queryApi/useListQuery";
 
 import useDebounce from "@/hooks/useDebounce";
 
@@ -19,19 +20,10 @@ export default function ClientWeeklysTable() {
 
   const debouncedSearchValue = useDebounce({ value: search, delay: 300 });
 
-  const { data, isLoading } = useQuery<RequestGetListType>({
-    queryKey: ["/weeklys", page, debouncedSearchValue],
-    queryFn: async () =>
-      await fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/weeklys?page=${page}&limit=10&q=${debouncedSearchValue}`,
-        {
-          method: "GET",
-          headers: {
-            "Access-Control-Allow-Origin": "*",
-            "Content-Type": "application/json;charset=UTF-8",
-          },
-        },
-      ).then((res) => res.json()),
+  const { data, isLoading } = useWeeklys({
+    page: page.toString(),
+    limit: "10",
+    search: debouncedSearchValue,
   });
 
   const columns: TableColumn[] = [

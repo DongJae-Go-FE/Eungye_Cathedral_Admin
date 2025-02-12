@@ -1,26 +1,16 @@
 "use client";
 
 import {
+  isServer,
   QueryClient,
   QueryClientProvider,
-  defaultShouldDehydrateQuery,
-  isServer,
 } from "@tanstack/react-query";
 
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
-
-import { PropsWithChildren } from "react";
-
-function serverQueryClient() {
+function makeQueryClient() {
   return new QueryClient({
     defaultOptions: {
       queries: {
-        staleTime: 1000 * 20,
-      },
-      dehydrate: {
-        shouldDehydrateQuery: (query) =>
-          defaultShouldDehydrateQuery(query) ||
-          query.state.status === "pending",
+        staleTime: 60 * 1000,
       },
     },
   });
@@ -28,24 +18,23 @@ function serverQueryClient() {
 
 let browserQueryClient: QueryClient | undefined = undefined;
 
-export function getQueryClient() {
+function getQueryClient() {
   if (isServer) {
-    return serverQueryClient();
+    return makeQueryClient();
   } else {
-    if (!browserQueryClient) browserQueryClient = serverQueryClient();
+    if (!browserQueryClient) browserQueryClient = makeQueryClient();
     return browserQueryClient;
   }
 }
 
-const QueryProvider = ({ children }: PropsWithChildren) => {
+export default function QueryProvider({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const queryClient = getQueryClient();
 
   return (
-    <QueryClientProvider client={queryClient}>
-      {children}
-      <ReactQueryDevtools initialIsOpen={false} />
-    </QueryClientProvider>
+    <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
   );
-};
-
-export default QueryProvider;
+}

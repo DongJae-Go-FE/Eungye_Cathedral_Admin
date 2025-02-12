@@ -2,24 +2,21 @@ import Link from "next/link";
 
 import List from "@/components/List";
 
-import { RequestGetListType } from "@/type";
+import GetApi from "@/utils/getApi";
 
 export default async function ServerWeeklysList() {
-  const response: RequestGetListType = await fetch(
-    `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/weeklys?page=1&limit=5`,
-    {
-      method: "GET",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "application/json;charset=UTF-8",
-      },
+  const weeklysList = await GetApi.getWeeklys({
+    page: "1",
+    limit: "5",
+    search: "",
+    config: {
       next: { tags: ["serverWeeklysList"] },
     },
-  ).then((res) => res.json());
+  });
 
   return (
     <section>
-      <h3 className="mb-3 flex items-center justify-between text-heading03b text-black">
+      <h3 className="text-heading03b mb-3 flex items-center justify-between text-black">
         주보
         <Link href="/weeklys" className="text-body01m hover:underline">
           더보기
@@ -28,7 +25,7 @@ export default async function ServerWeeklysList() {
       <List
         href="/weeklys"
         items={
-          response?.data?.list?.map(({ id, title, created_at }) => {
+          weeklysList?.data?.list?.map(({ id, title, created_at }) => {
             return {
               id,
               title,

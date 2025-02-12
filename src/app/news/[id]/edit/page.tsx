@@ -1,24 +1,17 @@
-import { notFound } from "next/navigation";
-
 import SectionTitle from "@/components/SectionTitle";
 import ClientNewsEdit from "@/components/_clientComponents/ClientNewsEdit";
 
-import { RequestGetListType, RequestGetDetailType } from "@/type";
+import GetApi from "@/utils/getApi";
 
 export async function generateStaticParams(): Promise<{ id: string }[]> {
-  const response: RequestGetListType = await fetch(
-    `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=1&limit=10`,
-    {
-      method: "GET",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "application/json;charset=UTF-8",
-      },
-    },
-  ).then((res) => res.json());
+  const newsList = await GetApi.getNews({
+    page: "1",
+    limit: "5",
+    search: "",
+  });
 
   return (
-    response.data?.list.map((value) => ({
+    newsList.data.list.map((value) => ({
       id: value.id.toString(),
     })) || []
   );
@@ -31,23 +24,12 @@ export default async function Page({
 }) {
   const { id } = await params;
 
-  const response = await fetch(
-    `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news/${id}`,
-    {
-      method: "GET",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "application/json;charset=UTF-8",
-      },
+  const newsDetail = await GetApi.getNewsDetail({
+    id,
+    config: {
       next: { tags: [`news-${id}`] },
     },
-  );
-
-  if (response.status === 404) {
-    notFound();
-  }
-
-  const data: RequestGetDetailType = await response.json();
+  });
 
   return (
     <section className="common-layout">
@@ -58,7 +40,7 @@ export default async function Page({
           { id: 1, title: "본당소식 수정", path: `/news/${id}/edit` },
         ]}
       />
-      <ClientNewsEdit id={id} data={data} />
+      <ClientNewsEdit id={id} data={newsDetail} />
     </section>
   );
 }

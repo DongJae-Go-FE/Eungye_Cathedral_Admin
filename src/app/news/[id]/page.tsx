@@ -1,28 +1,22 @@
 import Image from "next/image";
-import { notFound } from "next/navigation";
 
 import SectionTitle from "@/components/SectionTitle";
 import Button from "@/components/Button";
 import DeleteButton from "@/components/_clientComponents/DeleteButton";
 
-import { RequestGetListType, RequestGetDetailType } from "@/type";
+import GetApi from "@/utils/getApi";
 
 import { formatDate } from "@/utils/common";
 
 export async function generateStaticParams(): Promise<{ id: string }[]> {
-  const response: RequestGetListType = await fetch(
-    `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news?page=1&limit=10`,
-    {
-      method: "GET",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "application/json;charset=UTF-8",
-      },
-    },
-  ).then((res) => res.json());
+  const newsList = await GetApi.getNews({
+    page: "1",
+    limit: "5",
+    search: "",
+  });
 
   return (
-    response.data?.list.map((value) => ({
+    newsList.data.list.map((value) => ({
       id: value.id.toString(),
     })) || []
   );
@@ -35,23 +29,12 @@ export default async function Page({
 }) {
   const { id } = await params;
 
-  const response = await fetch(
-    `${process.env.NEXT_PUBLIC_BACKEND_SERVER_API_URL}/news/${id}`,
-    {
-      method: "GET",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "application/json;charset=UTF-8",
-      },
+  const newsDetail = await GetApi.getNewsDetail({
+    id,
+    config: {
       next: { tags: [`news-${id}`] },
     },
-  );
-
-  if (response.status === 404) {
-    notFound();
-  }
-
-  const data: RequestGetDetailType = await response.json();
+  });
 
   return (
     <section className="common-layout">
@@ -67,16 +50,18 @@ export default async function Page({
         <tbody>
           <tr>
             <th>제목</th>
-            <td>{data.title ? data.title : "-"}</td>
+            <td>{newsDetail.title ? newsDetail.title : "-"}</td>
             <th>생성일</th>
-            <td>{data.created_at ? formatDate(data.created_at) : "-"}</td>
+            <td>
+              {newsDetail.created_at ? formatDate(newsDetail.created_at) : "-"}
+            </td>
           </tr>
           <tr>
             <th>내용</th>
             <td colSpan={3}>
-              {data.imgUrl && (
+              {newsDetail.imgUrl && (
                 <Image
-                  src={data.imgUrl}
+                  src={newsDetail.imgUrl}
                   width={500}
                   height={500}
                   alt="상세이미지"
@@ -84,10 +69,10 @@ export default async function Page({
                   priority
                 />
               )}
-              {data.content ? (
+              {newsDetail.content ? (
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: data.content,
+                    __html: newsDetail.content,
                   }}
                 />
               ) : (
@@ -98,7 +83,7 @@ export default async function Page({
           <tr>
             <th>사진 파일</th>
             <td colSpan={3}>
-              {data.imgUrl ? (
+              {newsDetail.imgUrl ? (
                 <div className="flex items-center gap-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +101,7 @@ export default async function Page({
                   </svg>
                   <a
                     className="text-blue-400 hover:underline"
-                    href={data.imgUrl}
+                    href={newsDetail.imgUrl}
                     target="_blank"
                     download
                   >

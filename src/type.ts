@@ -21,3 +21,18 @@ export type RequestGetDetailType = {
   created_at: string;
   imgUrl?: string;
 };
+
+export type AdjacentType = {
+  previous: {
+    id?: number | string;
+    title: string;
+    created_at?: string;
+    state?: boolean;
+  };
+  next: {
+    id?: number | string;
+    title: string;
+    created_at?: string;
+    state?: boolean;
+  };
+};

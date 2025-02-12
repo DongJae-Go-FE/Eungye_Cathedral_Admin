@@ -133,7 +133,7 @@ export default function ClientNoticesEdit({
       </table>
       <div className="mt-6 flex justify-end gap-x-1">
         <Button type="submit" color="blue" disabled={isPending || !isVal}>
-          {isPending ? "수정중" : "수젗"}
+          {isPending ? "수정중" : "수정"}
         </Button>
         <Button type="button" color="white" href={`/notices/${id}`}>
           취소
