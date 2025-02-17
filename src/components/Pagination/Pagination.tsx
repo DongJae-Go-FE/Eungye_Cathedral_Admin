@@ -65,6 +65,7 @@ export default function Pagination({
       <button
         type="button"
         className={btnArrowStyle}
+        title="처음으로"
         disabled={start === 1}
         onClick={handleFirst}
       >
@@ -92,6 +93,7 @@ export default function Pagination({
       <button
         type="button"
         className={btnArrowStyle}
+        title="10개 뒤로"
         disabled={start === 1}
         onClick={handlePrev}
       >
@@ -120,6 +122,7 @@ export default function Pagination({
             <li key={index}>
               <button
                 type="button"
+                title={`${start + index} 버튼`}
                 className={`text-body03m h-6 cursor-pointer px-2 ${start + index === current ? "text-gray-900" : "text-gray-500"}`}
                 onClick={() => handlePageClick(start + index)}
               >
@@ -132,6 +135,7 @@ export default function Pagination({
       <button
         type="button"
         className={btnArrowStyle}
+        title="10개 앞으로"
         disabled={start + max > total}
         onClick={handleNext}
       >
@@ -152,6 +156,7 @@ export default function Pagination({
       </button>
       <button
         type="button"
+        title="맨끝으로"
         className={btnArrowStyle}
         disabled={start + max > total}
         onClick={handleLast}
