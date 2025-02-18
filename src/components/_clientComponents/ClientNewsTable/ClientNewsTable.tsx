@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 import FormSearch from "@/components/FormSearch";
 import Button from "@/components/Button";
@@ -25,24 +25,26 @@ export default function ClientNewsTable() {
     limit: "10",
     search: debouncedSearchValue,
   });
-
-  const columns: TableColumn[] = [
-    {
-      key: "no",
-      title: "No",
-      width: "10%",
-    },
-    {
-      key: "title",
-      title: "제목",
-      width: "60%",
-    },
-    {
-      key: "created_at",
-      title: "생성일",
-      width: "30%",
-    },
-  ];
+  const columns: TableColumn[] = useMemo(
+    () => [
+      {
+        key: "no",
+        title: "No",
+        width: "10%",
+      },
+      {
+        key: "title",
+        title: "제목",
+        width: "60%",
+      },
+      {
+        key: "created_at",
+        title: "생성일",
+        width: "30%",
+      },
+    ],
+    [],
+  );
 
   const handleSubmit = (e: string) => {
     setSearch(e);
