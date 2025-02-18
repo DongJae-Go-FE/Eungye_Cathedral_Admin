@@ -20,7 +20,7 @@ export default function ClientWeeklysTable() {
 
   const debouncedSearchValue = useDebounce({ value: search, delay: 300 });
 
-  const { data, isLoading } = useWeeklys({
+  const { data, isFetching } = useWeeklys({
     page: page.toString(),
     limit: "10",
     search: debouncedSearchValue,
@@ -53,7 +53,7 @@ export default function ClientWeeklysTable() {
 
   return (
     <div>
-      <FormSearch handleSearch={handleSubmit} isLoading={isLoading} />
+      <FormSearch handleSearch={handleSubmit} isLoading={isFetching} />
       <div className="mt-4 mb-2 flex justify-end">
         <Button size="sm" color="white" href="/weeklys/add">
           등록
@@ -74,7 +74,7 @@ export default function ClientWeeklysTable() {
         pageSize={Number(data?.limit)}
         totalCount={data?.data.total || 0}
         href="/weeklys"
-        isLoading={isLoading}
+        isLoading={isFetching}
         // onPageChange={(page) => {
         //   setPage((prev) => {
         //     prev = page;
