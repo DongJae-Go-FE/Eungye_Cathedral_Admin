@@ -86,7 +86,7 @@ export default function ClientWeeklysDetail({
         </tbody>
       </table>
       <div className="mt-6 flex justify-end gap-x-1">
-        <Button color="black" href={`/weeklys/${id}/edit${searchParams.toString()}`}>
+        <Button color="black" href={`/weeklys/${id}/edit?${searchParams.toString()}`}>
           수정
         </Button>
         <DeleteButton id={id} href="/weeklys" update="serverWeeklysList" />
