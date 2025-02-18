@@ -90,7 +90,7 @@ export default function ClientNewsDetail({
         </tbody>
       </table>
       <div className="mt-6 flex justify-end gap-x-1">
-        <Button color="black" href={`/news/${id}/edit`}>
+        <Button color="black" href={`/news/${id}/edit${searchParams.toString()}`}>
           수정
         </Button>
         <DeleteButton id={id} href="/news" update="serverNewsList" />
