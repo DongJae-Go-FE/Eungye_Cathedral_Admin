@@ -13,7 +13,6 @@
     "@tanstack/react-query": "^5.62.10",
     "@tanstack/react-query-devtools": "^5.62.10",
     "date-fns": "^4.1.0",
-    "lodash": "^4.17.21",
     "next": "15.0.4",
     "next-auth": "^5.0.0-beta.25",
     "postcss-import": "^16.1.0",
@@ -25,7 +24,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.4",
-    "@types/lodash": "^4.17.13",
     "@types/node": "^20",
     "@types/quill": "^2.0.14",
     "@types/react": "^19",
