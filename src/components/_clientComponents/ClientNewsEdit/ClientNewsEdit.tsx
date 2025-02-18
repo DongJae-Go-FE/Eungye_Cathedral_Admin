@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useState, useTransition } from "react";
 
 import { useQueryClient, RefetchQueryFilters } from "@tanstack/react-query";
@@ -25,6 +25,8 @@ export default function ClientNewsEdit({
   data: RequestGetDetailType;
 }) {
   const { push } = useRouter();
+  const searchParams = useSearchParams();
+
   const queryClient = useQueryClient();
 
   const [isVal, setIsVal] = useState(data.title);
@@ -137,7 +139,11 @@ export default function ClientNewsEdit({
         <Button type="submit" color="blue" disabled={isPending || !isVal}>
           {isPending ? "수정중" : "수정"}
         </Button>
-        <Button type="button" color="white" href={`/news/${id}`}>
+        <Button
+          type="button"
+          color="white"
+          href={`/news/${id}?${searchParams.toString()}`}
+        >
           취소
         </Button>
       </div>

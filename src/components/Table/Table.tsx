@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 import { ReactNode, HtmlHTMLAttributes, memo } from "react";
 import Empty from "@/components/Empty";
@@ -72,6 +73,7 @@ const Table = memo(
     onPageChange,
   }: TableProps) => {
     const totalPage = pageSize ? Math.ceil(totalCount / pageSize) : 1;
+    const searchParams = useSearchParams();
 
     if (isLoading) {
       return (
@@ -133,7 +135,7 @@ const Table = memo(
                       >
                         {key === "title" ? (
                           <Link
-                            href={`${href}/${item.id}`}
+                            href={`${href}/${item.id}?${searchParams.toString()}`}
                             className="hover:underline"
                           >
                             {item[key]}

@@ -1,3 +1,9 @@
+export type RequestFilterListType = {
+  page: string;
+  limit: string;
+  search?: string;
+};
+
 export type RequestGetListType = {
   page: string;
   limit: string;

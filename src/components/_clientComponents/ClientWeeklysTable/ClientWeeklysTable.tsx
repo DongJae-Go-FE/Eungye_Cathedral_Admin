@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
 
 import FormSearch from "@/components/FormSearch";
 import Button from "@/components/Button";
@@ -11,18 +11,26 @@ import { TableColumn } from "@/components/Table/Table";
 import { formatDate } from "@/utils/common";
 
 import { useWeeklys } from "@/queryApi/useListQuery";
-
+import { useFilter } from "@/hooks/useFilter";
 import useDebounce from "@/hooks/useDebounce";
 
-export default function ClientWeeklysTable() {
-  const [page, setPage] = useState(1);
-  const [search, setSearch] = useState("");
+import { RequestFilterListType } from "@/type";
 
-  const debouncedSearchValue = useDebounce({ value: search, delay: 300 });
+export default function ClientWeeklysTable() {
+  const { filter, handleSubmit } = useFilter<RequestFilterListType>({
+    page: "1",
+    limit: "10",
+    search: "",
+  });
+
+  const debouncedSearchValue = useDebounce({
+    value: filter.search,
+    delay: 300,
+  });
 
   const { data, isFetching } = useWeeklys({
-    page: page.toString(),
-    limit: "10",
+    page: filter.page,
+    limit: filter.limit,
     search: debouncedSearchValue,
   });
 
@@ -47,13 +55,13 @@ export default function ClientWeeklysTable() {
     [],
   );
 
-  const handleSubmit = (e: string) => {
-    setSearch(e);
+  const handleSearchSubmit = (e: string) => {
+    handleSubmit({ ...filter, search: e });
   };
 
   return (
     <div>
-      <FormSearch handleSearch={handleSubmit} isLoading={isFetching} />
+      <FormSearch handleSearch={handleSearchSubmit} isLoading={isFetching} />
       <div className="mt-4 mb-2 flex justify-end">
         <Button size="sm" color="white" href="/weeklys/add">
           등록
@@ -75,11 +83,9 @@ export default function ClientWeeklysTable() {
         totalCount={data?.data.total || 0}
         href="/weeklys"
         isLoading={isFetching}
-        onPageChange={(newPage) => {
-          if (newPage !== page) {
-            setPage(newPage);
-          }
-        }}
+        onPageChange={(newPage) =>
+          handleSubmit({ ...filter, page: newPage.toString() })
+        }
       />
     </div>
   );
