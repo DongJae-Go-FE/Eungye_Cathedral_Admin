@@ -75,12 +75,6 @@ export default function ClientWeeklysTable() {
         totalCount={data?.data.total || 0}
         href="/weeklys"
         isLoading={isFetching}
-        // onPageChange={(page) => {
-        //   setPage((prev) => {
-        //     prev = page;
-        //     return prev;
-        //   });
-        // }}
         onPageChange={(newPage) => {
           if (newPage !== page) {
             setPage(newPage);
