@@ -1,5 +1,5 @@
-import GetList from "../utils/getApi";
-import { ListParamsType } from "../utils/getApi";
+import GetList from "./getApi";
+import { ListParamsType } from "./getApi";
 
 const queryKeys = {
   news: ({ page, limit, search }: ListParamsType) =>

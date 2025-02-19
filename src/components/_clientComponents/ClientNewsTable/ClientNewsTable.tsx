@@ -10,7 +10,7 @@ import { TableColumn } from "@/components/Table/Table";
 
 import { formatDate } from "@/utils/common";
 
-import { useNews } from "@/queryApi/useListQuery";
+import { useNews } from "@/hooks/useListQuery";
 import { useFilter } from "@/hooks/useFilter";
 import useDebounce from "@/hooks/useDebounce";
 

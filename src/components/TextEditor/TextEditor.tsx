@@ -6,7 +6,7 @@ import Quill from "quill";
 // import "quill/dist/quill.core.css";
 // import "quill/dist/quill.snow.css";
 
-import "./style.css"
+import "./style.css";
 
 interface QuillEditorProps {
   placeholder?: string;
@@ -15,7 +15,7 @@ interface QuillEditorProps {
 
 const QuillEditor: FC<QuillEditorProps> = ({
   placeholder = "내용을 입력해주세요",
-  defaultValue = "<p>내용을 입력해주세요.</p>",
+  defaultValue = "",
 }) => {
   const quillEditorRef = useRef<HTMLDivElement>(null);
   const quillRef = useRef<Quill | null>(null);

@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import queryOptions from "./queryOptions";
+import queryOptions from "../utils/queryOptions";
 import { ListParamsType } from "../utils/getApi";
 
 export function useNews({ page = "1", limit = "10", search }: ListParamsType) {
