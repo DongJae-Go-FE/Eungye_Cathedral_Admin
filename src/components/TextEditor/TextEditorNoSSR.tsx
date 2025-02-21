@@ -10,7 +10,7 @@ const TextEditor = dynamic(() => import("./TextEditor"), {
 });
 
 export default function TextEditorNoSSR({
-  defaultValue = "<p>내용을 입력해주세요.</p>",
+  defaultValue = "",
 }: {
   defaultValue?: string;
 }) {
