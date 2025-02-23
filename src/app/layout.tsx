@@ -15,7 +15,7 @@ const pretendard = localFont({
 
 export const metadata: Metadata = {
   title: "은계성당 관리자 페이지",
-  description: "은계성당 관리자 페이지입니다.",
+  description: "은계성당 관리자",
   robots: "noindex,nofollow",
 };
 
