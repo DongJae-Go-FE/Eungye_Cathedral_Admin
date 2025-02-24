@@ -38,7 +38,7 @@ export default function LoginForm() {
         const response = await doCredentialLogin(formData);
 
         if (!response) {
-          alert("계정정보를 확인하세요");
+          alert("계정정보가 틀렸습니다.");
         } else {
           push("/");
         }
