@@ -7,7 +7,7 @@ import ServerWeeklysList from "@/components/_serverComponents/ServerWeeklysList"
 export default async function Home() {
   return (
     <div className="common-layout">
-      <div className="mb-8 flex h-[300px] w-full bg-gray-200">
+      <div className="mb-8 flex h-[300px] w-full">
         <Image
           src="/main2.jpg"
           width={550}
