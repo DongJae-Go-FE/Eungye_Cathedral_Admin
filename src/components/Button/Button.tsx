@@ -46,23 +46,23 @@ const Button: FC<ButtonProps> = ({
 
   switch (size) {
     case "xs": {
-      sizeStyle = "h-6 px-2 text-body03r";
+      sizeStyle = "h-6 px-2 body03r";
       break;
     }
     case "sm": {
-      sizeStyle = "h-8 px-4 text-body02m";
+      sizeStyle = "h-8 px-4 body02m";
       break;
     }
     case "md": {
-      sizeStyle = "h-10 px-6 text-body02m";
+      sizeStyle = "h-10 px-6 body02m";
       break;
     }
     case "lg": {
-      sizeStyle = "h-12 px-8 text-body01m";
+      sizeStyle = "h-12 px-8 body01m";
       break;
     }
     case "xlg": {
-      sizeStyle = "h-14 px-10 text-body01b";
+      sizeStyle = "h-14 px-10 body01b";
       break;
     }
   }

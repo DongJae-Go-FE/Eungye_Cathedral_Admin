@@ -28,7 +28,7 @@ export default function Header() {
         </Link>
       </h1>
       <div className="flex items-center gap-x-2">
-        <p className="text-body02m">관리자</p>
+        <p className="body02m">관리자</p>
         <Button color="white" size="sm" onClick={doLogout}>
           로그아웃
         </Button>

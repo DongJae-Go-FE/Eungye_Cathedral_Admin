@@ -12,7 +12,7 @@ export type BreadcrumbType = {
 
 export default async function Breadcrumb({ items }: BreadcrumbType) {
   const commonStyle = "flex items-center gap-x-1";
-  const liStyle = `${commonStyle} text-body02m text-gray-500`;
+  const liStyle = `${commonStyle} body02m text-gray-500`;
 
   return (
     <ul className={commonStyle}>

@@ -40,7 +40,7 @@ const RenderPrevUI = ({
   return (
     <div className="relative h-[611px] w-full">
       <div className="table-header mb-2">
-        <span className="text-body02m">총 0건</span>
+        <span className="body02m">총 0건</span>
       </div>
       <ul className="flex h-12 w-full items-center border-y-2 border-gray-200">
         {columns.map(({ title, width }, index) => {
@@ -48,7 +48,7 @@ const RenderPrevUI = ({
             <li
               key={index}
               style={{ width: width ? width : "auto" }}
-              className="text-body02m px-5 text-center"
+              className="body02m px-5 text-center"
             >
               {title}
             </li>
@@ -101,7 +101,7 @@ const Table = memo(
         <div className="h-[611px] w-full">
           {totalCount && (
             <div className="table-header mb-2">
-              <span className="text-body02m">총 {totalCount}건</span>
+              <span className="body02m">총 {totalCount}건</span>
             </div>
           )}
           <div className="table-body relative w-full">
@@ -118,7 +118,7 @@ const Table = memo(
                     <th
                       key={index}
                       style={{ textAlign: headerAlign }}
-                      className="text-body02m h-12 border-y-2 border-gray-200 px-5"
+                      className="body02m h-12 border-y-2 border-gray-200 px-5"
                     >
                       {title}
                     </th>
@@ -131,7 +131,7 @@ const Table = memo(
                     {columnsKey.map((key) => (
                       <td
                         key={key + index}
-                        className="text-body02r h-12 border-b-2 border-gray-100 px-5 text-center"
+                        className="body02r h-12 border-b-2 border-gray-100 px-5 text-center"
                       >
                         {key === "title" ? (
                           <Link

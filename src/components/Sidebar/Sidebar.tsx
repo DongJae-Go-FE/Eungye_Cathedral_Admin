@@ -37,7 +37,7 @@ export default function Sidebar() {
         <ul className="p-8">
           {menu.map(({ title, href, id }) => {
             return (
-              <li key={id} className="text-body01b h-12 text-gray-400">
+              <li key={id} className="body01b h-12 text-gray-400">
                 <Link
                   className={`${pathname.includes(href) ? "text-black" : "text-gray-400"}`}
                   href={href}

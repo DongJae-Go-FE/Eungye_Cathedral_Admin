@@ -16,9 +16,9 @@ export default async function ServerNoticeList() {
 
   return (
     <section>
-      <h3 className="text-heading03b mb-3 flex items-center justify-between text-black">
+      <h3 className="heading03b mb-3 flex items-center justify-between text-black">
         공지사항
-        <Link href="/notices" className="text-body01m hover:underline">
+        <Link href="/notices" className="body01m hover:underline">
           더보기
         </Link>
       </h3>

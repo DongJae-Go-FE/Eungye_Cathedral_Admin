@@ -49,13 +49,13 @@ export default function LoginForm() {
   };
 
   const liStyle = "flex w-full flex-col gap-y-1";
-  const labelStyle = "text-body01m text-black";
+  const labelStyle = "body01m text-black";
   const inputStyle = "h-12 border rounded-md px-3 border-gray-300";
 
   return (
     <div className="rounded-2xl border border-gray-200 bg-white px-12 py-[72px]">
       <form className="flex h-full flex-col" onSubmit={handleSubmit(onSubmit)}>
-        <h2 className="text-heading03b mb-[112px]">
+        <h2 className="heading03b mb-[112px]">
           은계성당 관리자 페이지에 <br />
           오신 것을 환영합니다.
         </h2>

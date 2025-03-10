@@ -123,7 +123,7 @@ export default function Pagination({
               <button
                 type="button"
                 title={`${start + index} 버튼`}
-                className={`text-body03m h-6 cursor-pointer px-2 ${start + index === current ? "text-gray-900" : "text-gray-500"}`}
+                className={`body03m h-6 cursor-pointer px-2 ${start + index === current ? "text-gray-900" : "text-gray-500"}`}
                 onClick={() => handlePageClick(start + index)}
               >
                 {start + index}

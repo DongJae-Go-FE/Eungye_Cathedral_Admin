@@ -8,7 +8,7 @@ interface SectionTitleType extends BreadcrumbType {
 export default async function SectionTitle({ title, items }: SectionTitleType) {
   return (
     <h2 className="mb-10 flex items-center justify-between">
-      <div className="flex items-center gap-x-2 text-heading03b text-black">
+      <div className="flex items-center gap-x-2 heading03b text-black">
         {title}
       </div>
       {items && <Breadcrumb items={items} />}

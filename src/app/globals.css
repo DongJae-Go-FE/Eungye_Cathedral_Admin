@@ -1,6 +1,304 @@
 @import "tailwindcss";
 
-@config '../../tailwind.config.ts';
+
+@theme {
+  --color-dimmedEffectBlack30D: #0000004d;
+  --color-dimmedEffectBlack70D: #000000b3;
+  --color-dimmedEffectBlack85D: #000000d9;
+
+  --color-primary-100: #ff94a9;
+  --color-primary-200: #ff7a94;
+  --color-primary-300: #ff617f;
+  --color-primary-400: #ff476a;
+  --color-primary-500: #ff2d55;
+  --color-primary-600: #f91a45;
+  --color-primary-700: #ed0c38;
+  --color-primary-800: #d01136;
+  --color-primary-900: #b31433;
+
+  --color-gray-100: #fafafa;
+  --color-gray-200: #eeeeee;
+  --color-gray-300: #dddddd;
+  --color-gray-400: #bbbbbb;
+  --color-gray-500: #999999;
+  --color-gray-600: #777777;
+  --color-gray-700: #555555;
+  --color-gray-800: #333333;
+  --color-gray-900: #111111;
+
+  --color-red-100: #ff9a94;
+  --color-red-200: #ff817a;
+  --color-red-300: #ff6961;
+  --color-red-400: #ff5147;
+  --color-red-500: #ff3b30;
+  --color-red-600: #f9261a;
+  --color-red-700: #ed190c;
+  --color-red-800: #d01b11;
+  --color-red-900: #b31c14;
+  --color-red-1000: #981c16;
+  --color-red-1100: #7e1b16;
+  --color-red-1200: #651915;
+
+  --color-orange-100: #ffbf66;
+  --color-orange-200: #ffb54d;
+  --color-orange-300: #ffaa33;
+  --color-orange-400: #ffa01a;
+  --color-orange-500: #ff9500;
+  --color-orange-600: #e08506;
+  --color-orange-700: #c2750a;
+  --color-orange-800: #a5660d;
+  --color-orange-900: #8a570f;
+  --color-orange-1000: #704810;
+  --color-orange-1100: #57390f;
+  --color-orange-1200: #3f2a0d;
+
+  --color-yellow-100: #ffe066;
+  --color-yellow-200: #ffdb4d;
+  --color-yellow-300: #ffd633;
+  --color-yellow-400: #ffd11a;
+  --color-yellow-500: #ffcc00;
+  --color-yellow-600: #e0b406;
+  --color-yellow-700: #c29d0a;
+  --color-yellow-800: #a5870d;
+  --color-yellow-900: #8a710f;
+  --color-yellow-1000: #705c10;
+  --color-yellow-1100: #57480f;
+  --color-yellow-1200: #3f350d;
+
+  --color-lime-100: #bff594;
+  --color-lime-200: #b1ef80;
+  --color-lime-300: #a3e86d;
+  --color-lime-400: #96e05c;
+  --color-lime-500: #8ad74e;
+  --color-lime-600: #7ccc3e;
+  --color-lime-700: #70b738;
+  --color-lime-800: #659f38;
+  --color-lime-900: #598736;
+  --color-lime-1000: #4e7133;
+  --color-lime-1100: #425c2e;
+  --color-lime-1200: #364828;
+
+  --color-green-100: #72ee90;
+  --color-green-200: #5de781;
+  --color-green-300: #4edf72;
+  --color-green-400: #3fd580;
+  --color-green-500: #34c759;
+  --color-green-600: #34ad52;
+  --color-green-700: #339475;
+  --color-green-800: #317d44;
+  --color-green-900: #2d673c;
+  --color-green-1000: #285233;
+  --color-green-1100: #223f2a;
+  --color-green-1200: #1b2d1f;
+
+  --color-skyBlue-100: #bdeafe;
+  --color-skyBlue-200: #a4e2fe;
+  --color-skyBlue-300: #8adafe;
+  --color-skyBlue-400: #71d2fe;
+  --color-skyBlue-500: #5ac8fa;
+  --color-skyBlue-600: #48bef4;
+  --color-skyBlue-700: #35b4ed;
+  --color-skyBlue-800: #24a9e5;
+  --color-skyBlue-900: #1f99d1;
+  --color-skyBlue-1000: #2187b5;
+  --color-skyBlue-1100: #22759b;
+  --color-skyBlue-1200: #216482;
+
+  --color-blue-100: #66afff;
+  --color-blue-200: #4da2ff;
+  --color-blue-300: #3395ff;
+  --color-blue-400: #1a87ff;
+  --color-blue-500: #007aff;
+  --color-blue-600: #066ee0;
+  --color-blue-700: #1462b8;
+  --color-blue-800: #16569c;
+  --color-blue-900: #174a82;
+  --color-blue-1000: #163e69;
+  --color-blue-1100: #143242;
+  --color-blue-1200: #11263b;
+
+  --color-indigo-100: #9f9ef5;
+  --color-indigo-200: #8c8aef;
+  --color-indigo-300: #7a78e8;
+  --color-indigo-400: #6967e0;
+  --color-indigo-500: #5856d6;
+  --color-indigo-600: #4a48cb;
+  --color-indigo-700: #3f3dbd;
+  --color-indigo-800: #3e3da4;
+  --color-indigo-900: #3c3b8c;
+  --color-indigo-1000: #383776;
+  --color-indigo-1100: #343361;
+  --color-indigo-1200: #2e2d4d;
+
+  --color-purple-100: #db9ff9;
+  --color-purple-200: #d18af4;
+  --color-purple-300: #c677ee;
+  --color-purple-400: #bb65e7;
+  --color-purple-500: #af52de;
+  --color-purple-600: #a444d5;
+  --color-purple-700: #9736c9;
+  --color-purple-800: #8636b0;
+  --color-purple-900: #753597;
+  --color-purple-1000: #653380;
+  --color-purple-1100: #562f6a;
+  --color-purple-1200: #472a55;
+
+  --color-navy-100: #5b73b9;
+  --color-navy-200: #5168a9;
+  --color-navy-300: #4f6092;
+  --color-navy-400: #4b577c;
+  --color-navy-500: #464f69;
+  --color-navy-600: #3f4555;
+  --color-navy-700: #373a43;
+  --color-navy-800: #2e2f33;
+  --color-navy-900: #242424;
+  --color-navy-1000: #171717;
+  --color-navy-1100: #0a0a0a;
+  --color-navy-1200: #000;
+
+  --color-plus-100: #ff9a94;
+  --color-plus-200: #ff817a;
+  --color-plus-300: #ff6961;
+  --color-plus-400: #ff5147;
+  --color-plus-500: #ff3b30;
+  --color-plus-600: #f9261a;
+  --color-plus-700: #ed190c;
+  --color-plus-800: #d01b11;
+  --color-plus-900: #b31c14;
+
+  --color-minus-100: #66afff;
+  --color-minus-200: #4da2ff;
+  --color-minus-300: #3395ff;
+  --color-minus-400: #1a87ff;
+  --color-minus-500: #007aff;
+  --color-minus-600: #066ee0;
+  --color-minus-700: #1462b8;
+  --color-minus-800: #16569c;
+  --color-minus-900: #174a82;
+
+  --color-data-01: #464f69;
+  --color-data-02: #af52de;
+  --color-data-03: #5856d6;
+  --color-data-04: #007aff;
+  --color-data-05: #5ac8fa;
+  --color-data-06: #34c759;
+  --color-data-07: #8ad74e;
+  --color-data-08: #ffcc00;
+  --color-data-09: #ff9500;
+  --color-data-10: #ff3b30;
+}
+
+@utility display01b {
+  @apply text-7xl font-bold tracking-normal leading-[150%];
+}
+
+@utility display01m {
+  @apply text-7xl font-medium tracking-normal leading-[150%];
+}
+
+@utility display02b {
+  @apply text-[64px] font-bold tracking-normal leading-[150%];
+}
+
+@utility display02m {
+  @apply text-[64px] font-medium tracking-normal leading-[150%];
+}
+
+@utility display03b {
+  @apply text-5xl font-bold tracking-normal leading-[150%];
+}
+
+@utility display03m {
+  @apply text-5xl font-medium tracking-normal leading-[150%];
+}
+
+@utility heading01b {
+  @apply text-[40px] font-bold tracking-normal leading-[150%];
+}
+
+@utility heading01m {
+  @apply text-[40px] font-medium tracking-normal leading-[150%];
+}
+
+@utility heading01r {
+  @apply text-[40px] font-normal tracking-normal leading-[150%];
+}
+
+@utility heading02b {
+  @apply text-[32px] font-bold tracking-normal leading-[150%];
+}
+
+@utility heading02m {
+  @apply text-[32px] font-medium tracking-normal leading-[150%];
+}
+
+@utility heading02r {
+  @apply text-[32px] font-normal tracking-normal leading-[150%];
+}
+
+@utility heading03b {
+  @apply text-2xl font-bold tracking-normal leading-[150%];
+}
+
+@utility heading03m {
+  @apply text-2xl font-medium tracking-normal leading-[150%];
+}
+
+@utility heading03r {
+  @apply text-2xl font-normal tracking-normal leading-[150%];
+}
+
+@utility heading04b {
+  @apply text-[20px] font-bold tracking-normal leading-[150%];
+}
+
+@utility heading04m {
+  @apply text-[20px] font-medium tracking-normal leading-[150%];
+}
+
+@utility body01b {
+  @apply text-[16px] font-bold tracking-normal leading-[150%];
+}
+
+@utility body01m {
+  @apply text-[16px] font-medium tracking-normal leading-[150%];
+}
+
+@utility body01r {
+  @apply text-[16px] font-normal tracking-normal leading-[150%];
+}
+
+@utility body02b {
+  @apply text-[14px] font-bold tracking-normal leading-[150%];
+}
+
+@utility body02m {
+  @apply text-[14px] font-medium tracking-normal leading-[150%];
+}
+
+@utility body02r {
+  @apply text-[14px] font-normal tracking-normal leading-[150%];
+}
+
+@utility body03b {
+  @apply text-[12px] font-bold tracking-normal leading-[150%];
+}
+
+@utility body03m {
+  @apply text-[12px] font-medium tracking-normal leading-[150%];
+}
+
+@utility body03r {
+  @apply text-[12px] font-normal tracking-normal leading-[150%];
+}
+
+@utility body04r {
+  @apply text-[11px] font-normal tracking-normal leading-[150%];
+}
+
+@utility body05r {
+  @apply text-[10px] font-normal tracking-normal leading-[150%];
+}
 
 @utility common-layout {
   @apply h-full min-h-[calc(100dvh-80px)] bg-white p-10;
@@ -24,7 +322,7 @@
   tbody {
     tr {
       th {
-        @apply text-body02m w-60 bg-gray-100 px-4 py-3.5 text-left align-top;
+        @apply body02m w-60 bg-gray-100 px-4 py-3.5 text-left align-top;
 
         &.required {
           @apply text-red-500 after:content-['_*'];
@@ -32,7 +330,7 @@
       }
 
       td {
-        @apply text-body02r px-4 py-1;
+        @apply body02r px-4 py-1;
       }
 
       th,
@@ -58,1566 +356,5 @@
   h2 {
     @apply mb-4 font-bold text-black;
   }
-
-
-  /* 테일윈드 신버전 호횐 오류 수정 예정*/
-  .ql-container {
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    height: 100%;
-    margin: 0;
-    position: relative;
-  }
-  .ql-container.ql-disabled .ql-tooltip {
-    visibility: hidden;
-  }
-  .ql-container:not(.ql-disabled) li[data-list="checked"] > .ql-ui,
-  .ql-container:not(.ql-disabled) li[data-list="unchecked"] > .ql-ui {
-    cursor: pointer;
-  }
-  .ql-clipboard {
-    left: -100000px;
-    height: 1px;
-    overflow-y: hidden;
-    position: absolute;
-    top: 50%;
-  }
-  .ql-clipboard p {
-    margin: 0;
-    padding: 0;
-  }
-  .ql-editor {
-    box-sizing: border-box;
-    counter-reset: list-0 list-1 list-2 list-3 list-4 list-5 list-6 list-7
-      list-8 list-9;
-    line-height: 1.42;
-    height: 100%;
-    outline: none;
-    overflow-y: auto;
-    padding: 12px 15px;
-    tab-size: 4;
-    -moz-tab-size: 4;
-    text-align: left;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-  .ql-editor > * {
-    cursor: text;
-  }
-  .ql-editor p,
-  .ql-editor ol,
-  .ql-editor pre,
-  .ql-editor blockquote,
-  .ql-editor h1,
-  .ql-editor h2,
-  .ql-editor h3,
-  .ql-editor h4,
-  .ql-editor h5,
-  .ql-editor h6 {
-    margin: 0;
-    padding: 0;
-  }
-  @supports (counter-set: none) {
-    .ql-editor p,
-    .ql-editor h1,
-    .ql-editor h2,
-    .ql-editor h3,
-    .ql-editor h4,
-    .ql-editor h5,
-    .ql-editor h6 {
-      counter-set: list-0 list-1 list-2 list-3 list-4 list-5 list-6 list-7
-        list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor p,
-    .ql-editor h1,
-    .ql-editor h2,
-    .ql-editor h3,
-    .ql-editor h4,
-    .ql-editor h5,
-    .ql-editor h6 {
-      counter-reset: list-0 list-1 list-2 list-3 list-4 list-5 list-6 list-7
-        list-8 list-9;
-    }
-  }
-  .ql-editor table {
-    border-collapse: collapse;
-  }
-  .ql-editor td {
-    border: 1px solid #000;
-    padding: 2px 5px;
-  }
-  .ql-editor ol {
-    padding-left: 1.5em;
-  }
-  .ql-editor li {
-    list-style-type: none;
-    padding-left: 1.5em;
-    position: relative;
-  }
-  .ql-editor li > .ql-ui:before {
-    display: inline-block;
-    margin-left: -1.5em;
-    margin-right: 0.3em;
-    text-align: right;
-    white-space: nowrap;
-    width: 1.2em;
-  }
-  .ql-editor li[data-list="checked"] > .ql-ui,
-  .ql-editor li[data-list="unchecked"] > .ql-ui {
-    color: #777;
-  }
-  .ql-editor li[data-list="bullet"] > .ql-ui:before {
-    content: "\2022";
-  }
-  .ql-editor li[data-list="checked"] > .ql-ui:before {
-    content: "\2611";
-  }
-  .ql-editor li[data-list="unchecked"] > .ql-ui:before {
-    content: "\2610";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list] {
-      counter-set: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8
-        list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list] {
-      counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8
-        list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"] {
-    counter-increment: list-0;
-  }
-  .ql-editor li[data-list="ordered"] > .ql-ui:before {
-    content: counter(list-0, decimal) ". ";
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-1 {
-    counter-increment: list-1;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-1 > .ql-ui:before {
-    content: counter(list-1, lower-alpha) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-1 {
-      counter-set: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-1 {
-      counter-reset: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-2 {
-    counter-increment: list-2;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-2 > .ql-ui:before {
-    content: counter(list-2, lower-roman) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-2 {
-      counter-set: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-2 {
-      counter-reset: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-3 {
-    counter-increment: list-3;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-3 > .ql-ui:before {
-    content: counter(list-3, decimal) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-3 {
-      counter-set: list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-3 {
-      counter-reset: list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-4 {
-    counter-increment: list-4;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-4 > .ql-ui:before {
-    content: counter(list-4, lower-alpha) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-4 {
-      counter-set: list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-4 {
-      counter-reset: list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-5 {
-    counter-increment: list-5;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-5 > .ql-ui:before {
-    content: counter(list-5, lower-roman) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-5 {
-      counter-set: list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-5 {
-      counter-reset: list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-6 {
-    counter-increment: list-6;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-6 > .ql-ui:before {
-    content: counter(list-6, decimal) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-6 {
-      counter-set: list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-6 {
-      counter-reset: list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-7 {
-    counter-increment: list-7;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-7 > .ql-ui:before {
-    content: counter(list-7, lower-alpha) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-7 {
-      counter-set: list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-7 {
-      counter-reset: list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-8 {
-    counter-increment: list-8;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-8 > .ql-ui:before {
-    content: counter(list-8, lower-roman) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-8 {
-      counter-set: list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-8 {
-      counter-reset: list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-9 {
-    counter-increment: list-9;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-9 > .ql-ui:before {
-    content: counter(list-9, decimal) ". ";
-  }
-  .ql-editor .ql-indent-1:not(.ql-direction-rtl) {
-    padding-left: 3em;
-  }
-  .ql-editor li.ql-indent-1:not(.ql-direction-rtl) {
-    padding-left: 4.5em;
-  }
-  .ql-editor .ql-indent-1.ql-direction-rtl.ql-align-right {
-    padding-right: 3em;
-  }
-  .ql-editor li.ql-indent-1.ql-direction-rtl.ql-align-right {
-    padding-right: 4.5em;
-  }
-  .ql-editor .ql-indent-2:not(.ql-direction-rtl) {
-    padding-left: 6em;
-  }
-  .ql-editor li.ql-indent-2:not(.ql-direction-rtl) {
-    padding-left: 7.5em;
-  }
-  .ql-editor .ql-indent-2.ql-direction-rtl.ql-align-right {
-    padding-right: 6em;
-  }
-  .ql-editor li.ql-indent-2.ql-direction-rtl.ql-align-right {
-    padding-right: 7.5em;
-  }
-  .ql-editor .ql-indent-3:not(.ql-direction-rtl) {
-    padding-left: 9em;
-  }
-  .ql-editor li.ql-indent-3:not(.ql-direction-rtl) {
-    padding-left: 10.5em;
-  }
-  .ql-editor .ql-indent-3.ql-direction-rtl.ql-align-right {
-    padding-right: 9em;
-  }
-  .ql-editor li.ql-indent-3.ql-direction-rtl.ql-align-right {
-    padding-right: 10.5em;
-  }
-  .ql-editor .ql-indent-4:not(.ql-direction-rtl) {
-    padding-left: 12em;
-  }
-  .ql-editor li.ql-indent-4:not(.ql-direction-rtl) {
-    padding-left: 13.5em;
-  }
-  .ql-editor .ql-indent-4.ql-direction-rtl.ql-align-right {
-    padding-right: 12em;
-  }
-  .ql-editor li.ql-indent-4.ql-direction-rtl.ql-align-right {
-    padding-right: 13.5em;
-  }
-  .ql-editor .ql-indent-5:not(.ql-direction-rtl) {
-    padding-left: 15em;
-  }
-  .ql-editor li.ql-indent-5:not(.ql-direction-rtl) {
-    padding-left: 16.5em;
-  }
-  .ql-editor .ql-indent-5.ql-direction-rtl.ql-align-right {
-    padding-right: 15em;
-  }
-  .ql-editor li.ql-indent-5.ql-direction-rtl.ql-align-right {
-    padding-right: 16.5em;
-  }
-  .ql-editor .ql-indent-6:not(.ql-direction-rtl) {
-    padding-left: 18em;
-  }
-  .ql-editor li.ql-indent-6:not(.ql-direction-rtl) {
-    padding-left: 19.5em;
-  }
-  .ql-editor .ql-indent-6.ql-direction-rtl.ql-align-right {
-    padding-right: 18em;
-  }
-  .ql-editor li.ql-indent-6.ql-direction-rtl.ql-align-right {
-    padding-right: 19.5em;
-  }
-  .ql-editor .ql-indent-7:not(.ql-direction-rtl) {
-    padding-left: 21em;
-  }
-  .ql-editor li.ql-indent-7:not(.ql-direction-rtl) {
-    padding-left: 22.5em;
-  }
-  .ql-editor .ql-indent-7.ql-direction-rtl.ql-align-right {
-    padding-right: 21em;
-  }
-  .ql-editor li.ql-indent-7.ql-direction-rtl.ql-align-right {
-    padding-right: 22.5em;
-  }
-  .ql-editor .ql-indent-8:not(.ql-direction-rtl) {
-    padding-left: 24em;
-  }
-  .ql-editor li.ql-indent-8:not(.ql-direction-rtl) {
-    padding-left: 25.5em;
-  }
-  .ql-editor .ql-indent-8.ql-direction-rtl.ql-align-right {
-    padding-right: 24em;
-  }
-  .ql-editor li.ql-indent-8.ql-direction-rtl.ql-align-right {
-    padding-right: 25.5em;
-  }
-  .ql-editor .ql-indent-9:not(.ql-direction-rtl) {
-    padding-left: 27em;
-  }
-  .ql-editor li.ql-indent-9:not(.ql-direction-rtl) {
-    padding-left: 28.5em;
-  }
-  .ql-editor .ql-indent-9.ql-direction-rtl.ql-align-right {
-    padding-right: 27em;
-  }
-  .ql-editor li.ql-indent-9.ql-direction-rtl.ql-align-right {
-    padding-right: 28.5em;
-  }
-  .ql-editor li.ql-direction-rtl {
-    padding-right: 1.5em;
-  }
-  .ql-editor li.ql-direction-rtl > .ql-ui:before {
-    margin-left: 0.3em;
-    margin-right: -1.5em;
-    text-align: left;
-  }
-  .ql-editor table {
-    table-layout: fixed;
-    width: 100%;
-  }
-  .ql-editor table td {
-    outline: none;
-  }
-  .ql-editor .ql-code-block-container {
-    font-family: monospace;
-  }
-  .ql-editor .ql-video {
-    display: block;
-    max-width: 100%;
-  }
-  .ql-editor .ql-video.ql-align-center {
-    margin: 0 auto;
-  }
-  .ql-editor .ql-video.ql-align-right {
-    margin: 0 0 0 auto;
-  }
-  .ql-editor .ql-bg-black {
-    background-color: #000;
-  }
-  .ql-editor .ql-bg-red {
-    background-color: #e60000;
-  }
-  .ql-editor .ql-bg-orange {
-    background-color: #f90;
-  }
-  .ql-editor .ql-bg-yellow {
-    background-color: #ff0;
-  }
-  .ql-editor .ql-bg-green {
-    background-color: #008a00;
-  }
-  .ql-editor .ql-bg-blue {
-    background-color: #06c;
-  }
-  .ql-editor .ql-bg-purple {
-    background-color: #93f;
-  }
-  .ql-editor .ql-color-white {
-    color: #fff;
-  }
-  .ql-editor .ql-color-red {
-    color: #e60000;
-  }
-  .ql-editor .ql-color-orange {
-    color: #f90;
-  }
-  .ql-editor .ql-color-yellow {
-    color: #ff0;
-  }
-  .ql-editor .ql-color-green {
-    color: #008a00;
-  }
-  .ql-editor .ql-color-blue {
-    color: #06c;
-  }
-  .ql-editor .ql-color-purple {
-    color: #93f;
-  }
-  .ql-editor .ql-font-serif {
-    font-family:
-      Georgia,
-      Times New Roman,
-      serif;
-  }
-  .ql-editor .ql-font-monospace {
-    font-family:
-      Monaco,
-      Courier New,
-      monospace;
-  }
-  .ql-editor .ql-size-small {
-    font-size: 0.75em;
-  }
-  .ql-editor .ql-size-large {
-    font-size: 1.5em;
-  }
-  .ql-editor .ql-size-huge {
-    font-size: 2.5em;
-  }
-  .ql-editor .ql-direction-rtl {
-    direction: rtl;
-    text-align: inherit;
-  }
-  .ql-editor .ql-align-center {
-    text-align: center;
-  }
-  .ql-editor .ql-align-justify {
-    text-align: justify;
-  }
-  .ql-editor .ql-align-right {
-    text-align: right;
-  }
-  .ql-editor .ql-ui {
-    position: absolute;
-  }
-  .ql-editor.ql-blank::before {
-    color: rgba(0, 0, 0, 0.6);
-    content: attr(data-placeholder);
-    font-style: italic;
-    left: 15px;
-    pointer-events: none;
-    position: absolute;
-    right: 15px;
-  }
-
-  .ql-container {
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    height: 100%;
-    margin: 0;
-    position: relative;
-  }
-  .ql-container.ql-disabled .ql-tooltip {
-    visibility: hidden;
-  }
-  .ql-container:not(.ql-disabled) li[data-list="checked"] > .ql-ui,
-  .ql-container:not(.ql-disabled) li[data-list="unchecked"] > .ql-ui {
-    cursor: pointer;
-  }
-  .ql-clipboard {
-    left: -100000px;
-    height: 1px;
-    overflow-y: hidden;
-    position: absolute;
-    top: 50%;
-  }
-  .ql-clipboard p {
-    margin: 0;
-    padding: 0;
-  }
-  .ql-editor {
-    box-sizing: border-box;
-    counter-reset: list-0 list-1 list-2 list-3 list-4 list-5 list-6 list-7
-      list-8 list-9;
-    line-height: 1.42;
-    height: 100%;
-    outline: none;
-    overflow-y: auto;
-    padding: 12px 15px;
-    tab-size: 4;
-    -moz-tab-size: 4;
-    text-align: left;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-  .ql-editor > * {
-    cursor: text;
-  }
-  .ql-editor p,
-  .ql-editor ol,
-  .ql-editor pre,
-  .ql-editor blockquote,
-  .ql-editor h1,
-  .ql-editor h2,
-  .ql-editor h3,
-  .ql-editor h4,
-  .ql-editor h5,
-  .ql-editor h6 {
-    margin: 0;
-    padding: 0;
-  }
-  @supports (counter-set: none) {
-    .ql-editor p,
-    .ql-editor h1,
-    .ql-editor h2,
-    .ql-editor h3,
-    .ql-editor h4,
-    .ql-editor h5,
-    .ql-editor h6 {
-      counter-set: list-0 list-1 list-2 list-3 list-4 list-5 list-6 list-7
-        list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor p,
-    .ql-editor h1,
-    .ql-editor h2,
-    .ql-editor h3,
-    .ql-editor h4,
-    .ql-editor h5,
-    .ql-editor h6 {
-      counter-reset: list-0 list-1 list-2 list-3 list-4 list-5 list-6 list-7
-        list-8 list-9;
-    }
-  }
-  .ql-editor table {
-    border-collapse: collapse;
-  }
-  .ql-editor td {
-    border: 1px solid #000;
-    padding: 2px 5px;
-  }
-  .ql-editor ol {
-    padding-left: 1.5em;
-  }
-  .ql-editor li {
-    list-style-type: none;
-    padding-left: 1.5em;
-    position: relative;
-  }
-  .ql-editor li > .ql-ui:before {
-    display: inline-block;
-    margin-left: -1.5em;
-    margin-right: 0.3em;
-    text-align: right;
-    white-space: nowrap;
-    width: 1.2em;
-  }
-  .ql-editor li[data-list="checked"] > .ql-ui,
-  .ql-editor li[data-list="unchecked"] > .ql-ui {
-    color: #777;
-  }
-  .ql-editor li[data-list="bullet"] > .ql-ui:before {
-    content: "\2022";
-  }
-  .ql-editor li[data-list="checked"] > .ql-ui:before {
-    content: "\2611";
-  }
-  .ql-editor li[data-list="unchecked"] > .ql-ui:before {
-    content: "\2610";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list] {
-      counter-set: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8
-        list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list] {
-      counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8
-        list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"] {
-    counter-increment: list-0;
-  }
-  .ql-editor li[data-list="ordered"] > .ql-ui:before {
-    content: counter(list-0, decimal) ". ";
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-1 {
-    counter-increment: list-1;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-1 > .ql-ui:before {
-    content: counter(list-1, lower-alpha) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-1 {
-      counter-set: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-1 {
-      counter-reset: list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-2 {
-    counter-increment: list-2;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-2 > .ql-ui:before {
-    content: counter(list-2, lower-roman) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-2 {
-      counter-set: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-2 {
-      counter-reset: list-3 list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-3 {
-    counter-increment: list-3;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-3 > .ql-ui:before {
-    content: counter(list-3, decimal) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-3 {
-      counter-set: list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-3 {
-      counter-reset: list-4 list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-4 {
-    counter-increment: list-4;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-4 > .ql-ui:before {
-    content: counter(list-4, lower-alpha) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-4 {
-      counter-set: list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-4 {
-      counter-reset: list-5 list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-5 {
-    counter-increment: list-5;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-5 > .ql-ui:before {
-    content: counter(list-5, lower-roman) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-5 {
-      counter-set: list-6 list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-5 {
-      counter-reset: list-6 list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-6 {
-    counter-increment: list-6;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-6 > .ql-ui:before {
-    content: counter(list-6, decimal) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-6 {
-      counter-set: list-7 list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-6 {
-      counter-reset: list-7 list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-7 {
-    counter-increment: list-7;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-7 > .ql-ui:before {
-    content: counter(list-7, lower-alpha) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-7 {
-      counter-set: list-8 list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-7 {
-      counter-reset: list-8 list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-8 {
-    counter-increment: list-8;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-8 > .ql-ui:before {
-    content: counter(list-8, lower-roman) ". ";
-  }
-  @supports (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-8 {
-      counter-set: list-9;
-    }
-  }
-  @supports not (counter-set: none) {
-    .ql-editor li[data-list].ql-indent-8 {
-      counter-reset: list-9;
-    }
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-9 {
-    counter-increment: list-9;
-  }
-  .ql-editor li[data-list="ordered"].ql-indent-9 > .ql-ui:before {
-    content: counter(list-9, decimal) ". ";
-  }
-  .ql-editor .ql-indent-1:not(.ql-direction-rtl) {
-    padding-left: 3em;
-  }
-  .ql-editor li.ql-indent-1:not(.ql-direction-rtl) {
-    padding-left: 4.5em;
-  }
-  .ql-editor .ql-indent-1.ql-direction-rtl.ql-align-right {
-    padding-right: 3em;
-  }
-  .ql-editor li.ql-indent-1.ql-direction-rtl.ql-align-right {
-    padding-right: 4.5em;
-  }
-  .ql-editor .ql-indent-2:not(.ql-direction-rtl) {
-    padding-left: 6em;
-  }
-  .ql-editor li.ql-indent-2:not(.ql-direction-rtl) {
-    padding-left: 7.5em;
-  }
-  .ql-editor .ql-indent-2.ql-direction-rtl.ql-align-right {
-    padding-right: 6em;
-  }
-  .ql-editor li.ql-indent-2.ql-direction-rtl.ql-align-right {
-    padding-right: 7.5em;
-  }
-  .ql-editor .ql-indent-3:not(.ql-direction-rtl) {
-    padding-left: 9em;
-  }
-  .ql-editor li.ql-indent-3:not(.ql-direction-rtl) {
-    padding-left: 10.5em;
-  }
-  .ql-editor .ql-indent-3.ql-direction-rtl.ql-align-right {
-    padding-right: 9em;
-  }
-  .ql-editor li.ql-indent-3.ql-direction-rtl.ql-align-right {
-    padding-right: 10.5em;
-  }
-  .ql-editor .ql-indent-4:not(.ql-direction-rtl) {
-    padding-left: 12em;
-  }
-  .ql-editor li.ql-indent-4:not(.ql-direction-rtl) {
-    padding-left: 13.5em;
-  }
-  .ql-editor .ql-indent-4.ql-direction-rtl.ql-align-right {
-    padding-right: 12em;
-  }
-  .ql-editor li.ql-indent-4.ql-direction-rtl.ql-align-right {
-    padding-right: 13.5em;
-  }
-  .ql-editor .ql-indent-5:not(.ql-direction-rtl) {
-    padding-left: 15em;
-  }
-  .ql-editor li.ql-indent-5:not(.ql-direction-rtl) {
-    padding-left: 16.5em;
-  }
-  .ql-editor .ql-indent-5.ql-direction-rtl.ql-align-right {
-    padding-right: 15em;
-  }
-  .ql-editor li.ql-indent-5.ql-direction-rtl.ql-align-right {
-    padding-right: 16.5em;
-  }
-  .ql-editor .ql-indent-6:not(.ql-direction-rtl) {
-    padding-left: 18em;
-  }
-  .ql-editor li.ql-indent-6:not(.ql-direction-rtl) {
-    padding-left: 19.5em;
-  }
-  .ql-editor .ql-indent-6.ql-direction-rtl.ql-align-right {
-    padding-right: 18em;
-  }
-  .ql-editor li.ql-indent-6.ql-direction-rtl.ql-align-right {
-    padding-right: 19.5em;
-  }
-  .ql-editor .ql-indent-7:not(.ql-direction-rtl) {
-    padding-left: 21em;
-  }
-  .ql-editor li.ql-indent-7:not(.ql-direction-rtl) {
-    padding-left: 22.5em;
-  }
-  .ql-editor .ql-indent-7.ql-direction-rtl.ql-align-right {
-    padding-right: 21em;
-  }
-  .ql-editor li.ql-indent-7.ql-direction-rtl.ql-align-right {
-    padding-right: 22.5em;
-  }
-  .ql-editor .ql-indent-8:not(.ql-direction-rtl) {
-    padding-left: 24em;
-  }
-  .ql-editor li.ql-indent-8:not(.ql-direction-rtl) {
-    padding-left: 25.5em;
-  }
-  .ql-editor .ql-indent-8.ql-direction-rtl.ql-align-right {
-    padding-right: 24em;
-  }
-  .ql-editor li.ql-indent-8.ql-direction-rtl.ql-align-right {
-    padding-right: 25.5em;
-  }
-  .ql-editor .ql-indent-9:not(.ql-direction-rtl) {
-    padding-left: 27em;
-  }
-  .ql-editor li.ql-indent-9:not(.ql-direction-rtl) {
-    padding-left: 28.5em;
-  }
-  .ql-editor .ql-indent-9.ql-direction-rtl.ql-align-right {
-    padding-right: 27em;
-  }
-  .ql-editor li.ql-indent-9.ql-direction-rtl.ql-align-right {
-    padding-right: 28.5em;
-  }
-  .ql-editor li.ql-direction-rtl {
-    padding-right: 1.5em;
-  }
-  .ql-editor li.ql-direction-rtl > .ql-ui:before {
-    margin-left: 0.3em;
-    margin-right: -1.5em;
-    text-align: left;
-  }
-  .ql-editor table {
-    table-layout: fixed;
-    width: 100%;
-  }
-  .ql-editor table td {
-    outline: none;
-  }
-  .ql-editor .ql-code-block-container {
-    font-family: monospace;
-  }
-  .ql-editor .ql-video {
-    display: block;
-    max-width: 100%;
-  }
-  .ql-editor .ql-video.ql-align-center {
-    margin: 0 auto;
-  }
-  .ql-editor .ql-video.ql-align-right {
-    margin: 0 0 0 auto;
-  }
-  .ql-editor .ql-bg-black {
-    background-color: #000;
-  }
-  .ql-editor .ql-bg-red {
-    background-color: #e60000;
-  }
-  .ql-editor .ql-bg-orange {
-    background-color: #f90;
-  }
-  .ql-editor .ql-bg-yellow {
-    background-color: #ff0;
-  }
-  .ql-editor .ql-bg-green {
-    background-color: #008a00;
-  }
-  .ql-editor .ql-bg-blue {
-    background-color: #06c;
-  }
-  .ql-editor .ql-bg-purple {
-    background-color: #93f;
-  }
-  .ql-editor .ql-color-white {
-    color: #fff;
-  }
-  .ql-editor .ql-color-red {
-    color: #e60000;
-  }
-  .ql-editor .ql-color-orange {
-    color: #f90;
-  }
-  .ql-editor .ql-color-yellow {
-    color: #ff0;
-  }
-  .ql-editor .ql-color-green {
-    color: #008a00;
-  }
-  .ql-editor .ql-color-blue {
-    color: #06c;
-  }
-  .ql-editor .ql-color-purple {
-    color: #93f;
-  }
-  .ql-editor .ql-font-serif {
-    font-family:
-      Georgia,
-      Times New Roman,
-      serif;
-  }
-  .ql-editor .ql-font-monospace {
-    font-family:
-      Monaco,
-      Courier New,
-      monospace;
-  }
-  .ql-editor .ql-size-small {
-    font-size: 0.75em;
-  }
-  .ql-editor .ql-size-large {
-    font-size: 1.5em;
-  }
-  .ql-editor .ql-size-huge {
-    font-size: 2.5em;
-  }
-  .ql-editor .ql-direction-rtl {
-    direction: rtl;
-    text-align: inherit;
-  }
-  .ql-editor .ql-align-center {
-    text-align: center;
-  }
-  .ql-editor .ql-align-justify {
-    text-align: justify;
-  }
-  .ql-editor .ql-align-right {
-    text-align: right;
-  }
-  .ql-editor .ql-ui {
-    position: absolute;
-  }
-  .ql-editor.ql-blank::before {
-    color: rgba(0, 0, 0, 0.6);
-    content: attr(data-placeholder);
-    font-style: italic;
-    left: 15px;
-    pointer-events: none;
-    position: absolute;
-    right: 15px;
-  }
-  .ql-snow.ql-toolbar:after,
-  .ql-snow .ql-toolbar:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  .ql-snow.ql-toolbar button,
-  .ql-snow .ql-toolbar button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    float: left;
-    height: 24px;
-    padding: 3px 5px;
-    width: 28px;
-  }
-  .ql-snow.ql-toolbar button svg,
-  .ql-snow .ql-toolbar button svg {
-    float: left;
-    height: 100%;
-  }
-  .ql-snow.ql-toolbar button:active:hover,
-  .ql-snow .ql-toolbar button:active:hover {
-    outline: none;
-  }
-  .ql-snow.ql-toolbar input.ql-image[type="file"],
-  .ql-snow .ql-toolbar input.ql-image[type="file"] {
-    display: none;
-  }
-  .ql-snow.ql-toolbar button:hover,
-  .ql-snow .ql-toolbar button:hover,
-  .ql-snow.ql-toolbar button:focus,
-  .ql-snow .ql-toolbar button:focus,
-  .ql-snow.ql-toolbar button.ql-active,
-  .ql-snow .ql-toolbar button.ql-active,
-  .ql-snow.ql-toolbar .ql-picker-label:hover,
-  .ql-snow .ql-toolbar .ql-picker-label:hover,
-  .ql-snow.ql-toolbar .ql-picker-label.ql-active,
-  .ql-snow .ql-toolbar .ql-picker-label.ql-active,
-  .ql-snow.ql-toolbar .ql-picker-item:hover,
-  .ql-snow .ql-toolbar .ql-picker-item:hover,
-  .ql-snow.ql-toolbar .ql-picker-item.ql-selected,
-  .ql-snow .ql-toolbar .ql-picker-item.ql-selected {
-    color: #06c;
-  }
-  .ql-snow.ql-toolbar button:hover .ql-fill,
-  .ql-snow .ql-toolbar button:hover .ql-fill,
-  .ql-snow.ql-toolbar button:focus .ql-fill,
-  .ql-snow .ql-toolbar button:focus .ql-fill,
-  .ql-snow.ql-toolbar button.ql-active .ql-fill,
-  .ql-snow .ql-toolbar button.ql-active .ql-fill,
-  .ql-snow.ql-toolbar .ql-picker-label:hover .ql-fill,
-  .ql-snow .ql-toolbar .ql-picker-label:hover .ql-fill,
-  .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-fill,
-  .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-fill,
-  .ql-snow.ql-toolbar .ql-picker-item:hover .ql-fill,
-  .ql-snow .ql-toolbar .ql-picker-item:hover .ql-fill,
-  .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-fill,
-  .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-fill,
-  .ql-snow.ql-toolbar button:hover .ql-stroke.ql-fill,
-  .ql-snow .ql-toolbar button:hover .ql-stroke.ql-fill,
-  .ql-snow.ql-toolbar button:focus .ql-stroke.ql-fill,
-  .ql-snow .ql-toolbar button:focus .ql-stroke.ql-fill,
-  .ql-snow.ql-toolbar button.ql-active .ql-stroke.ql-fill,
-  .ql-snow .ql-toolbar button.ql-active .ql-stroke.ql-fill,
-  .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
-  .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke.ql-fill,
-  .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
-  .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke.ql-fill,
-  .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
-  .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke.ql-fill,
-  .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill,
-  .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke.ql-fill {
-    fill: #06c;
-  }
-  .ql-snow.ql-toolbar button:hover .ql-stroke,
-  .ql-snow .ql-toolbar button:hover .ql-stroke,
-  .ql-snow.ql-toolbar button:focus .ql-stroke,
-  .ql-snow .ql-toolbar button:focus .ql-stroke,
-  .ql-snow.ql-toolbar button.ql-active .ql-stroke,
-  .ql-snow .ql-toolbar button.ql-active .ql-stroke,
-  .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke,
-  .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke,
-  .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke,
-  .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke,
-  .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke,
-  .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke,
-  .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
-  .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke,
-  .ql-snow.ql-toolbar button:hover .ql-stroke-miter,
-  .ql-snow .ql-toolbar button:hover .ql-stroke-miter,
-  .ql-snow.ql-toolbar button:focus .ql-stroke-miter,
-  .ql-snow .ql-toolbar button:focus .ql-stroke-miter,
-  .ql-snow.ql-toolbar button.ql-active .ql-stroke-miter,
-  .ql-snow .ql-toolbar button.ql-active .ql-stroke-miter,
-  .ql-snow.ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
-  .ql-snow .ql-toolbar .ql-picker-label:hover .ql-stroke-miter,
-  .ql-snow.ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
-  .ql-snow .ql-toolbar .ql-picker-label.ql-active .ql-stroke-miter,
-  .ql-snow.ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
-  .ql-snow .ql-toolbar .ql-picker-item:hover .ql-stroke-miter,
-  .ql-snow.ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter,
-  .ql-snow .ql-toolbar .ql-picker-item.ql-selected .ql-stroke-miter {
-    stroke: #06c;
-  }
-  @media (pointer: coarse) {
-    .ql-snow.ql-toolbar button:hover:not(.ql-active),
-    .ql-snow .ql-toolbar button:hover:not(.ql-active) {
-      color: #444;
-    }
-    .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-fill,
-    .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-fill,
-    .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke.ql-fill,
-    .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke.ql-fill {
-      fill: #444;
-    }
-    .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke,
-    .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke,
-    .ql-snow.ql-toolbar button:hover:not(.ql-active) .ql-stroke-miter,
-    .ql-snow .ql-toolbar button:hover:not(.ql-active) .ql-stroke-miter {
-      stroke: #444;
-    }
-  }
-  .ql-snow {
-    box-sizing: border-box;
-  }
-  .ql-snow * {
-    box-sizing: border-box;
-  }
-  .ql-snow .ql-hidden {
-    display: none;
-  }
-  .ql-snow .ql-out-bottom,
-  .ql-snow .ql-out-top {
-    visibility: hidden;
-  }
-  .ql-snow .ql-tooltip {
-    position: absolute;
-    transform: translateY(10px);
-  }
-  .ql-snow .ql-tooltip a {
-    cursor: pointer;
-    text-decoration: none;
-  }
-  .ql-snow .ql-tooltip.ql-flip {
-    transform: translateY(-10px);
-  }
-  .ql-snow .ql-formats {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .ql-snow .ql-formats:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  .ql-snow .ql-stroke {
-    fill: none;
-    stroke: #444;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 2;
-  }
-  .ql-snow .ql-stroke-miter {
-    fill: none;
-    stroke: #444;
-    stroke-miterlimit: 10;
-    stroke-width: 2;
-  }
-  .ql-snow .ql-fill,
-  .ql-snow .ql-stroke.ql-fill {
-    fill: #444;
-  }
-  .ql-snow .ql-empty {
-    fill: none;
-  }
-  .ql-snow .ql-even {
-    fill-rule: evenodd;
-  }
-  .ql-snow .ql-thin,
-  .ql-snow .ql-stroke.ql-thin {
-    stroke-width: 1;
-  }
-  .ql-snow .ql-transparent {
-    opacity: 0.4;
-  }
-  .ql-snow .ql-direction svg:last-child {
-    display: none;
-  }
-  .ql-snow .ql-direction.ql-active svg:last-child {
-    display: inline;
-  }
-  .ql-snow .ql-direction.ql-active svg:first-child {
-    display: none;
-  }
-  .ql-snow .ql-editor h1 {
-    font-size: 2em;
-  }
-  .ql-snow .ql-editor h2 {
-    font-size: 1.5em;
-  }
-  .ql-snow .ql-editor h3 {
-    font-size: 1.17em;
-  }
-  .ql-snow .ql-editor h4 {
-    font-size: 1em;
-  }
-  .ql-snow .ql-editor h5 {
-    font-size: 0.83em;
-  }
-  .ql-snow .ql-editor h6 {
-    font-size: 0.67em;
-  }
-  .ql-snow .ql-editor a {
-    text-decoration: underline;
-  }
-  .ql-snow .ql-editor blockquote {
-    border-left: 4px solid #ccc;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding-left: 16px;
-  }
-  .ql-snow .ql-editor code,
-  .ql-snow .ql-editor .ql-code-block-container {
-    background-color: #f0f0f0;
-    border-radius: 3px;
-  }
-  .ql-snow .ql-editor .ql-code-block-container {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 5px 10px;
-  }
-  .ql-snow .ql-editor code {
-    font-size: 85%;
-    padding: 2px 4px;
-  }
-  .ql-snow .ql-editor .ql-code-block-container {
-    background-color: #23241f;
-    color: #f8f8f2;
-    overflow: visible;
-  }
-  .ql-snow .ql-editor img {
-    max-width: 100%;
-  }
-  .ql-snow .ql-picker {
-    color: #444;
-    display: inline-block;
-    float: left;
-    font-size: 14px;
-    font-weight: 500;
-    height: 24px;
-    position: relative;
-    vertical-align: middle;
-  }
-  .ql-snow .ql-picker-label {
-    cursor: pointer;
-    display: inline-block;
-    height: 100%;
-    padding-left: 8px;
-    padding-right: 2px;
-    position: relative;
-    width: 100%;
-  }
-  .ql-snow .ql-picker-label::before {
-    display: inline-block;
-    line-height: 22px;
-  }
-  .ql-snow .ql-picker-options {
-    background-color: #fff;
-    display: none;
-    min-width: 100%;
-    padding: 4px 8px;
-    position: absolute;
-    white-space: nowrap;
-  }
-  .ql-snow .ql-picker-options .ql-picker-item {
-    cursor: pointer;
-    display: block;
-    padding-bottom: 5px;
-    padding-top: 5px;
-  }
-  .ql-snow .ql-picker.ql-expanded .ql-picker-label {
-    color: #ccc;
-    z-index: 2;
-  }
-  .ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-fill {
-    fill: #ccc;
-  }
-  .ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-stroke {
-    stroke: #ccc;
-  }
-  .ql-snow .ql-picker.ql-expanded .ql-picker-options {
-    display: block;
-    margin-top: -1px;
-    top: 100%;
-    z-index: 1;
-  }
-  .ql-snow .ql-color-picker,
-  .ql-snow .ql-icon-picker {
-    width: 28px;
-  }
-  .ql-snow .ql-color-picker .ql-picker-label,
-  .ql-snow .ql-icon-picker .ql-picker-label {
-    padding: 2px 4px;
-  }
-  .ql-snow .ql-color-picker .ql-picker-label svg,
-  .ql-snow .ql-icon-picker .ql-picker-label svg {
-    right: 4px;
-  }
-  .ql-snow .ql-icon-picker .ql-picker-options {
-    padding: 4px 0;
-  }
-  .ql-snow .ql-icon-picker .ql-picker-item {
-    height: 24px;
-    width: 24px;
-    padding: 2px 4px;
-  }
-  .ql-snow .ql-color-picker .ql-picker-options {
-    padding: 3px 5px;
-    width: 152px;
-  }
-  .ql-snow .ql-color-picker .ql-picker-item {
-    border: 1px solid transparent;
-    float: left;
-    height: 16px;
-    margin: 2px;
-    padding: 0;
-    width: 16px;
-  }
-  .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
-    position: absolute;
-    margin-top: -9px;
-    right: 0;
-    top: 50%;
-    width: 18px;
-  }
-  .ql-snow
-    .ql-picker.ql-header
-    .ql-picker-label[data-label]:not([data-label=""])::before,
-  .ql-snow
-    .ql-picker.ql-font
-    .ql-picker-label[data-label]:not([data-label=""])::before,
-  .ql-snow
-    .ql-picker.ql-size
-    .ql-picker-label[data-label]:not([data-label=""])::before,
-  .ql-snow
-    .ql-picker.ql-header
-    .ql-picker-item[data-label]:not([data-label=""])::before,
-  .ql-snow
-    .ql-picker.ql-font
-    .ql-picker-item[data-label]:not([data-label=""])::before,
-  .ql-snow
-    .ql-picker.ql-size
-    .ql-picker-item[data-label]:not([data-label=""])::before {
-    content: attr(data-label);
-  }
-  .ql-snow .ql-picker.ql-header {
-    width: 98px;
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-label::before,
-  .ql-snow .ql-picker.ql-header .ql-picker-item::before {
-    content: "Normal";
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before,
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
-    content: "Heading 1";
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before,
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
-    content: "Heading 2";
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before,
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
-    content: "Heading 3";
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before,
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
-    content: "Heading 4";
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="5"]::before,
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
-    content: "Heading 5";
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="6"]::before,
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
-    content: "Heading 6";
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
-    font-size: 2em;
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
-    font-size: 1.5em;
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
-    font-size: 1.17em;
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
-    font-size: 1em;
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="5"]::before {
-    font-size: 0.83em;
-  }
-  .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="6"]::before {
-    font-size: 0.67em;
-  }
-  .ql-snow .ql-picker.ql-font {
-    width: 108px;
-  }
-  .ql-snow .ql-picker.ql-font .ql-picker-label::before,
-  .ql-snow .ql-picker.ql-font .ql-picker-item::before {
-    content: "Sans Serif";
-  }
-  .ql-snow .ql-picker.ql-font .ql-picker-label[data-value="serif"]::before,
-  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value="serif"]::before {
-    content: "Serif";
-  }
-  .ql-snow .ql-picker.ql-font .ql-picker-label[data-value="monospace"]::before,
-  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value="monospace"]::before {
-    content: "Monospace";
-  }
-  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value="serif"]::before {
-    font-family:
-      Georgia,
-      Times New Roman,
-      serif;
-  }
-  .ql-snow .ql-picker.ql-font .ql-picker-item[data-value="monospace"]::before {
-    font-family:
-      Monaco,
-      Courier New,
-      monospace;
-  }
-  .ql-snow .ql-picker.ql-size {
-    width: 98px;
-  }
-  .ql-snow .ql-picker.ql-size .ql-picker-label::before,
-  .ql-snow .ql-picker.ql-size .ql-picker-item::before {
-    content: "Normal";
-  }
-  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value="small"]::before,
-  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="small"]::before {
-    content: "Small";
-  }
-  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value="large"]::before,
-  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="large"]::before {
-    content: "Large";
-  }
-  .ql-snow .ql-picker.ql-size .ql-picker-label[data-value="huge"]::before,
-  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="huge"]::before {
-    content: "Huge";
-  }
-  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="small"]::before {
-    font-size: 10px;
-  }
-  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="large"]::before {
-    font-size: 18px;
-  }
-  .ql-snow .ql-picker.ql-size .ql-picker-item[data-value="huge"]::before {
-    font-size: 32px;
-  }
-  .ql-snow .ql-color-picker.ql-background .ql-picker-item {
-    background-color: #fff;
-  }
-  .ql-snow .ql-color-picker.ql-color .ql-picker-item {
-    background-color: #000;
-  }
-  .ql-code-block-container {
-    position: relative;
-  }
-  .ql-code-block-container .ql-ui {
-    right: 5px;
-    top: 5px;
-  }
-  .ql-toolbar.ql-snow {
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    padding: 8px;
-  }
-  .ql-toolbar.ql-snow .ql-formats {
-    margin-right: 15px;
-  }
-  .ql-toolbar.ql-snow .ql-picker-label {
-    border: 1px solid transparent;
-  }
-  .ql-toolbar.ql-snow .ql-picker-options {
-    border: 1px solid transparent;
-    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px;
-  }
-  .ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
-    border-color: #ccc;
-  }
-  .ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
-    border-color: #ccc;
-  }
-  .ql-toolbar.ql-snow .ql-color-picker .ql-picker-item.ql-selected,
-  .ql-toolbar.ql-snow .ql-color-picker .ql-picker-item:hover {
-    border-color: #000;
-  }
-  .ql-toolbar.ql-snow + .ql-container.ql-snow {
-    border-top: 0;
-  }
-  .ql-snow .ql-tooltip {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 5px #ddd;
-    color: #444;
-    padding: 5px 12px;
-    white-space: nowrap;
-  }
-  .ql-snow .ql-tooltip::before {
-    content: "Visit URL:";
-    line-height: 26px;
-    margin-right: 8px;
-  }
-  .ql-snow .ql-tooltip input[type="text"] {
-    display: none;
-    border: 1px solid #ccc;
-    font-size: 13px;
-    height: 26px;
-    margin: 0;
-    padding: 3px 5px;
-    width: 170px;
-  }
-  .ql-snow .ql-tooltip a.ql-preview {
-    display: inline-block;
-    max-width: 200px;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-    vertical-align: top;
-  }
-  .ql-snow .ql-tooltip a.ql-action::after {
-    border-right: 1px solid #ccc;
-    content: "Edit";
-    margin-left: 16px;
-    padding-right: 8px;
-  }
-  .ql-snow .ql-tooltip a.ql-remove::before {
-    content: "Remove";
-    margin-left: 8px;
-  }
-  .ql-snow .ql-tooltip a {
-    line-height: 26px;
-  }
-  .ql-snow .ql-tooltip.ql-editing a.ql-preview,
-  .ql-snow .ql-tooltip.ql-editing a.ql-remove {
-    display: none;
-  }
-  .ql-snow .ql-tooltip.ql-editing input[type="text"] {
-    display: inline-block;
-  }
-  .ql-snow .ql-tooltip.ql-editing a.ql-action::after {
-    border-right: 0;
-    content: "Save";
-    padding-right: 0;
-  }
-  .ql-snow .ql-tooltip[data-mode="link"]::before {
-    content: "Enter link:";
-  }
-  .ql-snow .ql-tooltip[data-mode="formula"]::before {
-    content: "Enter formula:";
-  }
-  .ql-snow .ql-tooltip[data-mode="video"]::before {
-    content: "Enter video:";
-  }
-  .ql-snow a {
-    color: #06c;
-  }
-  .ql-container.ql-snow {
-    border: 1px solid #ccc;
-  }
+ 
 }

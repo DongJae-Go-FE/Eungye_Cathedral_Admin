@@ -68,7 +68,7 @@ export default function ImageUpload({
       <div className="flex items-center gap-x-2">
         <label
           htmlFor="file"
-          className={`inline-flex h-10 ${isLoading ? "pointer-events-none cursor-auto" : "cursor-pointer"} text-body02m items-center gap-x-1 rounded-md border border-gray-200 px-4`}
+          className={`inline-flex h-10 ${isLoading ? "pointer-events-none cursor-auto" : "cursor-pointer"} body02m items-center gap-x-1 rounded-md border border-gray-200 px-4`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ export default function ImageUpload({
           onChange={handleFileChange}
         />
         {imageName && (
-          <p className="text-body02m inline-flex items-center gap-x-1 text-blue-200">
+          <p className="body02m inline-flex items-center gap-x-1 text-blue-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="14"
@@ -166,7 +166,7 @@ export default function ImageUpload({
         )
       )}
 
-      <span className="text-body02m mt-1 flex items-center text-gray-600">
+      <span className="body02m mt-1 flex items-center text-gray-600">
         <span className="relative top-0.5 text-red-500">*</span> 파일 확장자는
         jpeg, png만 가능하고 파일 크기는 10MB 이하 1장만 가능합니다.
       </span>

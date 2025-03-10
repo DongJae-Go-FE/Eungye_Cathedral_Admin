@@ -37,7 +37,7 @@ export default function FormSearch({ handleSearch, isLoading }: FormType) {
   return (
     <div className="rounded-md bg-gray-100 px-10 py-6">
       <form>
-        <label htmlFor="search" className="mb-2 block text-body01b">
+        <label htmlFor="search" className="mb-2 block body01b">
           검색
         </label>
         <div
@@ -68,7 +68,7 @@ export default function FormSearch({ handleSearch, isLoading }: FormType) {
             type="search"
             value={formSearch}
             placeholder="제목을 입력하세요."
-            className="h-full w-full text-body01m outline-hidden"
+            className="h-full w-full body01m outline-hidden"
             maxLength={50}
             disabled={isLoading}
             onChange={(e) => setFormSearch(e.target.value)}
