@@ -346,6 +346,7 @@
 }
 
 @layer utilities {
+  img,svg{vertical-align: initial}
   body {
     @apply h-full min-h-[100dvh] w-[100dvw] min-w-[1680px] bg-gray-100;
   }
